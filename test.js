@@ -162,7 +162,7 @@ if (
 			return subCat;
 		});
 
-		for (var i = 0; i < parentCats.length; i++) {
+		for (let i = 0; i < parentCats.length; i++) {
 			parentCats[i].style.top = `calc(${
 				(i - Math.floor(parentCats.length / 2)) * 5
 			}em + 50%)`;
