@@ -176,7 +176,7 @@ if (
 		const panelInner = document.createElement("div");
 		panelInner.classList.add("CatnipPanelInner");
 		panelInner.style.zoom = 1;
-		panelInner.style.transform = `translate(-50%, -50%)`;
+		panelInner.style.transform = "translate(-50%, -50%)";
 		panelInner.append(...parentCats, currentCat, ...subCats);
 
 		const panel = document.createElement("div");
@@ -295,7 +295,7 @@ if (
 					panelInner.style.zoom = 1;
 				case "h":
 					noDefault(e);
-					panelInner.style.transform = `translate(-50%, -50%)`;
+					panelInner.style.transform = "translate(-50%, -50%)";
 					break;
 				case "s":
 				case "S":
