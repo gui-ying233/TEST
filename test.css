@@ -1,0 +1,78 @@
+.CatnipPanel {
+	position: fixed;
+	left: 6.25vw;
+	top: 6.25vh;
+	width: 87.5vw;
+	height: 87.5vh;
+	z-index: 9999;
+	background-color: #2e3440;
+	overflow: hidden;
+	border-radius: 0.5em;
+	box-shadow: rgba(15, 17, 21, 0.2) 0px 3px 6px 0px;
+	transition: box-shadow 350ms ease-in-out;
+}
+.CatnipPanel:hover {
+	box-shadow: rgba(15, 17, 21, 0.2) 0px 10px 20px 2px;
+}
+.CatnipPanelInner {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 100vw;
+	height: 100vh;
+	transform: translate(-50%, -50%);
+	overflow: visible;
+}
+
+.CatnipCat {
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #3b4252;
+	color: #d8dee9;
+	padding: 0.8em;
+	border-radius: 0.5em;
+	box-shadow: rgba(15, 17, 21, 0.2) 0px 3px 6px 0px;
+	white-space: nowrap;
+	user-select: none;
+	-webkit-user-select: none;
+	transition: box-shadow 250ms ease-in-out;
+}
+.CatnipCat:hover {
+	text-decoration: none;
+	box-shadow: rgba(15, 17, 21, 0.2) 0px 10px 20px 2px;
+}
+.CatnipCat:active {
+	color: #eceff4;
+	box-shadow: rgba(15, 17, 21, 0.2) 0px 3px 6px 0px;
+}
+
+.CatnipParentCat {
+	left: 20%;
+}
+.CatnipCurrentCat {
+	left: 50%;
+}
+.CatnipSubCat {
+	left: 80%;
+}
+
+.CatnipCat::before,
+.CatnipCat::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	width: 0.55em;
+	height: 0.55em;
+	background-color: #d8dee9;
+	border-radius: 50%;
+}
+.CatnipCat::before {
+	left: 0;
+	transform: translate(-50%, -50%);
+}
+.CatnipCat::after {
+	right: 0;
+	transform: translate(50%, -50%);
+}
