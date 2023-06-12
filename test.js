@@ -190,7 +190,7 @@ if (
 					5
 				);
 			} else {
-				let transform = panelInner.style.transform
+				const transform = panelInner.style.transform
 					.replace(/^translate\((.+?)%, (.+?)%\)/, "$1,$2")
 					.split(",")
 					.map((e) => parseFloat(e));
@@ -240,7 +240,7 @@ if (
 				e.buttons === 1 &&
 				e.button === 0
 			) {
-				let transform = panelInner.style.transform
+				const transform = panelInner.style.transform
 					.replace(/^translate\((.+?)%, (.+?)%\)/, "$1,$2")
 					.split(",")
 					.map((e) => parseFloat(e));
@@ -253,7 +253,7 @@ if (
 		};
 
 		window.onkeydown = (e) => {
-			let transform = panelInner.style.transform
+			const transform = panelInner.style.transform
 				.replace(/^translate\((.+?)%, (.+?)%\)/, "$1,$2")
 				.split(",")
 				.map((e) => parseFloat(e));
