@@ -1,5 +1,3 @@
-require('strict')
-
 local p = {}
 
 local data = mw.loadData("Module:明日方舟敌方/data")
