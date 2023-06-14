@@ -8,7 +8,7 @@ local function generate(d)
 	local _rank = {}
 	for k, v in pairs(rank) do
 		for i, j in pairs(v) do
-			if j[1] <= d[i] and d[i] < j[2] then
+			if j[1] <= tonumber(d[i]) and tonumber(d[i]) < j[2] then
 				_rank[i] = k
 			end
 		end
@@ -29,8 +29,8 @@ local function generate(d)
 		(d.info == '暂无资料' and '' or d.info) .. '</p>' .. ((d.ability or d.resistance or d.relEnemy) and
 			'<div class="akeBodyBottom mw-collapsible mw-collapsed" id="mw-customcollapsible-ake-' .. d.index .. '">' ..
 			(d.ability and '<div class="akeAbility mw-customtoggle-ake-' .. d.index ..
-				'"><p class="akeTitle">能力</p><p class="akeText"><ul><li>' .. table.concat(d.ability, "</li><li>") ..
-				'</li></ul></p></div>' or '') ..
+				'"><p class="akeTitle">能力</p><ul class="akeText"><li>' .. table.concat(d.ability, "</li><li>") ..
+				'</li></ul></div>' or '') ..
 			(d.resistance and '<div class="akeResistance mw-customtoggle-ake-' .. d.index ..
 				'"><p class="akeTitle">抗性</p><p class="akeText"><span>' ..
 				table.concat(d.resistance, "</span><span>") .. '</span></p></div>' or '') ..
@@ -82,7 +82,16 @@ end
 
 function p.customize(frame)
 	local d = frame.args
-	d.tags = mw.text.split(d.tags, ",", true);
+	d.tags = mw.text.split(d.tags, ";", true)
+	if d.ability then
+		d.ability = { d.ability }
+	end
+	if d.resistance then
+		d.resistance = mw.text.split(d.resistance, ";", true)
+	end
+	if d.relEnemy then
+		d.relEnemy = mw.text.split(d.relEnemy, ";", true)
+	end
 	return generate(d);
 end
 

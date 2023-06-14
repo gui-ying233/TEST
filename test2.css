@@ -86,6 +86,9 @@
 }
 .akeBodyLeft > p {
 	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	margin: 0;
 	padding: 0 0.5em;
 	background-color: rgba(0, 0, 0, 0.8);
@@ -95,7 +98,6 @@
 }
 .akeBodyLeft > p > span,
 .akeBodyRight > p > span {
-	float: right;
 	font-weight: bold;
 	color: #fff;
 }
