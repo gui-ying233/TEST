@@ -4,16 +4,16 @@ local data = mw.loadData("Module:明日方舟敌方/data")
 
 local rank = data.rank
 
-local function concat(list, sep)
+local function concat(frame, list, sep)
 	sep = sep or ''
 	local str = ''
 	for _, v in ipairs(list) do
-		str = str .. v .. sep
+		str = str .. frame:preprocess { text = v } .. sep
 	end
-	return mw.ustring.sub(str, 1, - #sep - 1)
+	return string.sub(str, 1, - #sep - 1)
 end
 
-local function generate(d)
+local function generate(frame, d)
 	local _rank = {}
 	for k, v in pairs(rank) do
 		for i, j in pairs(v) do
@@ -26,7 +26,7 @@ local function generate(d)
 		d.index .. '"><p class="akeType">' .. d.type .. '</p><p class="akeLifePoint">' ..
 		(d.lifePoint and '扣除关卡生命值：' .. d.lifePoint or '') .. '</p><p class="akeIndex">' ..
 		(d.index == 'null' and '-' or d.index) .. '</p><p class="akeName">' .. d.name ..
-		'</p><p class="akeTags">' .. concat(d.tags, " ") ..
+		'</p><p class="akeTags">' .. concat(frame, d.tags, " ") ..
 		'</p></div><div class="akeBody"><div class="akeBodyLeft mw-customtoggle-ake-' .. d.index ..
 		'">[[File:明日方舟 ' .. (d.name == "暂无资料" and '调查中' or 'tx 敌人 ' .. d.name) ..
 		'.png|90x90px|link=|' .. d.name .. ']]<p>重量<span>' .. d.weight ..
@@ -35,15 +35,16 @@ local function generate(d)
 		_rank.atk .. '</span></p><p>攻击速度<span>' .. _rank.aspd .. '</span></p><p>防御力<span>' ..
 		_rank.def .. '</span></p><p>法术抗性<span>' .. _rank.res ..
 		'</span></p></div><p class="akeText mw-customtoggle-ake-' .. d.index .. '">' ..
-		(d.info == '暂无资料' and '' or d.info) .. '</p>' .. ((d.ability or d.resistance or d.relEnemy) and
+		(d.info == '暂无资料' and '' or frame:preprocess { text = d.info }) ..
+		'</p>' .. ((d.ability or d.resistance or d.relEnemy) and
 			'<div class="akeBodyBottom mw-collapsible mw-collapsed" id="mw-customcollapsible-ake-' .. d.index .. '">' ..
 			(d.ability and '<div class="akeAbility mw-customtoggle-ake-' .. d.index ..
-				'"><p class="akeTitle">能力</p><ul class="akeText"><li>' .. concat(d.ability, "</li><li>") ..
+				'"><p class="akeTitle">能力</p><ul class="akeText"><li>' .. concat(frame, d.ability, "</li><li>") ..
 				'</li></ul></div>' or '') ..
 			(d.resistance and '<div class="akeResistance mw-customtoggle-ake-' .. d.index ..
 				'"><p class="akeTitle">抗性</p><p class="akeText"><span>' ..
-				concat(d.resistance, "</span><span>") .. '</span></p></div>' or '') ..
-			concat((d.relEnemy and (function()
+				concat(frame, d.resistance, "</span><span>") .. '</span></p></div>' or '') ..
+			concat(frame, (d.relEnemy and (function()
 				local replEnemy = {}
 				for i, v in ipairs(d.relEnemy) do
 					replEnemy[i] =
@@ -58,7 +59,7 @@ local function generate(d)
 end
 
 function p.main(frame)
-	return generate(data.enemy[mw.ustring.upper(frame.args["编号"] or frame.args[1] or '')] or data.null)
+	return generate(frame, data.enemy[mw.ustring.upper(frame.args["编号"] or frame.args[1] or '')] or data.null)
 end
 
 function p.filter(frame)
@@ -69,13 +70,13 @@ function p.filter(frame)
 			if type(d[frame.args[1]]) == "table" then
 				for _, v in ipairs(d[frame.args[1]]) do
 					if v == frame.args[2] then
-						output = output .. generate(d)
+						output = output .. generate(frame, d)
 						break
 					end
 				end
 			else
 				if tostring(d[frame.args[1]]) == frame.args[2] then
-					output = output .. generate(d)
+					output = output .. generate(frame, d)
 				end
 			end
 		end
@@ -83,7 +84,7 @@ function p.filter(frame)
 	else
 		local output = ''
 		for _, k in ipairs(data.index) do
-			output = output .. generate(data.enemy[k])
+			output = output .. generate(frame, data.enemy[k])
 		end
 		return output
 	end
@@ -101,7 +102,7 @@ function p.customize(frame)
 	if d.relEnemy then
 		d.relEnemy = mw.text.split(d.relEnemy, ";", true)
 	end
-	return generate(d);
+	return generate(frame, d);
 end
 
 return p

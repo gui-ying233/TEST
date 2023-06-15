@@ -4,6 +4,7 @@
 }
 .ake {
 	position: relative;
+	vertical-align: top;
 	display: inline-grid;
 	grid-template-rows: auto 1fr auto;
 	grid-gap: 0.5em;
