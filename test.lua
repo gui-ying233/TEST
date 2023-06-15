@@ -4,6 +4,15 @@ local data = mw.loadData("Module:明日方舟敌方/data")
 
 local rank = data.rank
 
+local function concat(list, sep)
+	sep = sep or ''
+	local str = ''
+	for _, v in ipairs(list) do
+		str = str .. v .. sep
+	end
+	return mw.ustring.sub(str, 1, - #sep - 1)
+end
+
 local function generate(d)
 	local _rank = {}
 	for k, v in pairs(rank) do
@@ -17,7 +26,7 @@ local function generate(d)
 		d.index .. '"><p class="akeType">' .. d.type .. '</p><p class="akeLifePoint">' ..
 		(d.lifePoint and '扣除关卡生命值：' .. d.lifePoint or '') .. '</p><p class="akeIndex">' ..
 		(d.index == 'null' and '-' or d.index) .. '</p><p class="akeName">' .. d.name ..
-		'</p><p class="akeTags">' .. table.concat(d.tags, " ") ..
+		'</p><p class="akeTags">' .. concat(d.tags, " ") ..
 		'</p></div><div class="akeBody"><div class="akeBodyLeft mw-customtoggle-ake-' .. d.index ..
 		'">[[File:明日方舟 ' .. (d.name == "暂无资料" and '调查中' or 'tx 敌人 ' .. d.name) ..
 		'.png|90x90px|link=|' .. d.name .. ']]<p>重量<span>' .. d.weight ..
@@ -29,12 +38,12 @@ local function generate(d)
 		(d.info == '暂无资料' and '' or d.info) .. '</p>' .. ((d.ability or d.resistance or d.relEnemy) and
 			'<div class="akeBodyBottom mw-collapsible mw-collapsed" id="mw-customcollapsible-ake-' .. d.index .. '">' ..
 			(d.ability and '<div class="akeAbility mw-customtoggle-ake-' .. d.index ..
-				'"><p class="akeTitle">能力</p><ul class="akeText"><li>' .. table.concat(d.ability, "</li><li>") ..
+				'"><p class="akeTitle">能力</p><ul class="akeText"><li>' .. concat(d.ability, "</li><li>") ..
 				'</li></ul></div>' or '') ..
 			(d.resistance and '<div class="akeResistance mw-customtoggle-ake-' .. d.index ..
 				'"><p class="akeTitle">抗性</p><p class="akeText"><span>' ..
-				table.concat(d.resistance, "</span><span>") .. '</span></p></div>' or '') ..
-			table.concat((d.relEnemy and (function()
+				concat(d.resistance, "</span><span>") .. '</span></p></div>' or '') ..
+			concat((d.relEnemy and (function()
 				local replEnemy = {}
 				for i, v in ipairs(d.relEnemy) do
 					replEnemy[i] =
