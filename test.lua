@@ -8,9 +8,9 @@ local function concat(frame, list, sep)
 	sep = sep or ''
 	local str = ''
 	for _, v in ipairs(list) do
-		str = str .. frame:preprocess { text = v } .. sep
+		str = str .. v .. sep
 	end
-	return string.sub(str, 1, - #sep - 1)
+	return frame:preprocess { text = string.sub(str, 1, - #sep - 1) }
 end
 
 local function generate(frame, d)
