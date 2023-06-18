@@ -13,7 +13,7 @@ local function concat(list, sep)
 	return string.sub(str, 1, - #sep - 1)
 end
 
-local function generate(frame, d)
+local function generate(d)
 	local _rank = {}
 	for k, v in pairs(rank) do
 		for i, j in pairs(v) do
@@ -36,59 +36,58 @@ local function generate(frame, d)
 		_rank.atk .. '</span></p><p>攻击速度<span>' .. _rank.aspd .. '</span></p><p>防御力<span>' ..
 		_rank.def .. '</span></p><p>法术抗性<span>' .. _rank.res ..
 		'</span></p></div><p class="akeText mw-customtoggle-ake-' .. d.index .. '">' ..
-		frame:preprocess { text = (d.info == '暂无资料' and '' or d.info) ..
-			'</p>' .. ((d.ability or d.resistance or d.relEnemy) and
-				'<div class="akeBodyBottom mw-collapsible mw-collapsed" id="mw-customcollapsible-ake-' .. d.index .. '">' ..
-				(d.ability and '<div class="akeAbility mw-customtoggle-ake-' .. d.index ..
-					'"><p class="akeTitle">能力</p><ul class="akeText"><li>' .. concat(d.ability, "</li><li>") ..
-					'</li></ul></div>' or '') ..
-				(d.resistance and '<div class="akeResistance mw-customtoggle-ake-' .. d.index ..
-					'"><p class="akeTitle">抗性</p><p class="akeText"><span>' ..
-					concat(d.resistance, "</span><span>") .. '</span></p></div>' or '') ..
-				concat((d.relEnemy and (function()
-					local replEnemy = {}
-					for i, v in ipairs(d.relEnemy) do
-						replEnemy[i] =
-							'<div class="akeRelEnemy"><div class="akeRelEnemyImgBox" style="-webkit-mask-image:-webkit-linear-gradient(left,#000 90px,transparent)">[[File:明日方舟 tx 敌人 ' ..
-							v .. '.png|90x90px|link=|' .. v ..
-							']]</div><div class="akeRelEnemyText"><div class="akeTitle">关联敌人</div><div class="akeText">' ..
-							v .. '</div></div>[[明日方舟/敌人#ake-' .. v ..
-							'|<span class="akeRelEnemyLinkCover"></span>]]</div>'
-					end
-					return replEnemy
-				end)() or {})) .. '</div>' or '') } .. '</div></div>'
+		(d.info == '暂无资料' and '' or d.info) ..
+		'</p>' .. ((d.ability or d.resistance or d.relEnemy) and
+			'<div class="akeBodyBottom mw-collapsible mw-collapsed" id="mw-customcollapsible-ake-' .. d.index .. '">' ..
+			(d.ability and '<div class="akeAbility mw-customtoggle-ake-' .. d.index ..
+				'"><p class="akeTitle">能力</p><ul class="akeText"><li>' .. concat(d.ability, "</li><li>") ..
+				'</li></ul></div>' or '') ..
+			(d.resistance and '<div class="akeResistance mw-customtoggle-ake-' .. d.index ..
+				'"><p class="akeTitle">抗性</p><p class="akeText"><span>' ..
+				concat(d.resistance, "</span><span>") .. '</span></p></div>' or '') ..
+			concat((d.relEnemy and (function()
+				local replEnemy = {}
+				for i, v in ipairs(d.relEnemy) do
+					replEnemy[i] =
+						'<div class="akeRelEnemy"><div class="akeRelEnemyImgBox" style="-webkit-mask-image:-webkit-linear-gradient(left,#000 90px,transparent)">[[File:明日方舟 tx 敌人 ' ..
+						v .. '.png|90x90px|link=|' .. v ..
+						']]</div><div class="akeRelEnemyText"><div class="akeTitle">关联敌人</div><div class="akeText">' ..
+						v .. '</div></div>[[明日方舟/敌人#ake-' .. v ..
+						'|<span class="akeRelEnemyLinkCover"></span>]]</div>'
+				end
+				return replEnemy
+			end)() or {})) .. '</div>' or '') .. '</div></div>'
 end
 
 function p.main(frame)
-	return generate(frame, data.enemy[mw.ustring.upper(frame.args["编号"] or frame.args[1] or '')] or data.null)
+	return frame:preprocess { text = generate(
+		data.enemy[mw.ustring.upper(frame.args["编号"] or frame.args[1] or '')] or data.null) }
 end
 
 function p.filter(frame)
+	local output = ''
 	if frame.args[1] and frame.args[2] then
-		local output = ''
 		for _, k in ipairs(data.index) do
 			local d = data.enemy[k]
 			if type(d[frame.args[1]]) == "table" then
 				for _, v in ipairs(d[frame.args[1]]) do
 					if v == frame.args[2] then
-						output = output .. generate(frame, d)
+						output = output .. generate(d)
 						break
 					end
 				end
 			else
 				if tostring(d[frame.args[1]]) == frame.args[2] then
-					output = output .. generate(frame, d)
+					output = output .. generate(d)
 				end
 			end
 		end
-		return output
 	else
-		local output = ''
 		for _, k in ipairs(data.index) do
-			output = output .. generate(frame, data.enemy[k])
+			output = output .. generate(data.enemy[k])
 		end
-		return output
 	end
+	return frame:preprocess { text = output }
 end
 
 function p.customize(frame)
@@ -103,7 +102,7 @@ function p.customize(frame)
 	if d.relEnemy then
 		d.relEnemy = mw.text.split(d.relEnemy, ";", true)
 	end
-	return generate(frame, d);
+	return frame:preprocess { generate(d) }
 end
 
 return p
