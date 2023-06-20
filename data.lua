@@ -128,7 +128,7 @@ return {
 	},
 	["enemy"] = {
 		["10"] = {
-			aspd = 0,
+			aspd = 2.6,
 			atk = 1000,
 			class = "Leader",
 			def = 1200,
@@ -143,7 +143,7 @@ return {
 			weight = 4
 		},
 		["11"] = {
-			aspd = 0,
+			aspd = 6,
 			atk = 1900,
 			class = "Boss",
 			def = 800,
@@ -158,7 +158,7 @@ return {
 			weight = 4
 		},
 		["12"] = {
-			aspd = 0,
+			aspd = 6,
 			atk = 2700,
 			class = "Boss",
 			def = 1000,
@@ -175,7 +175,7 @@ return {
 		},
 		["13"] = {
 			ability = { "无法被阻挡" },
-			aspd = 0,
+			aspd = 1,
 			atk = 100,
 			class = "Normal",
 			def = 120,
@@ -191,7 +191,7 @@ return {
 		},
 		["14"] = {
 			ability = { "生命值降至一半以下时{{修正|攻击力|原文=攻击力和攻击速度|原因=6}}大幅度提升" },
-			aspd = 0,
+			aspd = 2.3,
 			atk = 300,
 			class = "Leader",
 			def = 200,
@@ -207,7 +207,7 @@ return {
 		},
 		["15"] = {
 			ability = { "生命值降至一半以下时{{修正|攻击力|原文=攻击力和攻击速度|原因=6}}大幅度提升" },
-			aspd = 0,
+			aspd = 2.3,
 			atk = 480,
 			class = "Leader",
 			def = 230,
@@ -223,7 +223,7 @@ return {
 		},
 		["16"] = {
 			ability = { "无法被阻挡" },
-			aspd = 0,
+			aspd = 1,
 			atk = 100,
 			class = "Normal",
 			def = 350,
@@ -238,7 +238,7 @@ return {
 			weight = 1
 		},
 		["17"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 250,
 			class = "Normal",
 			def = 50,
@@ -253,7 +253,7 @@ return {
 			weight = 0
 		},
 		["18"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 350,
 			class = "Normal",
 			def = 85,
@@ -268,7 +268,7 @@ return {
 			weight = 0
 		},
 		["19"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 240,
 			class = "Normal",
 			def = 250,
@@ -283,7 +283,7 @@ return {
 			weight = 1
 		},
 		["20"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 280,
 			class = "Normal",
 			def = 300,
@@ -298,7 +298,7 @@ return {
 			weight = 1
 		},
 		["21"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 500,
 			class = "Normal",
 			def = 50,
@@ -313,7 +313,7 @@ return {
 			weight = 2
 		},
 		["22"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 600,
 			class = "Normal",
 			def = 70,
@@ -328,7 +328,7 @@ return {
 			weight = 2
 		},
 		["23"] = {
-			aspd = 0,
+			aspd = 2.5,
 			atk = 350,
 			class = "Normal",
 			def = 200,
@@ -343,7 +343,7 @@ return {
 			weight = 1
 		},
 		["24"] = {
-			aspd = 0,
+			aspd = 2.5,
 			atk = 500,
 			class = "Normal",
 			def = 250,
@@ -358,7 +358,7 @@ return {
 			weight = 1
 		},
 		["25"] = {
-			aspd = 0,
+			aspd = 1.5,
 			atk = 450,
 			class = "Normal",
 			def = 300,
@@ -373,7 +373,7 @@ return {
 			weight = 1
 		},
 		["26"] = {
-			aspd = 0,
+			aspd = 1.5,
 			atk = 550,
 			class = "Normal",
 			def = 350,
@@ -388,7 +388,7 @@ return {
 			weight = 1
 		},
 		["27"] = {
-			aspd = 0,
+			aspd = 3.3,
 			atk = 750,
 			class = "Leader",
 			def = 80,
@@ -403,7 +403,7 @@ return {
 			weight = 3
 		},
 		["28"] = {
-			aspd = 0,
+			aspd = 3.3,
 			atk = 850,
 			class = "Leader",
 			def = 100,
@@ -418,7 +418,7 @@ return {
 			weight = 3
 		},
 		["29"] = {
-			aspd = 0,
+			aspd = 3.5,
 			atk = 850,
 			class = "Leader",
 			def = 230,
@@ -433,7 +433,7 @@ return {
 			weight = 3
 		},
 		["30"] = {
-			aspd = 0,
+			aspd = 3.5,
 			atk = 950,
 			class = "Leader",
 			def = 270,
@@ -448,7 +448,7 @@ return {
 			weight = 3
 		},
 		["31"] = {
-			aspd = 0,
+			aspd = 3.5,
 			atk = 1050,
 			class = "Leader",
 			def = 700,
@@ -463,7 +463,7 @@ return {
 			weight = 3
 		},
 		["32"] = {
-			aspd = 0,
+			aspd = 3.5,
 			atk = 1500,
 			class = "Leader",
 			def = 800,
@@ -478,7 +478,7 @@ return {
 			weight = 3
 		},
 		["33"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 350,
 			class = "Normal",
 			def = 50,
@@ -493,7 +493,7 @@ return {
 			weight = 1
 		},
 		["34"] = {
-			aspd = 0,
+			aspd = 1.4,
 			atk = 410,
 			class = "Normal",
 			def = 50,
@@ -508,7 +508,7 @@ return {
 			weight = 1
 		},
 		["35"] = {
-			aspd = 0,
+			aspd = 1.4,
 			atk = 500,
 			class = "Normal",
 			def = 80,
@@ -524,7 +524,7 @@ return {
 		},
 		["36"] = {
 			ability = { "攻击2次后，下一次攻击会{{术语|ba.stun|晕眩}}目标" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 1000,
 			class = "Leader",
 			def = 1000,
@@ -540,7 +540,7 @@ return {
 		},
 		["37"] = {
 			ability = { "攻击2次后，下一次攻击会{{术语|ba.stun|晕眩}}目标" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 1500,
 			class = "Leader",
 			def = 2000,
@@ -556,7 +556,7 @@ return {
 		},
 		["38"] = {
 			ability = { "攻击造成爆破，使目标周围四格的单位受到溅射伤害。" },
-			aspd = 0,
+			aspd = 5,
 			atk = 1700,
 			class = "Leader",
 			def = 800,
@@ -572,7 +572,7 @@ return {
 		},
 		["39"] = {
 			ability = { "攻击造成爆破，使目标周围四格的单位受到溅射伤害。" },
-			aspd = 0,
+			aspd = 5,
 			atk = 2200,
 			class = "Leader",
 			def = 1000,
@@ -589,7 +589,7 @@ return {
 		["6935"] = {
 			ability = {
 				"从背后攻击陆行姿态下火龙的{{color|#00FFFF|尾巴}}可以将其{{color|#00FFFF|切断}}；{{color|#00FFFF|眩光手雷}}可以击坠飞行姿态的火龙；未在第一波次击败火龙时，火龙会【返巢】移至同一关卡的【巢穴】波次" },
-			aspd = 0,
+			aspd = 2.8,
 			atk = 900,
 			class = "Boss",
 			def = 200,
@@ -611,7 +611,7 @@ return {
 			weight = 3
 		},
 		["B1"] = {
-			aspd = 0,
+			aspd = 1.7,
 			atk = 130,
 			class = "Normal",
 			def = 0,
@@ -626,7 +626,7 @@ return {
 			weight = 0
 		},
 		["B2"] = {
-			aspd = 0,
+			aspd = 1.7,
 			atk = 185,
 			class = "Normal",
 			def = 0,
@@ -641,7 +641,7 @@ return {
 			weight = 0
 		},
 		["B3"] = {
-			aspd = 0,
+			aspd = 1.7,
 			atk = 240,
 			class = "Normal",
 			def = 0,
@@ -657,7 +657,7 @@ return {
 		},
 		["B4"] = {
 			ability = { "每次攻击会降低击中目标的防御" },
-			aspd = 0,
+			aspd = 3,
 			atk = 180,
 			class = "Normal",
 			def = 80,
@@ -673,7 +673,7 @@ return {
 		},
 		["B5"] = {
 			ability = { "每次攻击会降低击中目标的防御" },
-			aspd = 0,
+			aspd = 3.3,
 			atk = 290,
 			class = "Normal",
 			def = 0,
@@ -689,7 +689,7 @@ return {
 		},
 		["B6"] = {
 			ability = { "死亡后对周围造成大量物理伤害" },
-			aspd = 0,
+			aspd = 1.7,
 			atk = 260,
 			class = "Normal",
 			def = 0,
@@ -705,7 +705,7 @@ return {
 		},
 		["B7"] = {
 			ability = { "死亡后对周围造成大量物理伤害" },
-			aspd = 0,
+			aspd = 1.7,
 			atk = 350,
 			class = "Normal",
 			def = 0,
@@ -720,7 +720,7 @@ return {
 			weight = 0
 		},
 		["O1"] = {
-			aspd = 0,
+			aspd = 1.4,
 			atk = 190,
 			class = "Normal",
 			def = 0,
@@ -735,7 +735,7 @@ return {
 			weight = 0
 		},
 		["O2"] = {
-			aspd = 0,
+			aspd = 1.4,
 			atk = 260,
 			class = "Normal",
 			def = 0,
@@ -750,7 +750,7 @@ return {
 			weight = 0
 		},
 		["O3"] = {
-			aspd = 0,
+			aspd = 1.4,
 			atk = 370,
 			class = "Normal",
 			def = 0,
@@ -765,7 +765,7 @@ return {
 			weight = 0
 		},
 		["01"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 200,
 			class = "Normal",
 			def = 100,
@@ -780,7 +780,7 @@ return {
 			weight = 1
 		},
 		["A1"] = {
-			aspd = 0,
+			aspd = 2.4,
 			atk = 240,
 			class = "Normal",
 			def = 100,
@@ -795,7 +795,7 @@ return {
 			weight = 1
 		},
 		["A2"] = {
-			aspd = 0,
+			aspd = 2.4,
 			atk = 310,
 			class = "Normal",
 			def = 150,
@@ -810,7 +810,7 @@ return {
 			weight = 1
 		},
 		["A3"] = {
-			aspd = 0,
+			aspd = 4,
 			atk = 200,
 			class = "Normal",
 			def = 50,
@@ -825,7 +825,7 @@ return {
 			weight = 1
 		},
 		["A4"] = {
-			aspd = 0,
+			aspd = 4,
 			atk = 300,
 			class = "Normal",
 			def = 80,
@@ -841,7 +841,7 @@ return {
 		},
 		["A5"] = {
 			ability = { "攻击时对目标及其周围四格内的所有我方单位造成伤害" },
-			aspd = 0,
+			aspd = 3.8,
 			atk = 240,
 			class = "Leader",
 			def = 120,
@@ -857,7 +857,7 @@ return {
 		},
 		["A6"] = {
 			ability = { "攻击时对目标及其周围四格内的所有我方单位造成伤害" },
-			aspd = 0,
+			aspd = 3.8,
 			atk = 380,
 			class = "Leader",
 			def = 160,
@@ -873,7 +873,7 @@ return {
 		},
 		["02"] = {
 			ability = { "能够从战场中降落" },
-			aspd = 0,
+			aspd = 1.9,
 			atk = 220,
 			class = "Normal",
 			def = 100,
@@ -889,7 +889,7 @@ return {
 		},
 		["03"] = {
 			ability = { "能够从战场中降落" },
-			aspd = 0,
+			aspd = 1.9,
 			atk = 300,
 			class = "Normal",
 			def = 150,
@@ -905,7 +905,7 @@ return {
 		},
 		["A7"] = {
 			ability = { "攻击时对目标及其周围四格内的所有我方单位造成伤害" },
-			aspd = 0,
+			aspd = 3.8,
 			atk = 380,
 			class = "Leader",
 			def = 400,
@@ -921,7 +921,7 @@ return {
 		},
 		["A8"] = {
 			ability = { "超远距离攻击；炮弹能对目标及其周围八格内的所有我方单位造成伤害" },
-			aspd = 0,
+			aspd = 4.5,
 			atk = 550,
 			class = "Normal",
 			def = 150,
@@ -936,7 +936,7 @@ return {
 			weight = 2
 		},
 		["04"] = {
-			aspd = 0,
+			aspd = 1.2,
 			atk = 350,
 			class = "Normal",
 			def = 100,
@@ -951,7 +951,7 @@ return {
 			weight = 1
 		},
 		["05"] = {
-			aspd = 0,
+			aspd = 1.2,
 			atk = 450,
 			class = "Normal",
 			def = 120,
@@ -966,7 +966,7 @@ return {
 			weight = 1
 		},
 		["06"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 250,
 			class = "Normal",
 			def = 400,
@@ -981,7 +981,7 @@ return {
 			weight = 1
 		},
 		["07"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 300,
 			class = "Normal",
 			def = 500,
@@ -996,7 +996,7 @@ return {
 			weight = 1
 		},
 		["08"] = {
-			aspd = 0,
+			aspd = 2.6,
 			atk = 600,
 			class = "Leader",
 			def = 800,
@@ -1011,7 +1011,7 @@ return {
 			weight = 3
 		},
 		["09"] = {
-			aspd = 0,
+			aspd = 2.6,
 			atk = 600,
 			class = "Leader",
 			def = 1000,
@@ -1026,7 +1026,7 @@ return {
 			weight = 3
 		},
 		["B8"] = {
-			aspd = 0,
+			aspd = 2.3,
 			atk = 300,
 			class = "Normal",
 			def = 500,
@@ -1042,7 +1042,7 @@ return {
 		},
 		["C0"] = {
 			ability = { "{{术语|ba.invisible|隐匿}}" },
-			aspd = 0,
+			aspd = 2,
 			atk = 300,
 			class = "Normal",
 			def = 90,
@@ -1058,7 +1058,7 @@ return {
 		},
 		["D1"] = {
 			ability = { "飞行单位" },
-			aspd = 0,
+			aspd = 2.3,
 			atk = 0,
 			class = "Normal",
 			def = 50,
@@ -1074,7 +1074,7 @@ return {
 		},
 		["D2"] = {
 			ability = { "飞行单位" },
-			aspd = 0,
+			aspd = 3,
 			atk = 220,
 			class = "Normal",
 			def = 50,
@@ -1091,7 +1091,7 @@ return {
 		},
 		["D3"] = {
 			ability = { "飞行单位" },
-			aspd = 0,
+			aspd = 3.8,
 			atk = 660,
 			class = "Leader",
 			def = 170,
@@ -1107,7 +1107,7 @@ return {
 		},
 		["D4"] = {
 			ability = { "飞行单位；为周围敌军持续提供防御力加成" },
-			aspd = 0,
+			aspd = 2,
 			atk = 0,
 			class = "Normal",
 			def = 150,
@@ -1123,7 +1123,7 @@ return {
 		},
 		["C1"] = {
 			ability = { "{{术语|ba.invisible|隐匿}}" },
-			aspd = 0,
+			aspd = 2.7,
 			atk = 260,
 			class = "Normal",
 			def = 100,
@@ -1139,7 +1139,7 @@ return {
 		},
 		["C2"] = {
 			ability = { "{{术语|ba.invisible|隐匿}}" },
-			aspd = 0,
+			aspd = 2.7,
 			atk = 310,
 			class = "Normal",
 			def = 130,
@@ -1155,7 +1155,7 @@ return {
 		},
 		["C3"] = {
 			ability = { "{{术语|ba.invisible|隐匿}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 350,
 			class = "Normal",
 			def = 80,
@@ -1171,7 +1171,7 @@ return {
 		},
 		["C4"] = {
 			ability = { "{{术语|ba.invisible|隐匿}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 400,
 			class = "Normal",
 			def = 130,
@@ -1187,7 +1187,7 @@ return {
 		},
 		["T1"] = {
 			ability = { "被阻挡时防御提升" },
-			aspd = 0,
+			aspd = 1.8,
 			atk = 290,
 			class = "Normal",
 			def = 60,
@@ -1203,7 +1203,7 @@ return {
 			weight = 1
 		},
 		["S1"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 600,
 			class = "Leader",
 			def = 230,
@@ -1218,7 +1218,7 @@ return {
 			weight = 2
 		},
 		["S2"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 750,
 			class = "Leader",
 			def = 250,
@@ -1233,7 +1233,7 @@ return {
 			weight = 2
 		},
 		["S3"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 450,
 			class = "Leader",
 			def = 200,
@@ -1248,7 +1248,7 @@ return {
 			weight = 2
 		},
 		["S4"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 570,
 			class = "Leader",
 			def = 200,
@@ -1264,7 +1264,7 @@ return {
 		},
 		["S5"] = {
 			ability = { "可以使用枷锁使我方单位瘫痪" },
-			aspd = 0,
+			aspd = 4,
 			atk = 500,
 			class = "Leader",
 			def = 200,
@@ -1280,7 +1280,7 @@ return {
 		},
 		["S6"] = {
 			ability = { "可以使用枷锁使我方单位瘫痪" },
-			aspd = 0,
+			aspd = 4,
 			atk = 700,
 			class = "Leader",
 			def = 200,
@@ -1296,7 +1296,7 @@ return {
 		},
 		["SC"] = {
 			ability = { "同时攻击两个目标" },
-			aspd = 0,
+			aspd = 5,
 			atk = 700,
 			class = "Boss",
 			def = 250,
@@ -1311,7 +1311,7 @@ return {
 			weight = 5
 		},
 		["A9"] = {
-			aspd = 0,
+			aspd = 2.7,
 			atk = 180,
 			class = "Normal",
 			def = 50,
@@ -1326,7 +1326,7 @@ return {
 			weight = 0
 		},
 		["A10"] = {
-			aspd = 0,
+			aspd = 2.2,
 			atk = 250,
 			class = "Normal",
 			def = 85,
@@ -1341,7 +1341,7 @@ return {
 			weight = 0
 		},
 		["AL1"] = {
-			aspd = 0,
+			aspd = 4,
 			atk = 400,
 			class = "Normal",
 			def = 250,
@@ -1357,7 +1357,7 @@ return {
 		},
 		["AL2"] = {
 			ability = { "同时攻击两个目标" },
-			aspd = 0,
+			aspd = 4,
 			atk = 450,
 			class = "Normal",
 			def = 300,
@@ -1373,7 +1373,7 @@ return {
 		},
 		["D5"] = {
 			ability = { "可以投掷炸弹造成群体物理伤害；投掷之后移动速度大幅度提升" },
-			aspd = 0,
+			aspd = 5,
 			atk = 800,
 			class = "Leader",
 			def = 150,
@@ -1389,7 +1389,7 @@ return {
 		},
 		["D6"] = {
 			ability = { "可以投掷炸弹造成群体物理伤害；投掷之后移动速度大幅度提升" },
-			aspd = 0,
+			aspd = 5,
 			atk = 1500,
 			class = "Leader",
 			def = 220,
@@ -1404,7 +1404,7 @@ return {
 			weight = 1
 		},
 		["D7"] = {
-			aspd = 0,
+			aspd = 2.15,
 			atk = 220,
 			class = "Normal",
 			def = 100,
@@ -1419,7 +1419,7 @@ return {
 			weight = 1
 		},
 		["D8"] = {
-			aspd = 0,
+			aspd = 3.5,
 			atk = 600,
 			class = "Leader",
 			def = 140,
@@ -1435,7 +1435,7 @@ return {
 		},
 		["D9"] = {
 			ability = { "周围的我方单位的攻击速度大幅度降低" },
-			aspd = 0,
+			aspd = 1,
 			atk = 100,
 			class = "Leader",
 			def = 600,
@@ -1451,7 +1451,7 @@ return {
 		},
 		["P1"] = {
 			ability = { "能够自然回复生命" },
-			aspd = 0,
+			aspd = 1.8,
 			atk = 250,
 			class = "Normal",
 			def = 100,
@@ -1467,7 +1467,7 @@ return {
 		},
 		["P2"] = {
 			ability = { "能够自然回复生命" },
-			aspd = 0,
+			aspd = 1.8,
 			atk = 300,
 			class = "Normal",
 			def = 150,
@@ -1483,7 +1483,7 @@ return {
 		},
 		["P3"] = {
 			ability = { "能够自然回复生命" },
-			aspd = 0,
+			aspd = 3,
 			atk = 500,
 			class = "Normal",
 			def = 130,
@@ -1499,7 +1499,7 @@ return {
 		},
 		["P4"] = {
 			ability = { "能够自然回复生命" },
-			aspd = 0,
+			aspd = 3,
 			atk = 650,
 			class = "Normal",
 			def = 200,
@@ -1514,7 +1514,7 @@ return {
 			weight = 2
 		},
 		["P01"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 280,
 			class = "Normal",
 			def = 85,
@@ -1529,7 +1529,7 @@ return {
 			weight = 1
 		},
 		["P02"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 330,
 			class = "Normal",
 			def = 100,
@@ -1545,7 +1545,7 @@ return {
 		},
 		["P03"] = {
 			ability = { "攻击2次后，下一次攻击会{{术语|ba.stun|晕眩}}目标" },
-			aspd = 0,
+			aspd = 4,
 			atk = 150,
 			class = "Normal",
 			def = 100,
@@ -1561,7 +1561,7 @@ return {
 		},
 		["P04"] = {
 			ability = { "攻击2次后，下一次攻击会{{术语|ba.stun|晕眩}}目标" },
-			aspd = 0,
+			aspd = 4,
 			atk = 200,
 			class = "Normal",
 			def = 150,
@@ -1577,7 +1577,7 @@ return {
 		},
 		["PB1"] = {
 			ability = { "被阻挡时法术抗性提升" },
-			aspd = 0,
+			aspd = 3.3,
 			atk = 750,
 			class = "Leader",
 			def = 100,
@@ -1594,7 +1594,7 @@ return {
 		},
 		["PB2"] = {
 			ability = { "被阻挡时法术抗性大幅提升" },
-			aspd = 0,
+			aspd = 3.3,
 			atk = 900,
 			class = "Leader",
 			def = 100,
@@ -1611,7 +1611,7 @@ return {
 		},
 		["PA1"] = {
 			ability = { "攻击后暂时减少我方单位阻挡数上限" },
-			aspd = 0,
+			aspd = 2,
 			atk = 300,
 			class = "Leader",
 			def = 150,
@@ -1627,7 +1627,7 @@ return {
 		},
 		["PA2"] = {
 			ability = { "攻击后暂时减少我方单位阻挡数上限" },
-			aspd = 0,
+			aspd = 2,
 			atk = 350,
 			class = "Leader",
 			def = 230,
@@ -1642,7 +1642,7 @@ return {
 			weight = 2
 		},
 		["P05"] = {
-			aspd = 0,
+			aspd = 4,
 			atk = 320,
 			class = "Normal",
 			def = 100,
@@ -1657,7 +1657,7 @@ return {
 			weight = 1
 		},
 		["P06"] = {
-			aspd = 0,
+			aspd = 4,
 			atk = 350,
 			class = "Normal",
 			def = 200,
@@ -1672,7 +1672,7 @@ return {
 			weight = 1
 		},
 		["P07"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 200,
 			class = "Normal",
 			def = 400,
@@ -1687,7 +1687,7 @@ return {
 			weight = 1
 		},
 		["P08"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 300,
 			class = "Normal",
 			def = 500,
@@ -1703,7 +1703,7 @@ return {
 		},
 		["PG1"] = {
 			ability = { "无法被阻挡" },
-			aspd = 0,
+			aspd = 1,
 			atk = 100,
 			class = "Normal",
 			def = 120,
@@ -1719,7 +1719,7 @@ return {
 		},
 		["PG2"] = {
 			ability = { "无法被阻挡" },
-			aspd = 0,
+			aspd = 1,
 			atk = 100,
 			class = "Normal",
 			def = 260,
@@ -1734,7 +1734,7 @@ return {
 			weight = 1
 		},
 		["P09"] = {
-			aspd = 0,
+			aspd = 2.6,
 			atk = 700,
 			class = "Leader",
 			def = 800,
@@ -1750,7 +1750,7 @@ return {
 		},
 		["P10"] = {
 			ability = { "会逐渐损失生命" },
-			aspd = 0,
+			aspd = 2,
 			atk = 1050,
 			class = "Leader",
 			def = 220,
@@ -1765,7 +1765,7 @@ return {
 			weight = 2
 		},
 		["G11"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 250,
 			class = "Normal",
 			def = 100,
@@ -1780,7 +1780,7 @@ return {
 			weight = 1
 		},
 		["G12"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 350,
 			class = "Normal",
 			def = 160,
@@ -1795,7 +1795,7 @@ return {
 			weight = 1
 		},
 		["G13"] = {
-			aspd = 0,
+			aspd = 0.4,
 			atk = 290,
 			class = "Normal",
 			def = 250,
@@ -1810,7 +1810,7 @@ return {
 			weight = 1
 		},
 		["G14"] = {
-			aspd = 0,
+			aspd = 0.4,
 			atk = 380,
 			class = "Normal",
 			def = 300,
@@ -1826,7 +1826,7 @@ return {
 		},
 		["G15"] = {
 			ability = { "优先攻击指挥终端" },
-			aspd = 0,
+			aspd = 3,
 			atk = 180,
 			class = "Normal",
 			def = 150,
@@ -1842,7 +1842,7 @@ return {
 		},
 		["G16"] = {
 			ability = { "优先攻击指挥终端" },
-			aspd = 0,
+			aspd = 3,
 			atk = 230,
 			class = "Normal",
 			def = 200,
@@ -1858,7 +1858,7 @@ return {
 		},
 		["G17"] = {
 			ability = { "只能被阻挡数大于等于3的单位阻挡" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 800,
 			class = "Leader",
 			def = 800,
@@ -1874,7 +1874,7 @@ return {
 		},
 		["G18"] = {
 			ability = { "只能被阻挡数大于等于3的单位阻挡" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 1000,
 			class = "Leader",
 			def = 1000,
@@ -1890,7 +1890,7 @@ return {
 		},
 		["G19"] = {
 			ability = { "优先攻击指挥终端" },
-			aspd = 0,
+			aspd = 5,
 			atk = 700,
 			class = "Leader",
 			def = 500,
@@ -1906,7 +1906,7 @@ return {
 		},
 		["G20"] = {
 			ability = { "优先攻击指挥终端" },
-			aspd = 0,
+			aspd = 5,
 			atk = 800,
 			class = "Leader",
 			def = 600,
@@ -1922,7 +1922,7 @@ return {
 		},
 		["G21"] = {
 			ability = { "护盾存在时大幅提升防御力；护盾被摧毁时大幅提升移动速度" },
-			aspd = 0,
+			aspd = 3.2,
 			atk = 700,
 			class = "Leader",
 			def = 250,
@@ -1939,7 +1939,7 @@ return {
 		},
 		["G22"] = {
 			ability = { "护盾存在时大幅提升防御力；护盾被摧毁时大幅提升移动速度" },
-			aspd = 0,
+			aspd = 3.2,
 			atk = 800,
 			class = "Leader",
 			def = 250,
@@ -1956,7 +1956,7 @@ return {
 		},
 		["P5"] = {
 			ability = { "能够自然回复生命" },
-			aspd = 0,
+			aspd = 2.6,
 			atk = 600,
 			class = "Leader",
 			def = 800,
@@ -1972,7 +1972,7 @@ return {
 		},
 		["P6"] = {
 			ability = { "能够自然回复生命" },
-			aspd = 0,
+			aspd = 2.6,
 			atk = 800,
 			class = "Leader",
 			def = 1000,
@@ -1988,7 +1988,7 @@ return {
 		},
 		["P7"] = {
 			ability = { "会逐渐损失生命" },
-			aspd = 0,
+			aspd = 1.3,
 			atk = 1000,
 			class = "Leader",
 			def = 200,
@@ -2004,7 +2004,7 @@ return {
 		},
 		["P8"] = {
 			ability = { "会逐渐损失生命" },
-			aspd = 0,
+			aspd = 1.3,
 			atk = 1750,
 			class = "Leader",
 			def = 230,
@@ -2020,7 +2020,7 @@ return {
 		},
 		["P9"] = {
 			ability = { "会逐渐损失生命" },
-			aspd = 0,
+			aspd = 2,
 			atk = 750,
 			class = "Leader",
 			def = 200,
@@ -2036,7 +2036,7 @@ return {
 		},
 		["Y1"] = {
 			ability = { "攻击被{{术语|ba.frozen|冻结}}的目标时攻击力提升" },
-			aspd = 0,
+			aspd = 2,
 			atk = 360,
 			class = "Normal",
 			def = 100,
@@ -2052,7 +2052,7 @@ return {
 		},
 		["O4"] = {
 			ability = { "攻击被{{术语|ba.frozen|冻结}}的目标时攻击力提升" },
-			aspd = 0,
+			aspd = 1.4,
 			atk = 350,
 			class = "Normal",
 			def = 0,
@@ -2068,7 +2068,7 @@ return {
 		},
 		["O5"] = {
 			ability = { "攻击被{{术语|ba.frozen|冻结}}的目标时攻击力提升" },
-			aspd = 0,
+			aspd = 1.4,
 			atk = 430,
 			class = "Normal",
 			def = 0,
@@ -2084,7 +2084,7 @@ return {
 		},
 		["Y2"] = {
 			ability = { "攻击被{{术语|ba.frozen|冻结}}的目标时攻击力提升" },
-			aspd = 0,
+			aspd = 2.4,
 			atk = 290,
 			class = "Normal",
 			def = 80,
@@ -2100,7 +2100,7 @@ return {
 		},
 		["Y3"] = {
 			ability = { "攻击被{{术语|ba.frozen|冻结}}的目标时攻击力提升" },
-			aspd = 0,
+			aspd = 2.4,
 			atk = 360,
 			class = "Normal",
 			def = 100,
@@ -2116,7 +2116,7 @@ return {
 		},
 		["B9"] = {
 			ability = { "死亡时对周围我方单位造成物理伤害，并施加{{术语|ba.cold|寒冷}}效果" },
-			aspd = 0,
+			aspd = 1.7,
 			atk = 300,
 			class = "Normal",
 			def = 0,
@@ -2132,7 +2132,7 @@ return {
 		},
 		["B10"] = {
 			ability = { "死亡时对周围我方单位造成物理伤害，并施加{{术语|ba.cold|寒冷}}效果" },
-			aspd = 0,
+			aspd = 1.7,
 			atk = 370,
 			class = "Normal",
 			def = 0,
@@ -2148,7 +2148,7 @@ return {
 		},
 		["Y4"] = {
 			ability = { "攻击2次后，下一次攻击会对目标施加{{术语|ba.cold|寒冷}}效果" },
-			aspd = 0,
+			aspd = 4.5,
 			atk = 320,
 			class = "Normal",
 			def = 200,
@@ -2164,7 +2164,7 @@ return {
 		},
 		["Y5"] = {
 			ability = { "攻击2次后，下一次攻击会对目标施加{{术语|ba.cold|寒冷}}效果" },
-			aspd = 0,
+			aspd = 4,
 			atk = 400,
 			class = "Normal",
 			def = 250,
@@ -2180,7 +2180,7 @@ return {
 		},
 		["Y6"] = {
 			ability = { "攻击被{{术语|ba.frozen|冻结}}的目标时攻击力大幅度提升" },
-			aspd = 0,
+			aspd = 3,
 			atk = 830,
 			class = "Leader",
 			def = 500,
@@ -2196,7 +2196,7 @@ return {
 		},
 		["Y7"] = {
 			ability = { "攻击被{{术语|ba.frozen|冻结}}的目标时攻击力大幅度提升" },
-			aspd = 0,
+			aspd = 3,
 			atk = 1100,
 			class = "Leader",
 			def = 600,
@@ -2212,7 +2212,7 @@ return {
 		},
 		["D10"] = {
 			ability = { "可以投掷炸弹造成群体法术伤害并施加{{术语|ba.cold|寒冷}}效果" },
-			aspd = 0,
+			aspd = 1,
 			atk = 500,
 			class = "Leader",
 			def = 180,
@@ -2227,7 +2227,7 @@ return {
 			weight = 0
 		},
 		["S7"] = {
-			aspd = 0,
+			aspd = 2.5,
 			atk = 300,
 			class = "Normal",
 			def = 70,
@@ -2242,7 +2242,7 @@ return {
 			weight = 1
 		},
 		["S8"] = {
-			aspd = 0,
+			aspd = 2.5,
 			atk = 370,
 			class = "Normal",
 			def = 100,
@@ -2258,7 +2258,7 @@ return {
 		},
 		["S9"] = {
 			ability = { "移动时逐渐加速，被阻挡后的首次攻击造成基于移动速度的额外伤害。" },
-			aspd = 0,
+			aspd = 4,
 			atk = 450,
 			class = "Leader",
 			def = 150,
@@ -2274,7 +2274,7 @@ return {
 		},
 		["S10"] = {
 			ability = { "移动时逐渐加速，被阻挡后的首次攻击造成基于移动速度的额外伤害。" },
-			aspd = 0,
+			aspd = 4,
 			atk = 500,
 			class = "Leader",
 			def = 230,
@@ -2290,7 +2290,7 @@ return {
 		},
 		["S11"] = {
 			ability = { "受伤后立刻发出警报，提升全体敌方单位的攻击和防御，并使【待命】的单位敌人立即进入【临战】状态" },
-			aspd = 0,
+			aspd = 1,
 			atk = 0,
 			class = "Normal",
 			def = 100,
@@ -2307,7 +2307,7 @@ return {
 		},
 		["S12"] = {
 			ability = { "受伤后立刻发出警报，提升全体敌方单位的攻击和防御，并使【待命】的单位敌人立即进入【临战】状态" },
-			aspd = 0,
+			aspd = 1,
 			atk = 0,
 			class = "Normal",
 			def = 160,
@@ -2324,7 +2324,7 @@ return {
 		},
 		["S13"] = {
 			ability = { "初始处于【待命】状态，不进行攻击；受伤后进入【临战】状态，对两个目标造成远程法术伤害。" },
-			aspd = 0,
+			aspd = 5,
 			atk = 700,
 			class = "Leader",
 			def = 250,
@@ -2340,7 +2340,7 @@ return {
 		},
 		["S14"] = {
 			ability = { "初始处于【待命】状态，不进行攻击；受伤后进入【临战】状态，对两个目标造成远程法术伤害。" },
-			aspd = 0,
+			aspd = 5,
 			atk = 850,
 			class = "Leader",
 			def = 300,
@@ -2356,7 +2356,7 @@ return {
 		},
 		["S15"] = {
 			ability = { "初始处于【待命】状态，不进行攻击；受伤后进入【临战】状态，造成近战法术伤害。" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 400,
 			class = "Leader",
 			def = 200,
@@ -2372,7 +2372,7 @@ return {
 		},
 		["S16"] = {
 			ability = { "初始处于【待命】状态，不进行攻击；受伤后进入【临战】状态，造成近战法术伤害。" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 500,
 			class = "Leader",
 			def = 250,
@@ -2387,7 +2387,7 @@ return {
 			weight = 2
 		},
 		["SI1"] = {
-			aspd = 0,
+			aspd = 1.4,
 			atk = 350,
 			class = "Normal",
 			def = 150,
@@ -2403,7 +2403,7 @@ return {
 			weight = 0
 		},
 		["SI2"] = {
-			aspd = 0,
+			aspd = 1.4,
 			atk = 420,
 			class = "Normal",
 			def = 150,
@@ -2420,7 +2420,7 @@ return {
 		},
 		["SI3"] = {
 			ability = { "受到强化时，移动速度提升" },
-			aspd = 0,
+			aspd = 2,
 			atk = 300,
 			class = "Normal",
 			def = 300,
@@ -2437,7 +2437,7 @@ return {
 		},
 		["SI4"] = {
 			ability = { "受到强化时，移动速度提升" },
-			aspd = 0,
+			aspd = 2,
 			atk = 330,
 			class = "Normal",
 			def = 350,
@@ -2454,7 +2454,7 @@ return {
 		},
 		["SI5"] = {
 			ability = { "受到强化时，额外攻击一名目标" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 340,
 			class = "Normal",
 			def = 300,
@@ -2471,7 +2471,7 @@ return {
 		},
 		["SI6"] = {
 			ability = { "受到强化时，额外攻击一名目标" },
-			aspd = 0,
+			aspd = 2.7,
 			atk = 390,
 			class = "Normal",
 			def = 300,
@@ -2488,7 +2488,7 @@ return {
 		},
 		["SI7"] = {
 			ability = { "在场时，强化敌军攻击力与防御力" },
-			aspd = 0,
+			aspd = 2.7,
 			atk = 300,
 			class = "Normal",
 			def = 120,
@@ -2505,7 +2505,7 @@ return {
 		},
 		["SI8"] = {
 			ability = { "在场时，强化敌军攻击力与防御力" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 360,
 			class = "Normal",
 			def = 120,
@@ -2522,7 +2522,7 @@ return {
 		},
 		["SP0"] = {
 			ability = { "使自身容易受到敌人的攻击" },
-			aspd = 0,
+			aspd = 3.8,
 			atk = 700,
 			class = "Leader",
 			def = 1300,
@@ -2539,7 +2539,7 @@ return {
 		},
 		["SP1"] = {
 			ability = { "使自身容易受到敌人的攻击" },
-			aspd = 0,
+			aspd = 3.8,
 			atk = 800,
 			class = "Leader",
 			def = 1500,
@@ -2556,7 +2556,7 @@ return {
 		},
 		["SP2"] = {
 			ability = { "受到强化时，攻击速度大幅提升" },
-			aspd = 0,
+			aspd = 4.8,
 			atk = 450,
 			class = "Leader",
 			def = 550,
@@ -2573,7 +2573,7 @@ return {
 		},
 		["SP3"] = {
 			ability = { "受到强化时，攻击速度大幅提升" },
-			aspd = 0,
+			aspd = 4.8,
 			atk = 590,
 			class = "Leader",
 			def = 550,
@@ -2590,7 +2590,7 @@ return {
 		},
 		["SP4"] = {
 			ability = { "受到强化时，攻击力大幅提升" },
-			aspd = 0,
+			aspd = 1.9,
 			atk = 360,
 			class = "Leader",
 			def = 550,
@@ -2607,7 +2607,7 @@ return {
 		},
 		["SP5"] = {
 			ability = { "受到强化时，攻击力极大幅提升" },
-			aspd = 0,
+			aspd = 1.9,
 			atk = 430,
 			class = "Leader",
 			def = 550,
@@ -2624,7 +2624,7 @@ return {
 		},
 		["SP6"] = {
 			ability = { "接触脉冲波时，不受伤害且攻击切换成法术伤害" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 480,
 			class = "Leader",
 			def = 400,
@@ -2641,7 +2641,7 @@ return {
 		},
 		["SP7"] = {
 			ability = { "接触脉冲波时，不受伤害且攻击切换成法术伤害" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 580,
 			class = "Leader",
 			def = 400,
@@ -2658,7 +2658,7 @@ return {
 		},
 		["TL1"] = {
 			ability = { "接触脉冲波时，不受伤害且攻击切换成法术伤害" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 480,
 			class = "Leader",
 			def = 400,
@@ -2675,7 +2675,7 @@ return {
 		},
 		["SP8"] = {
 			ability = { "不攻击，周期性施法，对周围所有单位造成相当于攻击力的法术伤害。接触脉冲波时，不受伤害且攻击范围扩大" },
-			aspd = 0,
+			aspd = 0.1,
 			atk = 350,
 			class = "Leader",
 			def = 400,
@@ -2692,7 +2692,7 @@ return {
 		},
 		["SP9"] = {
 			ability = { "不攻击，周期性施法，对周围所有单位造成相当于攻击力的法术伤害。接触脉冲波时，不受伤害且攻击范围扩大" },
-			aspd = 0,
+			aspd = 0.1,
 			atk = 450,
 			class = "Leader",
 			def = 400,
@@ -2709,7 +2709,7 @@ return {
 		},
 		["TL2"] = {
 			ability = { "不攻击，周期性施法，对周围所有单位造成相当于攻击力的法术伤害。接触脉冲波时，不受伤害且攻击范围扩大" },
-			aspd = 0,
+			aspd = 0.1,
 			atk = 350,
 			class = "Leader",
 			def = 400,
@@ -2725,7 +2725,7 @@ return {
 			weight = 2
 		},
 		["L1"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 130,
 			class = "Normal",
 			def = 130,
@@ -2740,7 +2740,7 @@ return {
 			weight = 1
 		},
 		["L2"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 180,
 			class = "Normal",
 			def = 150,
@@ -2755,7 +2755,7 @@ return {
 			weight = 1
 		},
 		["L3"] = {
-			aspd = 0,
+			aspd = 1.4,
 			atk = 300,
 			class = "Normal",
 			def = 0,
@@ -2770,7 +2770,7 @@ return {
 			weight = 0
 		},
 		["L4"] = {
-			aspd = 0,
+			aspd = 1.4,
 			atk = 360,
 			class = "Normal",
 			def = 0,
@@ -2786,7 +2786,7 @@ return {
 		},
 		["L5"] = {
 			ability = { "对攻击范围内最近的非敌方“留声机”持续施法，争夺其控制权" },
-			aspd = 0,
+			aspd = 3,
 			atk = 300,
 			class = "Normal",
 			def = 200,
@@ -2803,7 +2803,7 @@ return {
 		},
 		["L6"] = {
 			ability = { "对攻击范围内最近的非敌方“留声机”持续施法，争夺其控制权" },
-			aspd = 0,
+			aspd = 3,
 			atk = 360,
 			class = "Normal",
 			def = 200,
@@ -2820,7 +2820,7 @@ return {
 		},
 		["L7"] = {
 			ability = { "会逐渐损失生命；死亡时施法对周围所有单位造成法术伤害并直接夺取“留声机”的控制权" },
-			aspd = 0,
+			aspd = 1.3,
 			atk = 500,
 			class = "Leader",
 			def = 300,
@@ -2837,7 +2837,7 @@ return {
 		},
 		["L8"] = {
 			ability = { "会逐渐损失生命；死亡时施法对周围所有单位造成高额法术伤害并直接夺取“留声机”的控制权" },
-			aspd = 0,
+			aspd = 1.3,
 			atk = 650,
 			class = "Leader",
 			def = 300,
@@ -2854,7 +2854,7 @@ return {
 		},
 		["L9"] = {
 			ability = { "优先攻击正在争夺“留声机”的我方单位" },
-			aspd = 0,
+			aspd = 2.6,
 			atk = 400,
 			class = "Leader",
 			def = 400,
@@ -2870,7 +2870,7 @@ return {
 		},
 		["L10"] = {
 			ability = { "优先攻击正在争夺“留声机”的我方单位；同时攻击两名目标" },
-			aspd = 0,
+			aspd = 2.6,
 			atk = 500,
 			class = "Leader",
 			def = 500,
@@ -2886,7 +2886,7 @@ return {
 		},
 		["L11"] = {
 			ability = { "拥有护盾吸收法术伤害；护盾存在时大幅提升生命上限与攻击速度" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 900,
 			class = "Leader",
 			def = 800,
@@ -2902,7 +2902,7 @@ return {
 		},
 		["L12"] = {
 			ability = { "拥有护盾吸收法术伤害；护盾存在时大幅提升生命上限与攻击速度" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 1000,
 			class = "Leader",
 			def = 800,
@@ -2917,7 +2917,7 @@ return {
 			weight = 3
 		},
 		["L13"] = {
-			aspd = 0,
+			aspd = 7,
 			atk = 3000,
 			class = "Leader",
 			def = 700,
@@ -2932,7 +2932,7 @@ return {
 			weight = 5
 		},
 		["L14"] = {
-			aspd = 0,
+			aspd = 7,
 			atk = 3600,
 			class = "Leader",
 			def = 800,
@@ -2948,7 +2948,7 @@ return {
 		},
 		["T2"] = {
 			ability = { "被阻挡时防御提升" },
-			aspd = 0,
+			aspd = 1.8,
 			atk = 380,
 			class = "Normal",
 			def = 110,
@@ -2964,7 +2964,7 @@ return {
 			weight = 1
 		},
 		["T3"] = {
-			aspd = 0,
+			aspd = 1.3,
 			atk = 240,
 			class = "Normal",
 			def = 100,
@@ -2979,7 +2979,7 @@ return {
 			weight = 1
 		},
 		["T4"] = {
-			aspd = 0,
+			aspd = 1.3,
 			atk = 340,
 			class = "Normal",
 			def = 150,
@@ -2995,7 +2995,7 @@ return {
 		},
 		["T5"] = {
 			ability = { "每次攻击会降低击中目标的防御" },
-			aspd = 0,
+			aspd = 1,
 			atk = 320,
 			class = "Normal",
 			def = 380,
@@ -3011,7 +3011,7 @@ return {
 		},
 		["T6"] = {
 			ability = { "每次攻击会降低击中目标的防御" },
-			aspd = 0,
+			aspd = 0.9,
 			atk = 350,
 			class = "Normal",
 			def = 460,
@@ -3027,7 +3027,7 @@ return {
 		},
 		["T7"] = {
 			ability = { "被阻挡时防御提升，近战攻击造成物理伤害" },
-			aspd = 0,
+			aspd = 4,
 			atk = 250,
 			class = "Normal",
 			def = 200,
@@ -3044,7 +3044,7 @@ return {
 		},
 		["T8"] = {
 			ability = { "被阻挡时防御提升，近战攻击造成物理伤害" },
-			aspd = 0,
+			aspd = 4,
 			atk = 350,
 			class = "Normal",
 			def = 250,
@@ -3061,7 +3061,7 @@ return {
 		},
 		["T9"] = {
 			ability = { "若干次攻击后破坏巨蕈或木桩地面，使其无法被部署" },
-			aspd = 0,
+			aspd = 5,
 			atk = 650,
 			class = "Leader",
 			def = 550,
@@ -3077,7 +3077,7 @@ return {
 		},
 		["T10"] = {
 			ability = { "若干次攻击后破坏巨蕈或木桩地面，使其无法被部署" },
-			aspd = 0,
+			aspd = 5,
 			atk = 750,
 			class = "Leader",
 			def = 700,
@@ -3093,7 +3093,7 @@ return {
 		},
 		["T11"] = {
 			ability = { "被阻挡时只会受到来自阻挡目标的伤害，且自身与目标防御下降" },
-			aspd = 0,
+			aspd = 4,
 			atk = 700,
 			class = "Leader",
 			def = 950,
@@ -3110,7 +3110,7 @@ return {
 		},
 		["T12"] = {
 			ability = { "被阻挡时只会受到来自阻挡目标的伤害，且自身与目标防御下降" },
-			aspd = 0,
+			aspd = 4,
 			atk = 1000,
 			class = "Leader",
 			def = 1100,
@@ -3126,7 +3126,7 @@ return {
 			weight = 5
 		},
 		["K1"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 280,
 			class = "Normal",
 			def = 150,
@@ -3141,7 +3141,7 @@ return {
 			weight = 1
 		},
 		["K2"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 360,
 			class = "Normal",
 			def = 150,
@@ -3156,7 +3156,7 @@ return {
 			weight = 1
 		},
 		["K3"] = {
-			aspd = 0,
+			aspd = 2.5,
 			atk = 380,
 			class = "Normal",
 			def = 450,
@@ -3171,7 +3171,7 @@ return {
 			weight = 0
 		},
 		["K4"] = {
-			aspd = 0,
+			aspd = 2.5,
 			atk = 450,
 			class = "Normal",
 			def = 700,
@@ -3187,7 +3187,7 @@ return {
 		},
 		["K5"] = {
 			ability = { "初始防御力与法抗大幅提升，持续一定时间" },
-			aspd = 0,
+			aspd = 2.4,
 			atk = 300,
 			class = "Normal",
 			def = 100,
@@ -3204,7 +3204,7 @@ return {
 		},
 		["K6"] = {
 			ability = { "初始防御力与法抗大幅提升，持续一定时间" },
-			aspd = 0,
+			aspd = 2.4,
 			atk = 420,
 			class = "Normal",
 			def = 100,
@@ -3221,7 +3221,7 @@ return {
 		},
 		["K7"] = {
 			ability = { "初始防御力与法抗大幅提升，持续很长时间" },
-			aspd = 0,
+			aspd = 2.4,
 			atk = 600,
 			class = "Leader",
 			def = 100,
@@ -3237,7 +3237,7 @@ return {
 			weight = 1
 		},
 		["K8"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 700,
 			class = "Leader",
 			def = 1000,
@@ -3252,7 +3252,7 @@ return {
 			weight = 4
 		},
 		["K9"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 700,
 			class = "Leader",
 			def = 1300,
@@ -3268,7 +3268,7 @@ return {
 		},
 		["K10"] = {
 			ability = { "每有一个敌人死亡时攻击力与攻击速度提升，最多提升10次" },
-			aspd = 0,
+			aspd = 2.3,
 			atk = 500,
 			class = "Leader",
 			def = 800,
@@ -3285,7 +3285,7 @@ return {
 		},
 		["K11"] = {
 			ability = { "每有一个敌人死亡时攻击力与攻击速度提升，最多提升10次" },
-			aspd = 0,
+			aspd = 2.3,
 			atk = 650,
 			class = "Leader",
 			def = 800,
@@ -3302,7 +3302,7 @@ return {
 		},
 		["K12"] = {
 			ability = { "每有一个敌人死亡时攻击力与攻击速度提升，最多提升10次" },
-			aspd = 0,
+			aspd = 2.3,
 			atk = 700,
 			class = "Leader",
 			def = 800,
@@ -3319,7 +3319,7 @@ return {
 		},
 		["K13"] = {
 			ability = { "使场上攻击力最高的我方单位攻击力大幅降低，持续一定时间；重生" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 550,
 			class = "Leader",
 			def = 700,
@@ -3335,7 +3335,7 @@ return {
 		},
 		["K14"] = {
 			ability = { "使场上攻击力最高的我方单位攻击力大幅降低，持续一定时间；重生" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 650,
 			class = "Leader",
 			def = 700,
@@ -3351,7 +3351,7 @@ return {
 		},
 		["K15"] = {
 			ability = { "使场上攻击力最高的我方单位攻击力大幅降低，持续一定时间；重生" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 750,
 			class = "Leader",
 			def = 700,
@@ -3367,7 +3367,7 @@ return {
 		},
 		["TY1"] = {
 			ability = { "死亡时获得可部署单位;不计入歼灭数" },
-			aspd = 0,
+			aspd = 1,
 			atk = 0,
 			class = "Normal",
 			def = 150,
@@ -3384,7 +3384,7 @@ return {
 		},
 		["TY2"] = {
 			ability = { "死亡时获得大量可部署单位;不计入歼灭数" },
-			aspd = 0,
+			aspd = 1,
 			atk = 0,
 			class = "Normal",
 			def = 300,
@@ -3401,7 +3401,7 @@ return {
 		},
 		["TY3"] = {
 			ability = { "死亡时场上所有我方单位攻击速度与防御力大幅提升，持续一定时间;不计入歼灭数" },
-			aspd = 0,
+			aspd = 1,
 			atk = 0,
 			class = "Normal",
 			def = 150,
@@ -3418,7 +3418,7 @@ return {
 		},
 		["U1"] = {
 			ability = { "可使用远程武器攻击乌萨斯平民与斗士塔露拉" },
-			aspd = 0,
+			aspd = 2,
 			atk = 330,
 			class = "Normal",
 			def = 150,
@@ -3434,7 +3434,7 @@ return {
 		},
 		["U2"] = {
 			ability = { "可使用远程武器攻击乌萨斯平民与斗士塔露拉" },
-			aspd = 0,
+			aspd = 2,
 			atk = 400,
 			class = "Normal",
 			def = 150,
@@ -3449,7 +3449,7 @@ return {
 			weight = 1
 		},
 		["U3"] = {
-			aspd = 0,
+			aspd = 1.5,
 			atk = 380,
 			class = "Normal",
 			def = 100,
@@ -3464,7 +3464,7 @@ return {
 			weight = 0
 		},
 		["U4"] = {
-			aspd = 0,
+			aspd = 1.5,
 			atk = 450,
 			class = "Normal",
 			def = 100,
@@ -3479,7 +3479,7 @@ return {
 			weight = 0
 		},
 		["U5"] = {
-			aspd = 0,
+			aspd = 2.3,
 			atk = 350,
 			class = "Normal",
 			def = 200,
@@ -3494,7 +3494,7 @@ return {
 			weight = 1
 		},
 		["U6"] = {
-			aspd = 0,
+			aspd = 2.3,
 			atk = 430,
 			class = "Normal",
 			def = 200,
@@ -3509,7 +3509,7 @@ return {
 			weight = 1
 		},
 		["U7"] = {
-			aspd = 0,
+			aspd = 2.8,
 			atk = 340,
 			class = "Normal",
 			def = 500,
@@ -3524,7 +3524,7 @@ return {
 			weight = 2
 		},
 		["U8"] = {
-			aspd = 0,
+			aspd = 2.8,
 			atk = 420,
 			class = "Normal",
 			def = 500,
@@ -3540,7 +3540,7 @@ return {
 		},
 		["U9"] = {
 			ability = { "只能被阻挡数大于等于2的单位阻挡;可使用远程武器攻击乌萨斯平民与斗士塔露拉" },
-			aspd = 0,
+			aspd = 2.2,
 			atk = 550,
 			class = "Leader",
 			def = 500,
@@ -3556,7 +3556,7 @@ return {
 		},
 		["U10"] = {
 			ability = { "只能被阻挡数大于等于2的单位阻挡;可使用远程武器攻击乌萨斯平民与斗士塔露拉" },
-			aspd = 0,
+			aspd = 2.2,
 			atk = 700,
 			class = "Leader",
 			def = 500,
@@ -3571,7 +3571,7 @@ return {
 			weight = 2
 		},
 		["U11"] = {
-			aspd = 0,
+			aspd = 5,
 			atk = 1000,
 			class = "Leader",
 			def = 800,
@@ -3586,7 +3586,7 @@ return {
 			weight = 4
 		},
 		["U12"] = {
-			aspd = 0,
+			aspd = 5,
 			atk = 1200,
 			class = "Leader",
 			def = 800,
@@ -3602,7 +3602,7 @@ return {
 		},
 		["U13"] = {
 			ability = { "未阻挡时远程攻击;生命值降至一半时攻击力大幅提升" },
-			aspd = 0,
+			aspd = 4.5,
 			atk = 900,
 			class = "Leader",
 			def = 800,
@@ -3618,7 +3618,7 @@ return {
 		},
 		["U14"] = {
 			ability = { "未阻挡时远程攻击;生命值降至一半时攻击力大幅提升" },
-			aspd = 0,
+			aspd = 4.5,
 			atk = 1200,
 			class = "Leader",
 			def = 800,
@@ -3634,7 +3634,7 @@ return {
 		},
 		["P11"] = {
 			ability = { "同时攻击三个目标;恢复攻击总伤害一定比例的生命值" },
-			aspd = 0,
+			aspd = 5,
 			atk = 600,
 			class = "Leader",
 			def = 200,
@@ -3650,7 +3650,7 @@ return {
 		},
 		["P12"] = {
 			ability = { "同时攻击三个目标;恢复攻击总伤害一定比例的生命值" },
-			aspd = 0,
+			aspd = 5,
 			atk = 700,
 			class = "Leader",
 			def = 220,
@@ -3666,7 +3666,7 @@ return {
 		},
 		["U15"] = {
 			ability = { "无法被攻击、消失时不会扣除关卡生命值;对斗士塔露拉永久施加【削弱】(防御力与法抗大幅降低）" },
-			aspd = 0,
+			aspd = 5,
 			atk = 0,
 			class = "Boss",
 			def = 3000,
@@ -3683,7 +3683,7 @@ return {
 		},
 		["U16"] = {
 			ability = { "撤回保护目标时不扣除关卡生命值，死亡时扣除关卡生命值;不计入歼灭数" },
-			aspd = 0,
+			aspd = 2,
 			atk = 0,
 			class = "Normal",
 			def = 50,
@@ -3700,7 +3700,7 @@ return {
 		},
 		["U17"] = {
 			ability = { "进入敌方侵入点时不扣除关卡生命值，死亡时扣除关卡生命值;对攻击范围的一名敌人施加【烈焚灼息】(每秒造成真实伤害且伤害递增，可被{{术语|ba.buffres|抵抗}});不计入歼灭数" },
-			aspd = 0,
+			aspd = 2,
 			atk = 600,
 			class = "Boss",
 			def = 350,
@@ -3717,7 +3717,7 @@ return {
 		},
 		["C11"] = {
 			ability = { "初始为禁锢状态，禁锢状态下攻击速度降低，攻击数次后解放，解放后攻击力提升" },
-			aspd = 0,
+			aspd = 3,
 			atk = 280,
 			class = "Normal",
 			def = 60,
@@ -3734,7 +3734,7 @@ return {
 		},
 		["C12"] = {
 			ability = { "初始为禁锢状态，禁锢状态下攻击速度降低，攻击数次后解放，解放后攻击力提升" },
-			aspd = 0,
+			aspd = 3,
 			atk = 380,
 			class = "Normal",
 			def = 60,
@@ -3751,7 +3751,7 @@ return {
 		},
 		["C13"] = {
 			ability = { "初始为禁锢状态，禁锢状态下攻击速度降低，攻击数次后解放，解放后攻击力提升且攻击切换成法术伤害；优先攻击禁锢装置" },
-			aspd = 0,
+			aspd = 1.2,
 			atk = 220,
 			class = "Normal",
 			def = 80,
@@ -3768,7 +3768,7 @@ return {
 		},
 		["C14"] = {
 			ability = { "初始为禁锢状态，禁锢状态下攻击速度降低，攻击数次后解放，解放后攻击力提升且攻击切换成法术伤害；优先攻击禁锢装置" },
-			aspd = 0,
+			aspd = 1,
 			atk = 320,
 			class = "Normal",
 			def = 80,
@@ -3785,7 +3785,7 @@ return {
 		},
 		["C15"] = {
 			ability = { "初始为禁锢状态，禁锢状态下攻击速度降低，攻击数次后解放，解放后攻击力提升并无视目标一定的防御力" },
-			aspd = 0,
+			aspd = 3.3,
 			atk = 300,
 			class = "Leader",
 			def = 300,
@@ -3802,7 +3802,7 @@ return {
 		},
 		["C16"] = {
 			ability = { "初始为禁锢状态，禁锢状态下攻击速度降低，攻击数次后解放，解放后攻击力提升并无视目标一定的防御力" },
-			aspd = 0,
+			aspd = 3.3,
 			atk = 400,
 			class = "Leader",
 			def = 400,
@@ -3819,7 +3819,7 @@ return {
 		},
 		["C17"] = {
 			ability = { "初始为禁锢状态，禁锢状态下攻击速度降低，攻击数次后解放，解放后攻击力提升、法术抗性提升且能够自然恢复生命" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 600,
 			class = "Leader",
 			def = 700,
@@ -3836,7 +3836,7 @@ return {
 		},
 		["C18"] = {
 			ability = { "初始为禁锢状态，禁锢状态下攻击速度降低，攻击数次后解放，解放后攻击力提升、法术抗性提升且能够自然恢复生命" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 700,
 			class = "Leader",
 			def = 1000,
@@ -3853,7 +3853,7 @@ return {
 		},
 		["C19"] = {
 			ability = { "在场时全场敌人的攻击速度提升；禁锢状态下不攻击但防御力提升；解放后同时攻击两个目标；优先攻击禁锢装置" },
-			aspd = 0,
+			aspd = 3,
 			atk = 300,
 			class = "Leader",
 			def = 100,
@@ -3870,7 +3870,7 @@ return {
 		},
 		["C20"] = {
 			ability = { "在场时全场敌人的攻击速度大幅提升；禁锢状态下不攻击但防御力提升；解放后同时攻击两个目标；优先攻击禁锢装置" },
-			aspd = 0,
+			aspd = 3,
 			atk = 340,
 			class = "Leader",
 			def = 200,
@@ -3887,7 +3887,7 @@ return {
 		},
 		["C21"] = {
 			ability = { "初始为禁锢状态，禁锢状态下攻击速度降低但防御力提升，攻击数次后解放，解放后攻击力提升；第一次解放时同时解放全场敌人" },
-			aspd = 0,
+			aspd = 1.3,
 			atk = 800,
 			class = "Leader",
 			def = 400,
@@ -3904,7 +3904,7 @@ return {
 		},
 		["C22"] = {
 			ability = { "初始为禁锢状态，禁锢状态下攻击速度降低但防御力提升，攻击数次后解放，解放后攻击力提升；第一次解放时同时解放全场敌人" },
-			aspd = 0,
+			aspd = 1.3,
 			atk = 1000,
 			class = "Leader",
 			def = 500,
@@ -3920,7 +3920,7 @@ return {
 			weight = 5
 		},
 		["SF01"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 330,
 			class = "Normal",
 			def = 0,
@@ -3936,7 +3936,7 @@ return {
 			weight = 0
 		},
 		["SF02"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 380,
 			class = "Normal",
 			def = 0,
@@ -3952,7 +3952,7 @@ return {
 			weight = 0
 		},
 		["SF03"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 290,
 			class = "Normal",
 			def = 120,
@@ -3968,7 +3968,7 @@ return {
 			weight = 1
 		},
 		["SF04"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 370,
 			class = "Normal",
 			def = 150,
@@ -3985,7 +3985,7 @@ return {
 		},
 		["SF05"] = {
 			ability = { "优先攻击与自身属性相反的目标" },
-			aspd = 0,
+			aspd = 3.8,
 			atk = 300,
 			class = "Normal",
 			def = 240,
@@ -4002,7 +4002,7 @@ return {
 		},
 		["SF06"] = {
 			ability = { "优先攻击与自身属性相反的目标" },
-			aspd = 0,
+			aspd = 3.8,
 			atk = 400,
 			class = "Normal",
 			def = 280,
@@ -4019,7 +4019,7 @@ return {
 		},
 		["SF07"] = {
 			ability = { "使自身容易受到敌人的攻击" },
-			aspd = 0,
+			aspd = 2,
 			atk = 700,
 			class = "Leader",
 			def = 1000,
@@ -4036,7 +4036,7 @@ return {
 		},
 		["SF08"] = {
 			ability = { "使自身容易受到敌人的攻击" },
-			aspd = 0,
+			aspd = 2,
 			atk = 800,
 			class = "Leader",
 			def = 1300,
@@ -4053,7 +4053,7 @@ return {
 		},
 		["SF09"] = {
 			ability = { "只能被同属性的我方单位阻挡；死亡后爆炸造成法术伤害，与属性相反的同类接近时造成更强的爆炸" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 120,
 			class = "Normal",
 			def = 0,
@@ -4070,7 +4070,7 @@ return {
 		},
 		["SF10"] = {
 			ability = { "只能被同属性的我方单位阻挡；死亡后爆炸造成法术伤害，与属性相反的同类接近时造成更强的爆炸" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 150,
 			class = "Normal",
 			def = 0,
@@ -4087,7 +4087,7 @@ return {
 		},
 		["SF11"] = {
 			ability = { "只能被同属性的我方单位阻挡" },
-			aspd = 0,
+			aspd = 4,
 			atk = 800,
 			class = "Leader",
 			def = 600,
@@ -4104,7 +4104,7 @@ return {
 		},
 		["SF12"] = {
 			ability = { "只能被同属性的我方单位阻挡" },
-			aspd = 0,
+			aspd = 4,
 			atk = 1000,
 			class = "Leader",
 			def = 750,
@@ -4121,7 +4121,7 @@ return {
 		},
 		["SF13"] = {
 			ability = { "可以使用蓄力攻击，若未被打断则造成法术伤害并使目标明晦属性变化" },
-			aspd = 0,
+			aspd = 3,
 			atk = 500,
 			class = "Leader",
 			def = 200,
@@ -4138,7 +4138,7 @@ return {
 		},
 		["SF14"] = {
 			ability = { "可以使用蓄力攻击，若未被打断则造成法术伤害并使目标明晦属性变化" },
-			aspd = 0,
+			aspd = 3,
 			atk = 700,
 			class = "Leader",
 			def = 220,
@@ -4155,7 +4155,7 @@ return {
 		},
 		["SF15"] = {
 			ability = { "攻击属性相反的目标时攻击力大幅度提升" },
-			aspd = 0,
+			aspd = 2,
 			atk = 1100,
 			class = "Leader",
 			def = 750,
@@ -4172,7 +4172,7 @@ return {
 		},
 		["SF16"] = {
 			ability = { "攻击属性相反的目标时攻击力大幅度提升" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 1500,
 			class = "Leader",
 			def = 900,
@@ -4189,7 +4189,7 @@ return {
 		},
 		["R1"] = {
 			ability = { "死亡时分裂两个<畸变赘生物>" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 210,
 			class = "Normal",
 			def = 100,
@@ -4205,7 +4205,7 @@ return {
 		},
 		["R2"] = {
 			ability = { "死亡时分裂两个<畸变赘生物>" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 320,
 			class = "Normal",
 			def = 100,
@@ -4221,7 +4221,7 @@ return {
 		},
 		["R3"] = {
 			ability = { "死亡时分裂两个<畸变恶性瘤>" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 380,
 			class = "Normal",
 			def = 100,
@@ -4237,7 +4237,7 @@ return {
 		},
 		["R4"] = {
 			ability = { "死亡时分裂三个<畸变赘生物>" },
-			aspd = 0,
+			aspd = 3,
 			atk = 360,
 			class = "Normal",
 			def = 200,
@@ -4253,7 +4253,7 @@ return {
 		},
 		["R5"] = {
 			ability = { "死亡时分裂三个<畸变恶性瘤>" },
-			aspd = 0,
+			aspd = 3,
 			atk = 410,
 			class = "Normal",
 			def = 200,
@@ -4269,7 +4269,7 @@ return {
 		},
 		["R6"] = {
 			ability = { "周期性分裂一个<畸变赘生物>；死亡时分裂四个<畸变赘生物>" },
-			aspd = 0,
+			aspd = 4,
 			atk = 600,
 			class = "Leader",
 			def = 300,
@@ -4285,7 +4285,7 @@ return {
 		},
 		["R7"] = {
 			ability = { "周期性分裂一个<畸变恶性瘤>；死亡时分裂四个<畸变恶性瘤>" },
-			aspd = 0,
+			aspd = 4,
 			atk = 800,
 			class = "Leader",
 			def = 300,
@@ -4300,7 +4300,7 @@ return {
 			weight = 4
 		},
 		["R8"] = {
-			aspd = 0,
+			aspd = 5,
 			atk = 1000,
 			class = "Leader",
 			def = 2000,
@@ -4315,7 +4315,7 @@ return {
 			weight = 4
 		},
 		["R9"] = {
-			aspd = 0,
+			aspd = 5,
 			atk = 1500,
 			class = "Leader",
 			def = 2000,
@@ -4331,7 +4331,7 @@ return {
 		},
 		["R10"] = {
 			ability = { "{{术语|ba.invisible|隐匿}};只远程攻击暴露在<沙尘暴>中的我方单位" },
-			aspd = 0,
+			aspd = 2,
 			atk = 1500,
 			class = "Leader",
 			def = 300,
@@ -4348,7 +4348,7 @@ return {
 		},
 		["R11"] = {
 			ability = { "{{术语|ba.invisible|隐匿}};只远程攻击暴露在<沙尘暴>中的我方单位" },
-			aspd = 0,
+			aspd = 2,
 			atk = 2000,
 			class = "Leader",
 			def = 300,
@@ -4365,7 +4365,7 @@ return {
 		},
 		["R12"] = {
 			ability = { "首次受伤时制造一个<全息幻影>；幻影存在时自身不可被阻挡、不容易被攻击；在沙尘暴中获得物理与法术闪避" },
-			aspd = 0,
+			aspd = 2,
 			atk = 400,
 			class = "Leader",
 			def = 500,
@@ -4382,7 +4382,7 @@ return {
 		},
 		["R13"] = {
 			ability = { "首次受伤时制造一个<全息幻影MK2>；幻影存在时自身不可被阻挡、不容易被攻击；在沙尘暴中获得物理与法术闪避" },
-			aspd = 0,
+			aspd = 2,
 			atk = 500,
 			class = "Leader",
 			def = 500,
@@ -4399,7 +4399,7 @@ return {
 		},
 		["R14"] = {
 			ability = { "进入目标点损失1目标生命" },
-			aspd = 0,
+			aspd = 2,
 			atk = 150,
 			class = "Normal",
 			def = 0,
@@ -4416,7 +4416,7 @@ return {
 		},
 		["R15"] = {
 			ability = { "进入目标点损失1目标生命；被阻挡时使阻挡单位攻击速度极大幅降低" },
-			aspd = 0,
+			aspd = 2,
 			atk = 200,
 			class = "Normal",
 			def = 0,
@@ -4433,7 +4433,7 @@ return {
 		},
 		["R16"] = {
 			ability = { "无法移动" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 250,
 			class = "Normal",
 			def = 0,
@@ -4450,7 +4450,7 @@ return {
 		},
 		["R17"] = {
 			ability = { "无法移动" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 350,
 			class = "Normal",
 			def = 0,
@@ -4466,7 +4466,7 @@ return {
 			weight = 1
 		},
 		["PG3"] = {
-			aspd = 0,
+			aspd = 2.4,
 			atk = 310,
 			class = "Normal",
 			def = 0,
@@ -4481,7 +4481,7 @@ return {
 			weight = 0
 		},
 		["PG4"] = {
-			aspd = 0,
+			aspd = 2.4,
 			atk = 380,
 			class = "Normal",
 			def = 0,
@@ -4497,7 +4497,7 @@ return {
 		},
 		["PD1"] = {
 			ability = { "首次攻击前，向<可移动战术机库>呼叫<破片>支援作战" },
-			aspd = 0,
+			aspd = 2.6,
 			atk = 320,
 			class = "Normal",
 			def = 260,
@@ -4514,7 +4514,7 @@ return {
 		},
 		["PD2"] = {
 			ability = { "首次攻击前，向<可移动战术机库>呼叫<破片U型>支援作战" },
-			aspd = 0,
+			aspd = 2.6,
 			atk = 390,
 			class = "Normal",
 			def = 260,
@@ -4531,7 +4531,7 @@ return {
 		},
 		["PD3"] = {
 			ability = { "生命值首次降至一半以下时，向<可移动战术机库>呼叫<铁砧>支援作战" },
-			aspd = 0,
+			aspd = 2.6,
 			atk = 700,
 			class = "Leader",
 			def = 800,
@@ -4548,7 +4548,7 @@ return {
 		},
 		["PD4"] = {
 			ability = { "生命值首次降至一半以下时，向<可移动战术机库>呼叫<铁砧B型>支援作战" },
-			aspd = 0,
+			aspd = 2.6,
 			atk = 700,
 			class = "Leader",
 			def = 1000,
@@ -4565,7 +4565,7 @@ return {
 		},
 		["PG5"] = {
 			ability = { "可以发射超远距离的榴弹造成群体物理伤害；发射之后移动速度大幅度提升，只能近战攻击" },
-			aspd = 0,
+			aspd = 3,
 			atk = 500,
 			class = "Normal",
 			def = 50,
@@ -4581,7 +4581,7 @@ return {
 		},
 		["PG6"] = {
 			ability = { "可以发射超远距离的榴弹造成群体物理伤害；发射之后移动速度大幅度提升，只能近战攻击" },
-			aspd = 0,
+			aspd = 3,
 			atk = 750,
 			class = "Normal",
 			def = 50,
@@ -4597,7 +4597,7 @@ return {
 		},
 		["PD5"] = {
 			ability = { "首次攻击时，立刻从<可移动战术机库>派遣<破片>支援作战；生命值首次降至一半以下时，立刻从<可移动战术机库>派遣<铁砧>支援作战；在场时，所有空援无人机移动速度大幅度提升" },
-			aspd = 0,
+			aspd = 3.8,
 			atk = 1100,
 			class = "Leader",
 			def = 500,
@@ -4614,7 +4614,7 @@ return {
 		},
 		["PD6"] = {
 			ability = { "首次攻击时，立刻从<可移动战术机库>派遣<破片U型>支援作战；生命值首次降至一半以下时，立刻从<可移动战术机库>派遣<铁砧B型>支援作战；在场时，所有空援无人机移动速度大幅度提升" },
-			aspd = 0,
+			aspd = 3.8,
 			atk = 1400,
 			class = "Leader",
 			def = 500,
@@ -4631,7 +4631,7 @@ return {
 		},
 		["PS1"] = {
 			ability = { "飞行单位；攻击发射两枚榴弹，击中目标及其周围单位防御力会在短时间内大幅度下降；不易被攻击；出发一段时间后会自动撤退" },
-			aspd = 0,
+			aspd = 1,
 			atk = 250,
 			class = "Normal",
 			def = 80,
@@ -4647,7 +4647,7 @@ return {
 		},
 		["PS2"] = {
 			ability = { "飞行单位；攻击发射两枚榴弹，击中目标及其周围单位防御力会在短时间内大幅度下降；不易被攻击；出发一段时间后会自动撤退" },
-			aspd = 0,
+			aspd = 1,
 			atk = 350,
 			class = "Normal",
 			def = 80,
@@ -4663,7 +4663,7 @@ return {
 		},
 		["PS3"] = {
 			ability = { "飞行单位；为周围敌方单位持续提供防御力加成与生命回复；不易被攻击；出发一段时间后会自动撤退" },
-			aspd = 0,
+			aspd = 1.3,
 			atk = 0,
 			class = "Normal",
 			def = 80,
@@ -4679,7 +4679,7 @@ return {
 		},
 		["PS4"] = {
 			ability = { "飞行单位；为周围敌方单位持续提供防御力加成与生命回复；不易被攻击；出发一段时间后会自动撤退" },
-			aspd = 0,
+			aspd = 1.3,
 			atk = 0,
 			class = "Normal",
 			def = 80,
@@ -4694,7 +4694,7 @@ return {
 			weight = 0
 		},
 		["SM1"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 280,
 			class = "Normal",
 			def = 0,
@@ -4709,7 +4709,7 @@ return {
 			weight = 0
 		},
 		["SM2"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 340,
 			class = "Normal",
 			def = 0,
@@ -4725,7 +4725,7 @@ return {
 		},
 		["SM3"] = {
 			ability = { "攻击额外造成{{术语|ba.dt.neural|神经损伤}}" },
-			aspd = 0,
+			aspd = 3,
 			atk = 280,
 			class = "Normal",
 			def = 130,
@@ -4742,7 +4742,7 @@ return {
 		},
 		["SM4"] = {
 			ability = { "攻击额外造成{{术语|ba.dt.neural|神经损伤}}" },
-			aspd = 0,
+			aspd = 3,
 			atk = 360,
 			class = "Normal",
 			def = 150,
@@ -4758,7 +4758,7 @@ return {
 			weight = 1
 		},
 		["SM5"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 280,
 			class = "Normal",
 			def = 160,
@@ -4774,7 +4774,7 @@ return {
 			weight = 1
 		},
 		["SM6"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 320,
 			class = "Normal",
 			def = 200,
@@ -4791,7 +4791,7 @@ return {
 		},
 		["SM7"] = {
 			ability = { "攻击额外造成{{术语|ba.dt.neural|神经损伤}}" },
-			aspd = 0,
+			aspd = 3,
 			atk = 220,
 			class = "Normal",
 			def = 200,
@@ -4808,7 +4808,7 @@ return {
 		},
 		["SM8"] = {
 			ability = { "攻击额外造成{{术语|ba.dt.neural|神经损伤}}" },
-			aspd = 0,
+			aspd = 2,
 			atk = 250,
 			class = "Normal",
 			def = 250,
@@ -4825,7 +4825,7 @@ return {
 		},
 		["SM9"] = {
 			ability = { "初始处于【待命】状态，不进行攻击；受伤后进入【临战】状态，逐渐损失生命并对周围持续造成{{术语|ba.dt.neural|神经损伤}}" },
-			aspd = 0,
+			aspd = 3,
 			atk = 400,
 			class = "Leader",
 			def = 800,
@@ -4842,7 +4842,7 @@ return {
 		},
 		["SM10"] = {
 			ability = { "初始处于【待命】状态，不进行攻击；受伤后进入【临战】状态，逐渐损失生命并对周围持续造成{{术语|ba.dt.neural|神经损伤}}" },
-			aspd = 0,
+			aspd = 3,
 			atk = 500,
 			class = "Leader",
 			def = 800,
@@ -4859,7 +4859,7 @@ return {
 		},
 		["SM11"] = {
 			ability = { "不进行攻击；每损失一定比例生命时，立即对周围造成大量法术和{{术语|ba.dt.neural|神经损伤}}" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 300,
 			class = "Leader",
 			def = 0,
@@ -4876,7 +4876,7 @@ return {
 		},
 		["SM12"] = {
 			ability = { "不进行攻击；每损失一定比例生命时，立即对周围造成大量法术和{{术语|ba.dt.neural|神经损伤}}" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 400,
 			class = "Leader",
 			def = 0,
@@ -4893,7 +4893,7 @@ return {
 		},
 		["SM13"] = {
 			ability = { "优先攻击小范围内当前生命比例最低的目标" },
-			aspd = 0,
+			aspd = 3,
 			atk = 550,
 			class = "Leader",
 			def = 240,
@@ -4910,7 +4910,7 @@ return {
 		},
 		["SM14"] = {
 			ability = { "优先攻击小范围内当前生命比例最低的目标" },
-			aspd = 0,
+			aspd = 3,
 			atk = 700,
 			class = "Leader",
 			def = 240,
@@ -4928,7 +4928,7 @@ return {
 		["FTT"] = {
 			ability = {
 				"【侵蚀液泡】释放能造成物理伤害和{{术语|ba.dt.neural|神经损伤}}的<侵蚀液泡>，液泡对目标及周围四格范围内{{术语|ba.dt.neural|神经损伤}}积累最少的单位进行锁定" },
-			aspd = 0,
+			aspd = 1,
 			atk = 600,
 			class = "Leader",
 			def = 500,
@@ -4945,7 +4945,7 @@ return {
 		},
 		["RR"] = {
 			ability = { "位于<应急救治设施>附近时可以将其激活并大幅提高其治疗{{术语|ba.dt.neural|神经损伤}}的能力；撤回保护目标时及死亡时不扣除关卡生命值，但战斗中会被我方误伤" },
-			aspd = 0,
+			aspd = 3,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -4963,7 +4963,7 @@ return {
 		["LK1"] = {
 			ability = {
 				"进入目标点也不扣除关卡生命值；只能被阻挡数大于等于3的单位阻挡；在场时全场敌方单位能自然回复生命；周期性施法造成群体法术伤害，并短暂减少阻挡数上限；被击败后原地释放一个治疗阵，范围内我方单位可缓慢回复生命" },
-			aspd = 0,
+			aspd = 2.7,
 			atk = 500,
 			class = "Leader",
 			def = 500,
@@ -4981,7 +4981,7 @@ return {
 		["LK2"] = {
 			ability = {
 				"进入目标点也不扣除关卡生命值；使自身容易受到敌人的攻击；登场时获得持续一段时间的护盾（获得100%的物理、法术、真实伤害格挡，无法被晕眩、沉睡、束缚、停顿、位移）；在场时全体我方单位防御力小幅度降低；受到攻击时，对场上所有我方单位释放箭雨，短暂时间内造成持续真实伤害，再次受击刷新持续时间。" },
-			aspd = 0,
+			aspd = 2.7,
 			atk = 1200,
 			class = "Leader",
 			def = 1000,
@@ -4998,7 +4998,7 @@ return {
 		},
 		["DH1"] = {
 			ability = { "免疫{{color|#00FFFF|水蚀}}，在水中攻击力提升并获得{{color|#00FFFF|隐匿}}" },
-			aspd = 0,
+			aspd = 2,
 			atk = 240,
 			class = "Normal",
 			def = 150,
@@ -5014,7 +5014,7 @@ return {
 		},
 		["DH2"] = {
 			ability = { "免疫{{color|#00FFFF|水蚀}}，在水中攻击力提升并获得{{color|#00FFFF|隐匿}}" },
-			aspd = 0,
+			aspd = 2,
 			atk = 320,
 			class = "Normal",
 			def = 200,
@@ -5030,7 +5030,7 @@ return {
 		},
 		["DH3"] = {
 			ability = { "未被阻挡时有几率闪避物理攻击" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 280,
 			class = "Normal",
 			def = 100,
@@ -5046,7 +5046,7 @@ return {
 		},
 		["DH4"] = {
 			ability = { "未被阻挡时有几率闪避物理攻击" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 360,
 			class = "Normal",
 			def = 120,
@@ -5062,7 +5062,7 @@ return {
 		},
 		["DH5"] = {
 			ability = { "能在数次攻击后{{color|#00FFFF|晕眩}}我方单位，“水蚀”状态下快速损失生命" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 800,
 			class = "Leader",
 			def = 800,
@@ -5078,7 +5078,7 @@ return {
 		},
 		["DH6"] = {
 			ability = { "能在数次攻击后{{color|#00FFFF|晕眩}}我方单位，“水蚀”状态下快速损失生命" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 1000,
 			class = "Leader",
 			def = 1000,
@@ -5094,7 +5094,7 @@ return {
 		},
 		["DH7"] = {
 			ability = { "攻击时对目标及其周围四格内的所有我方单位造成伤害，额外造成{{术语|ba.dt.erosion|侵蚀损伤}}" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 200,
 			class = "Normal",
 			def = 200,
@@ -5111,7 +5111,7 @@ return {
 		},
 		["DH8"] = {
 			ability = { "攻击时对目标及其周围四格内的所有我方单位造成伤害，额外造成{{术语|ba.dt.erosion|侵蚀损伤}}" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 260,
 			class = "Normal",
 			def = 220,
@@ -5128,7 +5128,7 @@ return {
 		},
 		["DH9"] = {
 			ability = { "攻击时对目标及其周围四格内的所有我方单位造成伤害，额外造成{{术语|ba.dt.erosion|侵蚀损伤}}，载具损毁后术师会继续作战" },
-			aspd = 0,
+			aspd = 5,
 			atk = 300,
 			class = "Leader",
 			def = 200,
@@ -5145,7 +5145,7 @@ return {
 		},
 		["DH10"] = {
 			ability = { "攻击时对目标及其周围四格内的所有我方单位造成伤害，额外造成{{术语|ba.dt.erosion|侵蚀损伤}}，载具损毁后术师会继续作战" },
-			aspd = 0,
+			aspd = 5,
 			atk = 380,
 			class = "Leader",
 			def = 220,
@@ -5162,7 +5162,7 @@ return {
 		},
 		["DH11"] = {
 			ability = { "只能被阻挡数大于等于3的单位阻挡，经过我方单位时冲撞造成物理伤害，载具损毁后水手会继续作战。" },
-			aspd = 0,
+			aspd = 1,
 			atk = 1000,
 			class = "Leader",
 			def = 1000,
@@ -5179,7 +5179,7 @@ return {
 		},
 		["DH12"] = {
 			ability = { "只能被阻挡数大于等于3的单位阻挡，经过我方单位时冲撞造成物理伤害，载具损毁后水手会继续作战。" },
-			aspd = 0,
+			aspd = 1,
 			atk = 1400,
 			class = "Leader",
 			def = 1200,
@@ -5196,7 +5196,7 @@ return {
 		},
 		["DH13"] = {
 			ability = { "死亡后对周围造成物理伤害和{{术语|ba.dt.erosion|侵蚀损伤}}" },
-			aspd = 0,
+			aspd = 1,
 			atk = 300,
 			class = "Normal",
 			def = 300,
@@ -5212,7 +5212,7 @@ return {
 		},
 		["DH14"] = {
 			ability = { "死亡后对周围造成物理伤害和{{术语|ba.dt.erosion|侵蚀损伤}}" },
-			aspd = 0,
+			aspd = 1,
 			atk = 400,
 			class = "Normal",
 			def = 400,
@@ -5228,7 +5228,7 @@ return {
 		},
 		["DH15"] = {
 			ability = { "死亡后对周围造成物理伤害和{{术语|ba.dt.erosion|侵蚀损伤}}" },
-			aspd = 0,
+			aspd = 1.4,
 			atk = 300,
 			class = "Normal",
 			def = 300,
@@ -5244,7 +5244,7 @@ return {
 		},
 		["DH16"] = {
 			ability = { "撤回保护目标时不扣除关卡生命值，被敌人优先攻击，死亡时扣除关卡生命值；不计入歼灭数" },
-			aspd = 0,
+			aspd = 1.4,
 			atk = 100,
 			class = "Normal",
 			def = 100,
@@ -5261,7 +5261,7 @@ return {
 		},
 		["DU1"] = {
 			ability = { "{{术语|ba.refraction|折射}}" },
-			aspd = 0,
+			aspd = 2,
 			atk = 300,
 			class = "Normal",
 			def = 0,
@@ -5277,7 +5277,7 @@ return {
 		},
 		["DU2"] = {
 			ability = { "{{术语|ba.refraction|折射}}" },
-			aspd = 0,
+			aspd = 2,
 			atk = 380,
 			class = "Normal",
 			def = 0,
@@ -5293,7 +5293,7 @@ return {
 		},
 		["DU3"] = {
 			ability = { "{{术语|ba.refraction|折射}}" },
-			aspd = 0,
+			aspd = 2.3,
 			atk = 280,
 			class = "Normal",
 			def = 110,
@@ -5309,7 +5309,7 @@ return {
 		},
 		["DU4"] = {
 			ability = { "{{术语|ba.refraction|折射}}" },
-			aspd = 0,
+			aspd = 2.3,
 			atk = 380,
 			class = "Normal",
 			def = 180,
@@ -5325,7 +5325,7 @@ return {
 		},
 		["DU5"] = {
 			ability = { "{{术语|ba.refraction|折射}}" },
-			aspd = 0,
+			aspd = 3,
 			atk = 250,
 			class = "Normal",
 			def = 150,
@@ -5341,7 +5341,7 @@ return {
 		},
 		["DU6"] = {
 			ability = { "{{术语|ba.refraction|折射}}" },
-			aspd = 0,
+			aspd = 3,
 			atk = 380,
 			class = "Normal",
 			def = 150,
@@ -5357,7 +5357,7 @@ return {
 		},
 		["DU7"] = {
 			ability = { "{{术语|ba.refraction|折射}}" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 300,
 			class = "Normal",
 			def = 150,
@@ -5373,7 +5373,7 @@ return {
 		},
 		["DU8"] = {
 			ability = { "{{术语|ba.refraction|折射}}" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 460,
 			class = "Normal",
 			def = 150,
@@ -5389,7 +5389,7 @@ return {
 		},
 		["DU9"] = {
 			ability = { "其他方阵战士位于附近时，防御力提升（可叠加）；{{术语|ba.refraction|折射}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 300,
 			class = "Normal",
 			def = 300,
@@ -5405,7 +5405,7 @@ return {
 		},
 		["DU10"] = {
 			ability = { "其他方阵指挥官位于附近时，防御力提升（可叠加）；{{术语|ba.refraction|折射}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 450,
 			class = "Normal",
 			def = 400,
@@ -5421,7 +5421,7 @@ return {
 		},
 		["DU11"] = {
 			ability = { "{{术语|ba.refraction|折射}}" },
-			aspd = 0,
+			aspd = 3,
 			atk = 700,
 			class = "Leader",
 			def = 750,
@@ -5437,7 +5437,7 @@ return {
 		},
 		["DU12"] = {
 			ability = { "{{术语|ba.refraction|折射}}" },
-			aspd = 0,
+			aspd = 3,
 			atk = 900,
 			class = "Leader",
 			def = 1100,
@@ -5453,7 +5453,7 @@ return {
 		},
 		["DU13"] = {
 			ability = { "{{术语|ba.float|近地悬浮}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 400,
 			class = "Normal",
 			def = 350,
@@ -5469,7 +5469,7 @@ return {
 		},
 		["DU14"] = {
 			ability = { "{{术语|ba.float|近地悬浮}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 550,
 			class = "Normal",
 			def = 450,
@@ -5485,7 +5485,7 @@ return {
 		},
 		["GGY1"] = {
 			ability = { "首次被击倒时暂时变为防御力极高的石像，一段时间后重生为空中单位；{{术语|ba.refraction|折射}}" },
-			aspd = 0,
+			aspd = 2,
 			atk = 550,
 			class = "Leader",
 			def = 550,
@@ -5501,7 +5501,7 @@ return {
 		},
 		["GGY2"] = {
 			ability = { "首次被击倒时暂时变为防御力极高的石像，一段时间后重生为空中单位；{{术语|ba.refraction|折射}}" },
-			aspd = 0,
+			aspd = 2,
 			atk = 750,
 			class = "Leader",
 			def = 750,
@@ -5519,7 +5519,7 @@ return {
 		["DU15"] = {
 			ability = {
 				"技能期间持续造成法术和{{术语|ba.dt.burning|灼燃损伤}}；{{color|#00FFFF|死亡时爆炸}}造成法术伤害，并击倒周围的{{color|#00FFFF|破碎支柱}}与其他{{color|#00FFFF|深池焚毁者}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 500,
 			class = "Leader",
 			def = 400,
@@ -5536,7 +5536,7 @@ return {
 		["DU16"] = {
 			ability = {
 				"技能期间持续造成法术和{{术语|ba.dt.burning|灼燃损伤}}；{{color|#00FFFF|死亡时爆炸}}造成法术伤害，并击倒周围的{{color|#00FFFF|破碎支柱}}与其他{{color|#00FFFF|深池焚毁者}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 600,
 			class = "Leader",
 			def = 550,
@@ -5553,7 +5553,7 @@ return {
 		["DU17"] = {
 			ability = {
 				"容易受到我方单位攻击；{{color|#00FFFF|伙友影刃}}位于附近时，激活力场使周围我方{{color|#00FFFF|攻击速度下降}}；{{术语|ba.refraction|折射}}" },
-			aspd = 0,
+			aspd = 2.1,
 			atk = 900,
 			class = "Leader",
 			def = 900,
@@ -5570,7 +5570,7 @@ return {
 		["DU18"] = {
 			ability = {
 				"容易受到我方单位攻击；{{color|#00FFFF|伙友影刃精英}}位于附近时，激活力场使周围我方{{color|#00FFFF|攻击速度下降}}；{{术语|ba.refraction|折射}}" },
-			aspd = 0,
+			aspd = 2.1,
 			atk = 1100,
 			class = "Leader",
 			def = 1000,
@@ -5586,7 +5586,7 @@ return {
 		},
 		["DU19"] = {
 			ability = { "{{术语|ba.invisible|隐匿}}。{{color|#00FFFF|伙友卫队}}位于附近时，攻击速度大幅提升" },
-			aspd = 0,
+			aspd = 5,
 			atk = 400,
 			class = "Leader",
 			def = 350,
@@ -5602,7 +5602,7 @@ return {
 		},
 		["DU20"] = {
 			ability = { "{{术语|ba.invisible|隐匿}}。{{color|#00FFFF|伙友卫队精英}}位于附近时，攻击速度大幅提升" },
-			aspd = 0,
+			aspd = 5,
 			atk = 580,
 			class = "Leader",
 			def = 550,
@@ -5618,7 +5618,7 @@ return {
 		},
 		["DU21"] = {
 			ability = { "操纵沿地面移动的{{color|#00FFFF|净浊之焰}}，遇到我方近战单位后爆炸，对周围造成法术和{{术语|ba.dt.burning|灼燃损伤}}，其伤害随移动距离减小" },
-			aspd = 0,
+			aspd = 2.1,
 			atk = 0,
 			class = "Leader",
 			def = 450,
@@ -5634,7 +5634,7 @@ return {
 		},
 		["DU22"] = {
 			ability = { "操纵沿地面移动的{{color|#00FFFF|净浊之焰}}，遇到我方近战单位后爆炸，对周围造成法术和{{术语|ba.dt.burning|灼燃损伤}}，其伤害随移动距离减小" },
-			aspd = 0,
+			aspd = 2.1,
 			atk = 0,
 			class = "Leader",
 			def = 550,
@@ -5650,7 +5650,7 @@ return {
 		},
 		["NL1"] = {
 			ability = { "处于<无视野>的区域时，移动速度提升" },
-			aspd = 0,
+			aspd = 2.9,
 			atk = 350,
 			class = "Normal",
 			def = 300,
@@ -5666,7 +5666,7 @@ return {
 		},
 		["NL2"] = {
 			ability = { "处于<无视野>的区域时，移动速度提升" },
-			aspd = 0,
+			aspd = 2.9,
 			atk = 400,
 			class = "Normal",
 			def = 400,
@@ -5682,7 +5682,7 @@ return {
 		},
 		["NL3"] = {
 			ability = { "处于<无视野>的区域时，攻击造成法术伤害" },
-			aspd = 0,
+			aspd = 2.2,
 			atk = 300,
 			class = "Normal",
 			def = 100,
@@ -5698,7 +5698,7 @@ return {
 		},
 		["NL4"] = {
 			ability = { "处于<无视野>的区域时，攻击造成法术伤害" },
-			aspd = 0,
+			aspd = 2.2,
 			atk = 350,
 			class = "Normal",
 			def = 150,
@@ -5714,7 +5714,7 @@ return {
 		},
 		["NL5"] = {
 			ability = { "处于<无视野>的区域时，攻击力不断增长，下一次攻击后攻击力复原" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 400,
 			class = "Normal",
 			def = 250,
@@ -5730,7 +5730,7 @@ return {
 		},
 		["NL6"] = {
 			ability = { "处于<无视野>的区域时，攻击力不断增长，下一次攻击后攻击力复原" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 500,
 			class = "Normal",
 			def = 300,
@@ -5746,7 +5746,7 @@ return {
 		},
 		["NL7"] = {
 			ability = { "在<无视野>的区域中【待命】一段时间，不进行攻击；所处地块获得视野时立刻激活" },
-			aspd = 0,
+			aspd = 3,
 			atk = 800,
 			class = "Leader",
 			def = 550,
@@ -5762,7 +5762,7 @@ return {
 		},
 		["NL8"] = {
 			ability = { "在<无视野>的区域中【待命】一段时间，不进行攻击；所处地块获得视野时立刻激活" },
-			aspd = 0,
+			aspd = 3,
 			atk = 1000,
 			class = "Leader",
 			def = 550,
@@ -5778,7 +5778,7 @@ return {
 		},
 		["NL9"] = {
 			ability = { "每次攻击造成一定{{术语|ba.dt.erosion|侵蚀损伤}}；数次攻击后，下一次攻击造成的伤害提升" },
-			aspd = 0,
+			aspd = 3,
 			atk = 500,
 			class = "Leader",
 			def = 200,
@@ -5794,7 +5794,7 @@ return {
 		},
 		["NL10"] = {
 			ability = { "每次攻击造成一定{{术语|ba.dt.erosion|侵蚀损伤}}；数次攻击后，下一次攻击造成的伤害提升" },
-			aspd = 0,
+			aspd = 5,
 			atk = 600,
 			class = "Leader",
 			def = 200,
@@ -5810,7 +5810,7 @@ return {
 		},
 		["NL11"] = {
 			ability = { "每次攻击造成一定{{术语|ba.dt.erosion|侵蚀损伤}}；数次攻击后，下一次攻击造成的伤害提升" },
-			aspd = 0,
+			aspd = 5,
 			atk = 600,
 			class = "Leader",
 			def = 200,
@@ -5826,7 +5826,7 @@ return {
 		},
 		["NL12"] = {
 			ability = { "每次攻击造成一定{{术语|ba.dt.erosion|侵蚀损伤}}；数次攻击后，下一次攻击造成的伤害提升" },
-			aspd = 0,
+			aspd = 5,
 			atk = 700,
 			class = "Leader",
 			def = 200,
@@ -5842,7 +5842,7 @@ return {
 		},
 		["NL13"] = {
 			ability = { "每次攻击造成一定{{术语|ba.dt.erosion|侵蚀损伤}}；数次攻击后，下一次攻击造成的伤害提升" },
-			aspd = 0,
+			aspd = 3.2,
 			atk = 800,
 			class = "Leader",
 			def = 200,
@@ -5858,7 +5858,7 @@ return {
 		},
 		["NL14"] = {
 			ability = { "每次攻击造成一定{{术语|ba.dt.erosion|侵蚀损伤}}；数次攻击后，下一次攻击造成的伤害提升" },
-			aspd = 0,
+			aspd = 3.2,
 			atk = 800,
 			class = "Leader",
 			def = 200,
@@ -5874,7 +5874,7 @@ return {
 		},
 		["NL15"] = {
 			ability = { "蓄力一段时间后对目标周围所有单位释放【微光之触】，造成大量法术伤害，蓄力时失去{{术语|ba.invisible|隐匿}}" },
-			aspd = 0,
+			aspd = 3.2,
 			atk = 350,
 			class = "Leader",
 			def = 300,
@@ -5890,7 +5890,7 @@ return {
 		},
 		["NL16"] = {
 			ability = { "蓄力一段时间后对目标周围所有单位释放【微光之触】，造成大量法术伤害，蓄力时失去{{术语|ba.invisible|隐匿}}" },
-			aspd = 0,
+			aspd = 5,
 			atk = 450,
 			class = "Leader",
 			def = 350,
@@ -5906,7 +5906,7 @@ return {
 		},
 		["NL17"] = {
 			ability = { "蓄力一段时间后对目标周围所有单位释放【微光之触】，造成大量法术伤害，蓄力时失去{{术语|ba.invisible|隐匿}}" },
-			aspd = 0,
+			aspd = 5,
 			atk = 450,
 			class = "Leader",
 			def = 350,
@@ -5922,7 +5922,7 @@ return {
 		},
 		["NL18"] = {
 			ability = { "对所有身后一格没有视野的干员释放【恐惧凝集】，造成一次物理伤害" },
-			aspd = 0,
+			aspd = 5,
 			atk = 1200,
 			class = "Leader",
 			def = 700,
@@ -5939,7 +5939,7 @@ return {
 		},
 		["NL19"] = {
 			ability = { "对所有身后一格没有视野的干员释放【恐惧凝集】，造成一次物理伤害" },
-			aspd = 0,
+			aspd = 3,
 			atk = 1500,
 			class = "Leader",
 			def = 750,
@@ -5956,7 +5956,7 @@ return {
 		},
 		["NL20"] = {
 			ability = { "对所有身后一格没有视野的干员释放【恐惧凝集】，造成一次物理伤害" },
-			aspd = 0,
+			aspd = 1.4,
 			atk = 1200,
 			class = "Leader",
 			def = 700,
@@ -5973,7 +5973,7 @@ return {
 		},
 		["NL21"] = {
 			ability = { "撤回保护目标时不扣除关卡生命值，与血骑士接触后，消失并恢复血骑士一定生命值" },
-			aspd = 0,
+			aspd = 1.4,
 			atk = 800,
 			class = "Normal",
 			def = 300,
@@ -5989,7 +5989,7 @@ return {
 		},
 		["IL1"] = {
 			ability = { "拥有{{术语|ba.buffres|抵抗}}" },
-			aspd = 0,
+			aspd = 3,
 			atk = 290,
 			class = "Normal",
 			def = 0,
@@ -6005,7 +6005,7 @@ return {
 		},
 		["IL2"] = {
 			ability = { "拥有{{术语|ba.buffres|抵抗}}" },
-			aspd = 0,
+			aspd = 3,
 			atk = 340,
 			class = "Normal",
 			def = 0,
@@ -6021,7 +6021,7 @@ return {
 		},
 		["IL3"] = {
 			ability = { "拥有{{术语|ba.buffres|抵抗}}" },
-			aspd = 0,
+			aspd = 2.2,
 			atk = 300,
 			class = "Normal",
 			def = 100,
@@ -6037,7 +6037,7 @@ return {
 		},
 		["IL4"] = {
 			ability = { "拥有{{术语|ba.buffres|抵抗}}" },
-			aspd = 0,
+			aspd = 2.2,
 			atk = 350,
 			class = "Normal",
 			def = 150,
@@ -6052,7 +6052,7 @@ return {
 			weight = 0
 		},
 		["IL5"] = {
-			aspd = 0,
+			aspd = 3.5,
 			atk = 300,
 			class = "Normal",
 			def = 100,
@@ -6067,7 +6067,7 @@ return {
 			weight = 1
 		},
 		["IL6"] = {
-			aspd = 0,
+			aspd = 3.5,
 			atk = 350,
 			class = "Normal",
 			def = 150,
@@ -6083,7 +6083,7 @@ return {
 		},
 		["IL7"] = {
 			ability = { "优先攻击我方{{color|#00FFFF|防御力最低}}的目标" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 350,
 			class = "Normal",
 			def = 100,
@@ -6099,7 +6099,7 @@ return {
 		},
 		["IL8"] = {
 			ability = { "优先攻击我方{{color|#00FFFF|防御力最低}}的目标" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 450,
 			class = "Normal",
 			def = 150,
@@ -6115,7 +6115,7 @@ return {
 		},
 		["IL9"] = {
 			ability = { "攻击造成{{color|#00FFFF|法术伤害}}，被击倒时对周围所有单位造成{{color|#00FFFF|法术伤害}}且施加{{术语|ba.cold|寒冷}}。失衡移动时损失生命。" },
-			aspd = 0,
+			aspd = 4.5,
 			atk = 600,
 			class = "Leader",
 			def = 250,
@@ -6131,7 +6131,7 @@ return {
 		},
 		["IL10"] = {
 			ability = { "攻击造成{{color|#00FFFF|法术伤害}}，被击倒时对周围所有单位造成{{color|#00FFFF|法术伤害}}且施加{{术语|ba.cold|寒冷}}。失衡移动时损失生命。" },
-			aspd = 0,
+			aspd = 4,
 			atk = 800,
 			class = "Leader",
 			def = 350,
@@ -6147,7 +6147,7 @@ return {
 		},
 		["IL11"] = {
 			ability = { "同时攻击2个目标，每攻击2次后下次攻击会对目标施加{{术语|ba.cold|寒冷}}，拥有{{术语|ba.buffres|抵抗}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 250,
 			class = "Normal",
 			def = 200,
@@ -6164,7 +6164,7 @@ return {
 		},
 		["IL12"] = {
 			ability = { "同时攻击2个目标，每攻击2次后下次攻击会对目标施加{{术语|ba.cold|寒冷}}，拥有{{术语|ba.buffres|抵抗}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 320,
 			class = "Normal",
 			def = 200,
@@ -6181,7 +6181,7 @@ return {
 		},
 		["IL13"] = {
 			ability = { "冰原上的狂战士，攻击{{术语|ba.frozen|冻结}}的我方目标造成伤害提升，拥有{{术语|ba.buffres|抵抗}}" },
-			aspd = 0,
+			aspd = 3.7,
 			atk = 800,
 			class = "Leader",
 			def = 800,
@@ -6198,7 +6198,7 @@ return {
 		},
 		["IL14"] = {
 			ability = { "冰原上的狂战士，攻击{{术语|ba.frozen|冻结}}的我方目标造成伤害大幅提升，拥有{{术语|ba.buffres|抵抗}}" },
-			aspd = 0,
+			aspd = 3.7,
 			atk = 1000,
 			class = "Leader",
 			def = 1000,
@@ -6215,7 +6215,7 @@ return {
 		},
 		["IL15"] = {
 			ability = { "拥有{{术语|ba.buffres|抵抗}}，降雪时攻击力提升，攻击{{color|#00FFFF|降低攻击目标的防御力}}" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 600,
 			class = "Leader",
 			def = 600,
@@ -6231,7 +6231,7 @@ return {
 		},
 		["IL16"] = {
 			ability = { "拥有{{术语|ba.buffres|抵抗}}，降雪时攻击力提升，攻击{{color|#00FFFF|降低攻击目标的防御力}}" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 800,
 			class = "Leader",
 			def = 700,
@@ -6247,7 +6247,7 @@ return {
 		},
 		["AN1"] = {
 			ability = { "被击倒后生成{{color|#00FFFF|2}}个【木制瑞印】" },
-			aspd = 0,
+			aspd = 1,
 			atk = 310,
 			class = "Normal",
 			def = 0,
@@ -6263,7 +6263,7 @@ return {
 		},
 		["AN2"] = {
 			ability = { "被击倒后生成{{color|#00FFFF|2}}个【红木瑞印】" },
-			aspd = 0,
+			aspd = 1,
 			atk = 390,
 			class = "Normal",
 			def = 0,
@@ -6279,7 +6279,7 @@ return {
 		},
 		["AN3"] = {
 			ability = { "无法被阻挡，需要{{color|#00FFFF|2}}次伤害击倒" },
-			aspd = 0,
+			aspd = 1.4,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -6295,7 +6295,7 @@ return {
 		},
 		["AN4"] = {
 			ability = { "无法被阻挡，需要{{color|#00FFFF|3}}次伤害击倒" },
-			aspd = 0,
+			aspd = 2,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -6311,7 +6311,7 @@ return {
 		},
 		["AN5"] = {
 			ability = { "被击倒后生成{{color|#00FFFF|3}}个【小说卷轴】" },
-			aspd = 0,
+			aspd = 1,
 			atk = 320,
 			class = "Normal",
 			def = 60,
@@ -6327,7 +6327,7 @@ return {
 		},
 		["AN6"] = {
 			ability = { "被击倒后生成{{color|#00FFFF|3}}个【诗画卷轴】" },
-			aspd = 0,
+			aspd = 1,
 			atk = 410,
 			class = "Normal",
 			def = 70,
@@ -6343,7 +6343,7 @@ return {
 		},
 		["AN7"] = {
 			ability = { "无法被阻挡，需要{{color|#00FFFF|3}}次伤害击倒" },
-			aspd = 0,
+			aspd = 4,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -6359,7 +6359,7 @@ return {
 		},
 		["AN8"] = {
 			ability = { "无法被阻挡，需要{{color|#00FFFF|4}}次伤害击倒" },
-			aspd = 0,
+			aspd = 4,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -6375,7 +6375,7 @@ return {
 		},
 		["AN9"] = {
 			ability = { "更容易被我方攻击，被击倒后生成{{color|#00FFFF|1}}个【青铜镜】" },
-			aspd = 0,
+			aspd = 1,
 			atk = 700,
 			class = "Leader",
 			def = 750,
@@ -6391,7 +6391,7 @@ return {
 		},
 		["AN10"] = {
 			ability = { "更容易被我方攻击，被击倒后生成{{color|#00FFFF|1}}个【黄铜镜】" },
-			aspd = 0,
+			aspd = 1,
 			atk = 900,
 			class = "Leader",
 			def = 900,
@@ -6407,7 +6407,7 @@ return {
 		},
 		["AN11"] = {
 			ability = { "无法被阻挡，需要{{color|#00FFFF|30}}次伤害击倒" },
-			aspd = 0,
+			aspd = 2.2,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -6423,7 +6423,7 @@ return {
 		},
 		["AN12"] = {
 			ability = { "无法被阻挡，需要{{color|#00FFFF|35}}次伤害击倒" },
-			aspd = 0,
+			aspd = 2.2,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -6439,7 +6439,7 @@ return {
 		},
 		["AN13"] = {
 			ability = { "被击倒后生成{{color|#00FFFF|15}}个【木制镇纸】" },
-			aspd = 0,
+			aspd = 1,
 			atk = 400,
 			class = "Leader",
 			def = 400,
@@ -6455,7 +6455,7 @@ return {
 		},
 		["AN14"] = {
 			ability = { "被击倒后生成{{color|#00FFFF|15}}个【红木镇纸】" },
-			aspd = 0,
+			aspd = 1,
 			atk = 500,
 			class = "Leader",
 			def = 500,
@@ -6471,7 +6471,7 @@ return {
 		},
 		["AN15"] = {
 			ability = { "无法被阻挡，需要{{color|#00FFFF|3}}次伤害击倒" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -6487,7 +6487,7 @@ return {
 		},
 		["AN16"] = {
 			ability = { "无法被阻挡，需要{{color|#00FFFF|4}}次伤害击倒" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -6504,7 +6504,7 @@ return {
 		["AN17"] = {
 			ability = {
 				"被击倒后爆炸造成范围{{color|#00FFFF|法术伤害}}，使我方{{color|#00FFFF|攻击速度大幅降低}}（可被{{术语|ba.buffres|抵抗}}），并生成{{color|#00FFFF|4}}个【青瓷茶器】" },
-			aspd = 0,
+			aspd = 1,
 			atk = 280,
 			class = "Normal",
 			def = 290,
@@ -6521,7 +6521,7 @@ return {
 		["AN18"] = {
 			ability = {
 				"被击倒后爆炸造成范围{{color|#00FFFF|法术伤害}}，使我方{{color|#00FFFF|攻击速度大幅降低}}（可被{{术语|ba.buffres|抵抗}}），并生成{{color|#00FFFF|4}}个【彩瓷茶器】" },
-			aspd = 0,
+			aspd = 1,
 			atk = 360,
 			class = "Normal",
 			def = 380,
@@ -6537,7 +6537,7 @@ return {
 		},
 		["AN19"] = {
 			ability = { "无法被阻挡，需要{{color|#00FFFF|4}}次{{color|#00FFFF|法术或真实伤害}}击倒" },
-			aspd = 0,
+			aspd = 3,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -6553,7 +6553,7 @@ return {
 		},
 		["AN20"] = {
 			ability = { "无法被阻挡，需要{{color|#00FFFF|6}}次{{color|#00FFFF|法术或真实伤害}}击倒" },
-			aspd = 0,
+			aspd = 3,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -6569,7 +6569,7 @@ return {
 		},
 		["AN21"] = {
 			ability = { "数次攻击后使目标受持续{{color|#00FFFF|递增法术伤害}}（可被{{术语|ba.buffres|抵抗}}），被击倒后生成{{color|#00FFFF|1}}个【青瓷花瓶】" },
-			aspd = 0,
+			aspd = 1,
 			atk = 400,
 			class = "Leader",
 			def = 350,
@@ -6585,7 +6585,7 @@ return {
 		},
 		["AN22"] = {
 			ability = { "数次攻击后使目标受持续{{color|#00FFFF|递增法术伤害}}（可被{{术语|ba.buffres|抵抗}}），被击倒后生成{{color|#00FFFF|1}}个【彩瓷花瓶】" },
-			aspd = 0,
+			aspd = 1,
 			atk = 570,
 			class = "Leader",
 			def = 450,
@@ -6601,7 +6601,7 @@ return {
 		},
 		["AN23"] = {
 			ability = { "无法被阻挡，需要{{color|#00FFFF|12}}次{{color|#00FFFF|法术或真实伤害}}击倒" },
-			aspd = 0,
+			aspd = 2.2,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -6617,7 +6617,7 @@ return {
 		},
 		["AN24"] = {
 			ability = { "无法被阻挡，需要{{color|#00FFFF|15}}次{{color|#00FFFF|法术或真实伤害}}击倒" },
-			aspd = 0,
+			aspd = 2.2,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -6633,7 +6633,7 @@ return {
 		},
 		["AN25"] = {
 			ability = { "攻击消耗【断刃】使攻击力提升，被击倒时未消耗的【断刃】会生成【铜矛头】（至少{{color|#00FFFF|1}}个）。" },
-			aspd = 0,
+			aspd = 1,
 			atk = 1100,
 			class = "Leader",
 			def = 600,
@@ -6649,7 +6649,7 @@ return {
 		},
 		["AN26"] = {
 			ability = { "攻击消耗【断刃】使攻击力提升，被击倒时未消耗的【断刃】会生成【铁矛头】（至少{{color|#00FFFF|1}}个）。" },
-			aspd = 0,
+			aspd = 1,
 			atk = 1350,
 			class = "Leader",
 			def = 750,
@@ -6665,7 +6665,7 @@ return {
 		},
 		["AN27"] = {
 			ability = { "无法被阻挡，需要{{color|#00FFFF|25}}次伤害击倒" },
-			aspd = 0,
+			aspd = 3,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -6681,7 +6681,7 @@ return {
 		},
 		["AN28"] = {
 			ability = { "无法被阻挡，需要{{color|#00FFFF|30}}次伤害击倒" },
-			aspd = 0,
+			aspd = 3,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -6697,7 +6697,7 @@ return {
 		},
 		["AN29"] = {
 			ability = { "每隔一段时间使周围其他敌方单位暂时{{术语|ba.invisible|隐匿}}，死亡后生成{{color|#00FFFF|1}}个【铜灯盘】" },
-			aspd = 0,
+			aspd = 1,
 			atk = 550,
 			class = "Leader",
 			def = 850,
@@ -6713,7 +6713,7 @@ return {
 		},
 		["AN30"] = {
 			ability = { "每隔一段时间使周围其他敌方单位暂时{{术语|ba.invisible|隐匿}}，死亡后生成{{color|#00FFFF|1}}个【铁灯盘】" },
-			aspd = 0,
+			aspd = 1,
 			atk = 700,
 			class = "Leader",
 			def = 1050,
@@ -6729,7 +6729,7 @@ return {
 		},
 		["AN31"] = {
 			ability = { "无法被阻挡，需要{{color|#00FFFF|35}}次伤害击倒" },
-			aspd = 0,
+			aspd = 1,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -6745,7 +6745,7 @@ return {
 		},
 		["AN32"] = {
 			ability = { "无法被阻挡，需要{{color|#00FFFF|45}}次伤害击倒" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -6761,7 +6761,7 @@ return {
 		},
 		["AN33"] = {
 			ability = { "无法被阻挡，需要{{color|#00FFFF|10}}次伤害击倒；与岁相的【丹田】接触后，使其初始生命值增加；与第三形态的岁相接触后，使其【十方吐纳】获得技力。" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 0,
 			class = "Normal",
 			def = 0,
@@ -6776,7 +6776,7 @@ return {
 			weight = 0
 		},
 		["SK1"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 380,
 			class = "Normal",
 			def = 150,
@@ -6791,7 +6791,7 @@ return {
 			weight = 1
 		},
 		["SK2"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 400,
 			class = "Normal",
 			def = 200,
@@ -6807,7 +6807,7 @@ return {
 		},
 		["SK3"] = {
 			ability = { "携带弹药时攻击力提升，弹药上限：{{color|#00FFFF|1}}" },
-			aspd = 0,
+			aspd = 2.6,
 			atk = 300,
 			class = "Normal",
 			def = 50,
@@ -6823,7 +6823,7 @@ return {
 		},
 		["SK4"] = {
 			ability = { "携带弹药时攻击力提升，弹药上限：{{color|#00FFFF|1}}" },
-			aspd = 0,
+			aspd = 2.6,
 			atk = 350,
 			class = "Normal",
 			def = 100,
@@ -6839,7 +6839,7 @@ return {
 		},
 		["SK5"] = {
 			ability = { "携带弹药时攻击造成{{术语|ba.dt.burning|灼燃损伤}}，弹药上限：{{color|#00FFFF|1}}" },
-			aspd = 0,
+			aspd = 2,
 			atk = 320,
 			class = "Normal",
 			def = 200,
@@ -6855,7 +6855,7 @@ return {
 		},
 		["SK6"] = {
 			ability = { "携带弹药时攻击造成{{术语|ba.dt.burning|灼燃损伤}}，弹药上限：{{color|#00FFFF|1}}" },
-			aspd = 0,
+			aspd = 2,
 			atk = 385,
 			class = "Normal",
 			def = 250,
@@ -6871,7 +6871,7 @@ return {
 		},
 		["SK7"] = {
 			ability = { "优先攻击“冰淇淋机”，对“冰淇淋机”造成额外法术伤害" },
-			aspd = 0,
+			aspd = 4.5,
 			atk = 380,
 			class = "Normal",
 			def = 200,
@@ -6887,7 +6887,7 @@ return {
 		},
 		["SK8"] = {
 			ability = { "优先攻击“冰淇淋机”，对“冰淇淋机”造成额外法术伤害" },
-			aspd = 0,
+			aspd = 4.5,
 			atk = 450,
 			class = "Normal",
 			def = 250,
@@ -6903,7 +6903,7 @@ return {
 		},
 		["SK9"] = {
 			ability = { "携带弹药时变为远程攻击并造成溅射伤害，对“冰淇淋机”造成额外法术伤害，弹药上限：{{color|#00FFFF|2}}" },
-			aspd = 0,
+			aspd = 5,
 			atk = 800,
 			class = "Leader",
 			def = 1200,
@@ -6919,7 +6919,7 @@ return {
 		},
 		["SK10"] = {
 			ability = { "携带弹药时变为远程攻击并造成溅射伤害，对“冰淇淋机”造成额外法术伤害，弹药上限：{{color|#00FFFF|2}}" },
-			aspd = 0,
+			aspd = 5,
 			atk = 1000,
 			class = "Leader",
 			def = 1500,
@@ -6935,7 +6935,7 @@ return {
 		},
 		["SK11"] = {
 			ability = { "携带弹药时每隔一段时间召唤一辆【糖果车】，对阻挡自身的单位造成的伤害大幅提升，弹药上限：{{color|#00FFFF|3}}" },
-			aspd = 0,
+			aspd = 1,
 			atk = 500,
 			class = "Leader",
 			def = 650,
@@ -6951,7 +6951,7 @@ return {
 		},
 		["SK12"] = {
 			ability = { "携带弹药时每隔一段时间召唤一辆【糖果车】，对阻挡自身的单位造成的伤害大幅提升，弹药上限：{{color|#00FFFF|3}}" },
-			aspd = 0,
+			aspd = 1,
 			atk = 600,
 			class = "Leader",
 			def = 650,
@@ -6967,7 +6967,7 @@ return {
 		},
 		["SK13"] = {
 			ability = { "被阻挡后发生爆炸，对周围所有目标造成法术伤害及{{术语|ba.dt.burning|灼燃损伤}}，爆炸对周围的“冰淇淋机”造成大量法术伤害" },
-			aspd = 0,
+			aspd = 2.7,
 			atk = 300,
 			class = "Normal",
 			def = 100,
@@ -6983,7 +6983,7 @@ return {
 		},
 		["SK14"] = {
 			ability = { "被阻挡后发生爆炸，对周围所有目标造成法术伤害及{{术语|ba.dt.burning|灼燃损伤}}，爆炸对周围的“冰淇淋机”造成大量法术伤害" },
-			aspd = 0,
+			aspd = 2.7,
 			atk = 300,
 			class = "Normal",
 			def = 200,
@@ -6999,7 +6999,7 @@ return {
 		},
 		["SK15"] = {
 			ability = { "携带弹药时使用远程攻击并使目标无法攻击或治疗一段时间，对“冰淇淋机”造成额外法术伤害，弹药上限：{{color|#00FFFF|1}}" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 600,
 			class = "Leader",
 			def = 500,
@@ -7015,7 +7015,7 @@ return {
 		},
 		["SK16"] = {
 			ability = { "携带弹药时使用远程攻击并使目标无法攻击或治疗一段时间，对“冰淇淋机”造成额外法术伤害，弹药上限：{{color|#00FFFF|1}}" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 700,
 			class = "Leader",
 			def = 550,
@@ -7031,7 +7031,7 @@ return {
 		},
 		["SCI1"] = {
 			ability = { "{{color|#00FFFF|重生造物}}（受到的物理和法术伤害{{color|#00FFFF|大幅降低}}）阻挡该敌人的单位{{color|#00FFFF|阻挡数上限+1}}（最多+6）" },
-			aspd = 0,
+			aspd = 4,
 			atk = 280,
 			class = "Normal",
 			def = 100,
@@ -7047,7 +7047,7 @@ return {
 		},
 		["SCI2"] = {
 			ability = { "{{color|#00FFFF|重生造物}}（受到的物理和法术伤害{{color|#00FFFF|大幅降低}}）阻挡该敌人的单位{{color|#00FFFF|阻挡数上限+1}}（最多+6）" },
-			aspd = 0,
+			aspd = 4,
 			atk = 380,
 			class = "Normal",
 			def = 100,
@@ -7063,7 +7063,7 @@ return {
 		},
 		["SCI3"] = {
 			ability = { "{{color|#00FFFF|重生造物}}（受到的物理和法术伤害{{color|#00FFFF|大幅降低}}）阻挡该敌人的单位{{color|#00FFFF|阻挡数上限+1}}（最多+6）" },
-			aspd = 0,
+			aspd = 2,
 			atk = 680,
 			class = "Normal",
 			def = 200,
@@ -7079,7 +7079,7 @@ return {
 		},
 		["SCI4"] = {
 			ability = { "{{color|#00FFFF|重生造物}}（受到的物理和法术伤害{{color|#00FFFF|大幅降低}}）阻挡该敌人的单位{{color|#00FFFF|阻挡数上限+1}}（最多+6）" },
-			aspd = 0,
+			aspd = 2,
 			atk = 800,
 			class = "Normal",
 			def = 200,
@@ -7095,7 +7095,7 @@ return {
 		},
 		["SCI5"] = {
 			ability = { "首次倒下后重生为{{color|#00FFFF|<大君之触>}}" },
-			aspd = 0,
+			aspd = 2,
 			atk = 340,
 			class = "Normal",
 			def = 120,
@@ -7111,7 +7111,7 @@ return {
 		},
 		["SCI6"] = {
 			ability = { "首次倒下后重生为{{color|#00FFFF|<仁慈之触>}}" },
-			aspd = 0,
+			aspd = 2,
 			atk = 400,
 			class = "Normal",
 			def = 210,
@@ -7128,7 +7128,7 @@ return {
 		["SCI7"] = {
 			ability = {
 				"为{{color|#00FFFF|伦蒂尼姆城防副炮}}持续充能，被打断时城防炮{{color|#00FFFF|损失部分充能}}；首次倒下后重生为{{color|#00FFFF|<大君之触>}}" },
-			aspd = 0,
+			aspd = 1.7,
 			atk = 300,
 			class = "Normal",
 			def = 250,
@@ -7145,7 +7145,7 @@ return {
 		["SCI8"] = {
 			ability = {
 				"为{{color|#00FFFF|伦蒂尼姆城防副炮}}持续充能，被打断时城防炮{{color|#00FFFF|损失部分充能}}；首次倒下后重生为{{color|#00FFFF|<仁慈之触>}}" },
-			aspd = 0,
+			aspd = 1.7,
 			atk = 380,
 			class = "Normal",
 			def = 350,
@@ -7161,7 +7161,7 @@ return {
 		},
 		["SCI9"] = {
 			ability = { "在场时，重生造物的{{color|#00FFFF|攻击力提升}}且攻击附带{{术语|ba.dt.apoptosis|凋亡损伤}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 340,
 			class = "Leader",
 			def = 550,
@@ -7177,7 +7177,7 @@ return {
 		},
 		["SCI10"] = {
 			ability = { "在场时，重生造物的{{color|#00FFFF|攻击力提升}}且攻击附带{{术语|ba.dt.apoptosis|凋亡损伤}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 420,
 			class = "Leader",
 			def = 600,
@@ -7194,7 +7194,7 @@ return {
 		["SCI11"] = {
 			ability = {
 				"攻击造成{{color|#00FFFF|法术伤害}}与{{术语|ba.dt.apoptosis|凋亡损伤}}，且会在4个敌人间跳跃，每次跳跃伤害降低；首次倒下后重生为{{color|#00FFFF|<大君之赐>}}" },
-			aspd = 0,
+			aspd = 5,
 			atk = 420,
 			class = "Leader",
 			def = 450,
@@ -7211,7 +7211,7 @@ return {
 		["SCI12"] = {
 			ability = {
 				"攻击造成{{color|#00FFFF|法术伤害}}与{{术语|ba.dt.apoptosis|凋亡损伤}}，且会在4个敌人间跳跃，每次跳跃伤害降低；首次倒下后重生为{{color|#00FFFF|<慷慨之赐>}}" },
-			aspd = 0,
+			aspd = 5,
 			atk = 550,
 			class = "Leader",
 			def = 550,
@@ -7227,7 +7227,7 @@ return {
 		},
 		["SCI13"] = {
 			ability = { "场上每有一个重生造物时{{color|#00FFFF|攻击力提升}}；首次倒下后重生为{{color|#00FFFF|<大君之赐>}}" },
-			aspd = 0,
+			aspd = 4.5,
 			atk = 1000,
 			class = "Leader",
 			def = 800,
@@ -7243,7 +7243,7 @@ return {
 		},
 		["SCI14"] = {
 			ability = { "场上每有一个重生造物时{{color|#00FFFF|攻击力提升}}；首次倒下后重生为{{color|#00FFFF|<慷慨之赐>}}" },
-			aspd = 0,
+			aspd = 4.5,
 			atk = 1200,
 			class = "Leader",
 			def = 800,
@@ -7259,7 +7259,7 @@ return {
 		},
 		["SCI15"] = {
 			ability = { "{{术语|ba.invisible|隐匿}}，会逐渐损失生命，攻击时为{{color|#00FFFF|伦蒂尼姆城防副炮}}充能" },
-			aspd = 0,
+			aspd = 0.6,
 			atk = 500,
 			class = "Normal",
 			def = 150,
@@ -7275,7 +7275,7 @@ return {
 		},
 		["SCI16"] = {
 			ability = { "{{术语|ba.invisible|隐匿}}，会逐渐损失生命，攻击时为{{color|#00FFFF|伦蒂尼姆城防副炮}}充能" },
-			aspd = 0,
+			aspd = 0.6,
 			atk = 650,
 			class = "Normal",
 			def = 220,
@@ -7291,7 +7291,7 @@ return {
 		},
 		["SCI17"] = {
 			ability = { "攻击造成{{color|#00FFFF|法术伤害}}，并恢复攻击伤害一定比例的生命" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 90,
 			class = "Normal",
 			def = 100,
@@ -7307,7 +7307,7 @@ return {
 		},
 		["SCI18"] = {
 			ability = { "攻击造成{{color|#00FFFF|法术伤害}}，并恢复攻击伤害一定比例的生命" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 120,
 			class = "Normal",
 			def = 100,
@@ -7323,7 +7323,7 @@ return {
 		},
 		["SCI19"] = {
 			ability = { "攻击造成{{color|#00FFFF|法术伤害}}与{{术语|ba.dt.apoptosis|凋亡损伤}}" },
-			aspd = 0,
+			aspd = 3,
 			atk = 240,
 			class = "Normal",
 			def = 220,
@@ -7339,7 +7339,7 @@ return {
 		},
 		["SCI20"] = {
 			ability = { "攻击造成{{color|#00FFFF|法术伤害}}与{{术语|ba.dt.apoptosis|凋亡损伤}}" },
-			aspd = 0,
+			aspd = 3,
 			atk = 380,
 			class = "Normal",
 			def = 280,
@@ -7355,7 +7355,7 @@ return {
 		},
 		["SM15"] = {
 			ability = { "被击倒后于所在位置生成{{color|#00FFFF|“溟痕”}}；法术抗性提升" },
-			aspd = 0,
+			aspd = 3,
 			atk = 450,
 			class = "Leader",
 			def = 200,
@@ -7371,7 +7371,7 @@ return {
 		},
 		["SM16"] = {
 			ability = { "被击倒后于所在位置生成{{color|#00FFFF|“溟痕”}}；法术抗性提升" },
-			aspd = 0,
+			aspd = 3,
 			atk = 600,
 			class = "Leader",
 			def = 250,
@@ -7387,7 +7387,7 @@ return {
 		},
 		["SM17"] = {
 			ability = { "被击倒后于所在位置生成{{color|#00FFFF|“溟痕”}}并留下{{color|#00FFFF|残骸}}；【定向进化】法术抗性提升" },
-			aspd = 0,
+			aspd = 3,
 			atk = 450,
 			class = "Leader",
 			def = 200,
@@ -7403,7 +7403,7 @@ return {
 		},
 		["SM18"] = {
 			ability = { "位于{{color|#00FFFF|“溟痕”}}时不可阻挡；获得物理与法术闪避（处于部分{{术语|ba.debuff|异常状态}}时失效）" },
-			aspd = 0,
+			aspd = 3,
 			atk = 450,
 			class = "Normal",
 			def = 50,
@@ -7419,7 +7419,7 @@ return {
 		},
 		["SM19"] = {
 			ability = { "位于{{color|#00FFFF|“溟痕”}}时不可阻挡；获得物理与法术闪避（处于部分{{术语|ba.debuff|异常状态}}时失效）" },
-			aspd = 0,
+			aspd = 4,
 			atk = 550,
 			class = "Normal",
 			def = 80,
@@ -7435,7 +7435,7 @@ return {
 		},
 		["SM20"] = {
 			ability = { "位于{{color|#00FFFF|“溟痕”}}时不可阻挡；被击倒后遗留{{color|#00FFFF|残骸}}；【定向进化】获得物理与法术闪避（处于部分[[异常状态]]时失效）" },
-			aspd = 0,
+			aspd = 4,
 			atk = 450,
 			class = "Normal",
 			def = 50,
@@ -7451,7 +7451,7 @@ return {
 		},
 		["SM21"] = {
 			ability = { "生命值低于一半时，经过的地块变为{{color|#00FFFF|“溟痕”}}，且防御力与占用阻挡数提升" },
-			aspd = 0,
+			aspd = 4,
 			atk = 800,
 			class = "Leader",
 			def = 500,
@@ -7467,7 +7467,7 @@ return {
 		},
 		["SM22"] = {
 			ability = { "生命值低于一半时，经过的地块变为{{color|#00FFFF|“溟痕”}}，且防御力与占用阻挡数提升" },
-			aspd = 0,
+			aspd = 2,
 			atk = 900,
 			class = "Leader",
 			def = 500,
@@ -7483,7 +7483,7 @@ return {
 		},
 		["SM23"] = {
 			ability = { "生命值低于一半时，经过的地块变为{{color|#00FFFF|“溟痕”}}；被击倒后遗留{{color|#00FFFF|残骸}}，【定向进化】生命值低于一半时，防御力与占用阻挡数提升" },
-			aspd = 0,
+			aspd = 2,
 			atk = 800,
 			class = "Leader",
 			def = 500,
@@ -7499,7 +7499,7 @@ return {
 		},
 		["SM24"] = {
 			ability = { "可以攻击到所有位于{{color|#00FFFF|“溟痕”}}上的目标；同时攻击3个目标" },
-			aspd = 0,
+			aspd = 2,
 			atk = 650,
 			class = "Normal",
 			def = 100,
@@ -7515,7 +7515,7 @@ return {
 		},
 		["SM25"] = {
 			ability = { "可以攻击到所有位于{{color|#00FFFF|“溟痕”}}上的目标；同时攻击3个目标" },
-			aspd = 0,
+			aspd = 1,
 			atk = 800,
 			class = "Normal",
 			def = 100,
@@ -7531,7 +7531,7 @@ return {
 		},
 		["SM26"] = {
 			ability = { "可以攻击到所有位于{{color|#00FFFF|“溟痕”}}上的目标；被击倒后遗留{{color|#00FFFF|“残骸”}}；【定向进化】同时攻击3个目标" },
-			aspd = 0,
+			aspd = 1,
 			atk = 650,
 			class = "Normal",
 			def = 100,
@@ -7548,7 +7548,7 @@ return {
 		["SM27"] = {
 			ability = {
 				"持续对周围造成{{color|#00FFFF|法术伤害}}和{{color|#00FFFF|神经损伤}}；{{color|#00FFFF|抵抗}}且免疫{{术语|ba.sluggish|停顿}}" },
-			aspd = 0,
+			aspd = 1,
 			atk = 140,
 			class = "Leader",
 			def = 550,
@@ -7565,7 +7565,7 @@ return {
 		["SM28"] = {
 			ability = {
 				"持续对周围造成{{color|#00FFFF|法术伤害}}和{{color|#00FFFF|神经损伤}}；{{color|#00FFFF|抵抗}}且免疫{{术语|ba.sluggish|停顿}}" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 160,
 			class = "Leader",
 			def = 550,
@@ -7582,7 +7582,7 @@ return {
 		["SM29"] = {
 			ability = {
 				"持续对周围造成{{color|#00FFFF|法术伤害}}和{{color|#00FFFF|神经损伤}}；被击倒后遗留{{color|#00FFFF|残骸}}；【定向进化】{{color|#00FFFF|抵抗}}且免疫{{术语|ba.sluggish|停顿}}" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 140,
 			class = "Leader",
 			def = 550,
@@ -7598,7 +7598,7 @@ return {
 		},
 		["SM30"] = {
 			ability = { "位于{{color|#00FFFF|“溟痕”}}时{{术语|ba.invisible|隐匿}}；每造成一次伤害后攻击力提升，停止攻击后快速衰减" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 300,
 			class = "Leader",
 			def = 750,
@@ -7614,7 +7614,7 @@ return {
 		},
 		["SM31"] = {
 			ability = { "位于{{color|#00FFFF|“溟痕”}}时{{术语|ba.invisible|隐匿}}；每造成一次伤害后攻击力提升，停止攻击后快速衰减" },
-			aspd = 0,
+			aspd = 2.2,
 			atk = 400,
 			class = "Leader",
 			def = 750,
@@ -7631,7 +7631,7 @@ return {
 		["SM32"] = {
 			ability = {
 				"位于{{color|#00FFFF|“溟痕”}}时{{术语|ba.invisible|隐匿}}；被击倒后遗留{{color|#00FFFF|残骸}}；【定向进化】每造成一次伤害后攻击力提升，停止攻击后快速衰减" },
-			aspd = 0,
+			aspd = 2.2,
 			atk = 300,
 			class = "Leader",
 			def = 750,
@@ -7647,7 +7647,7 @@ return {
 		},
 		["LE1"] = {
 			ability = { "攻击重整束流之外的目标时，附带一定比例的{{color|#00FFFF|法术伤害}}" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 380,
 			class = "Normal",
 			def = 50,
@@ -7663,7 +7663,7 @@ return {
 		},
 		["LE2"] = {
 			ability = { "攻击重整束流之外的目标时，附带一定比例的{{color|#00FFFF|法术伤害}}" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 520,
 			class = "Normal",
 			def = 50,
@@ -7679,7 +7679,7 @@ return {
 		},
 		["LE3"] = {
 			ability = { "攻击重整束流之外的单位时，{{color|#00FFFF|额外造成1次伤害}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 330,
 			class = "Normal",
 			def = 80,
@@ -7695,7 +7695,7 @@ return {
 		},
 		["LE4"] = {
 			ability = { "攻击重整束流之外的单位时，{{color|#00FFFF|额外造成1次伤害}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 360,
 			class = "Normal",
 			def = 120,
@@ -7711,7 +7711,7 @@ return {
 		},
 		["LE5"] = {
 			ability = { "{{color|#00FFFF|阻挡能力大于等于2}}的作战人员可以阻止；处于重整束流上时，防御和法术抗性大幅下降" },
-			aspd = 0,
+			aspd = 7,
 			atk = 650,
 			class = "Leader",
 			def = 1200,
@@ -7728,7 +7728,7 @@ return {
 		},
 		["LE6"] = {
 			ability = { "{{color|#00FFFF|阻挡能力大于等于2}}的作战人员可以阻止；处于重整束流上时，防御和法术抗性大幅下降" },
-			aspd = 0,
+			aspd = 7,
 			atk = 800,
 			class = "Leader",
 			def = 1400,
@@ -7745,7 +7745,7 @@ return {
 		},
 		["LE7"] = {
 			ability = { "同时攻击2个目标；攻击重整束流之外的目标时，造成{{color|#00FFFF|溅射}}伤害" },
-			aspd = 0,
+			aspd = 5,
 			atk = 600,
 			class = "Normal",
 			def = 160,
@@ -7761,7 +7761,7 @@ return {
 		},
 		["LE8"] = {
 			ability = { "同时攻击2个目标；攻击重整束流之外的目标时，造成{{color|#00FFFF|溅射}}伤害" },
-			aspd = 0,
+			aspd = 5,
 			atk = 780,
 			class = "Normal",
 			def = 240,
@@ -7777,7 +7777,7 @@ return {
 		},
 		["LE9"] = {
 			ability = { "攻击能够沿着重整束流传导，对{{color|#00FFFF|所有相连}}的单位造成伤害" },
-			aspd = 0,
+			aspd = 4.5,
 			atk = 500,
 			class = "Leader",
 			def = 450,
@@ -7793,7 +7793,7 @@ return {
 		},
 		["LE10"] = {
 			ability = { "攻击能够沿着重整束流传导，对{{color|#00FFFF|所有相连}}的单位造成伤害" },
-			aspd = 0,
+			aspd = 4.5,
 			atk = 650,
 			class = "Leader",
 			def = 550,
@@ -7809,7 +7809,7 @@ return {
 		},
 		["LE11"] = {
 			ability = { "全力吹奏时，发出四方向远程攻击，对碰到的我方目标造成{{color|#00FFFF|高额物理伤害}}，会被重整束流阻挡" },
-			aspd = 0,
+			aspd = 13,
 			atk = 800,
 			class = "Leader",
 			def = 650,
@@ -7825,7 +7825,7 @@ return {
 		},
 		["LE12"] = {
 			ability = { "全力吹奏时，发出四方向远程攻击，对碰到的我方目标造成{{color|#00FFFF|高额物理伤害}}，会被重整束流阻挡" },
-			aspd = 0,
+			aspd = 13,
 			atk = 1000,
 			class = "Leader",
 			def = 700,
@@ -7841,7 +7841,7 @@ return {
 		},
 		["LE13"] = {
 			ability = { "优先选择重整束流上的目标，将其{{color|#00FFFF|晕眩}}并施加持续法术伤害，同时切断周围的重整束流" },
-			aspd = 0,
+			aspd = 1.7,
 			atk = 0,
 			class = "Leader",
 			def = 500,
@@ -7857,7 +7857,7 @@ return {
 		},
 		["LE14"] = {
 			ability = { "优先选择重整束流上的目标，将其{{color|#00FFFF|晕眩}}并施加持续法术伤害，同时切断周围的重整束流" },
-			aspd = 0,
+			aspd = 1.7,
 			atk = 0,
 			class = "Leader",
 			def = 650,
@@ -7873,7 +7873,7 @@ return {
 		},
 		["LE15"] = {
 			ability = { "能够从战场中出现" },
-			aspd = 0,
+			aspd = 5,
 			atk = 280,
 			class = "Normal",
 			def = 0,
@@ -7889,7 +7889,7 @@ return {
 		},
 		["LE16"] = {
 			ability = { "能够从战场中出现" },
-			aspd = 0,
+			aspd = 2.8,
 			atk = 370,
 			class = "Normal",
 			def = 0,
@@ -7905,7 +7905,7 @@ return {
 		},
 		["LE17"] = {
 			ability = { "同时攻击{{color|#00FFFF|两个目标}}，{{color|#00FFFF|无法被阻挡}}；能够在自身位置产生{{color|#00FFFF|虚像}}" },
-			aspd = 0,
+			aspd = 2.8,
 			atk = 700,
 			class = "Leader",
 			def = 450,
@@ -7921,7 +7921,7 @@ return {
 		},
 		["RO01"] = {
 			ability = { "可以抵挡一次物理或法术伤害" },
-			aspd = 0,
+			aspd = 3.8,
 			atk = 410,
 			class = "Normal",
 			def = 250,
@@ -7937,7 +7937,7 @@ return {
 		},
 		["RO02"] = {
 			ability = { "可以抵挡一次物理或法术伤害" },
-			aspd = 0,
+			aspd = 3.8,
 			atk = 485,
 			class = "Normal",
 			def = 300,
@@ -7953,7 +7953,7 @@ return {
 		},
 		["RO03"] = {
 			ability = { "攻击造成{{color|#00FFFF|法术伤害}}，持续为未激活的R系列动力装甲恢复生命值" },
-			aspd = 0,
+			aspd = 1.8,
 			atk = 300,
 			class = "Normal",
 			def = 100,
@@ -7969,7 +7969,7 @@ return {
 		},
 		["RO04"] = {
 			ability = { "攻击造成{{color|#00FFFF|法术伤害}}，持续为未激活的R系列动力装甲恢复生命值" },
-			aspd = 0,
+			aspd = 1.8,
 			atk = 375,
 			class = "Normal",
 			def = 100,
@@ -7985,7 +7985,7 @@ return {
 		},
 		["RO05"] = {
 			ability = { "接触未激活的R系列动力装甲时，为其回复一定技力" },
-			aspd = 0,
+			aspd = 3.2,
 			atk = 310,
 			class = "Normal",
 			def = 0,
@@ -8002,7 +8002,7 @@ return {
 		},
 		["RO06"] = {
 			ability = { "接触未激活的R系列动力装甲时，为其回复一定技力" },
-			aspd = 0,
+			aspd = 3.2,
 			atk = 360,
 			class = "Normal",
 			def = 50,
@@ -8019,7 +8019,7 @@ return {
 		},
 		["RO07"] = {
 			ability = { "接触未激活的R系列动力装甲时，为其回复一定技力" },
-			aspd = 0,
+			aspd = 3,
 			atk = 390,
 			class = "Normal",
 			def = 0,
@@ -8036,7 +8036,7 @@ return {
 		},
 		["RO08"] = {
 			ability = { "接触未激活的R系列动力装甲时，为其回复一定技力" },
-			aspd = 0,
+			aspd = 3,
 			atk = 420,
 			class = "Normal",
 			def = 50,
@@ -8053,7 +8053,7 @@ return {
 		},
 		["RO09"] = {
 			ability = { "攻击造成{{color|#00FFFF|法术伤害}}，未被阻挡时，受到的物理或法术伤害减少50%，接触未激活的R系列动力装甲时，为其回复大量技力" },
-			aspd = 0,
+			aspd = 1.3,
 			atk = 500,
 			class = "Leader",
 			def = 1000,
@@ -8070,7 +8070,7 @@ return {
 		},
 		["RO10"] = {
 			ability = { "攻击造成{{color|#00FFFF|法术伤害}}，未被阻挡时，受到的物理或法术伤害减少50%，接触未激活的R系列动力装甲时，为其回复大量技力" },
-			aspd = 0,
+			aspd = 1.3,
 			atk = 600,
 			class = "Leader",
 			def = 1200,
@@ -8086,7 +8086,7 @@ return {
 			weight = 3
 		},
 		["RO11"] = {
-			aspd = 0,
+			aspd = 4,
 			atk = 700,
 			class = "Leader",
 			def = 700,
@@ -8102,7 +8102,7 @@ return {
 			weight = 3
 		},
 		["RO12"] = {
-			aspd = 0,
+			aspd = 4,
 			atk = 850,
 			class = "Leader",
 			def = 800,
@@ -8119,7 +8119,7 @@ return {
 		},
 		["RO13"] = {
 			ability = { "对目标使用【超负载】，大幅提升攻击速度，每次攻击造成物理伤害，并使目标{{术语|ba.stun|晕眩}}" },
-			aspd = 0,
+			aspd = 5,
 			atk = 1600,
 			class = "Leader",
 			def = 1200,
@@ -8136,7 +8136,7 @@ return {
 		},
 		["RO14"] = {
 			ability = { "对目标使用【超负载】，大幅提升攻击速度，每次攻击造成物理伤害，并使目标{{术语|ba.stun|晕眩}}" },
-			aspd = 0,
+			aspd = 5,
 			atk = 2000,
 			class = "Leader",
 			def = 1500,
@@ -8153,7 +8153,7 @@ return {
 		},
 		["RO15"] = {
 			ability = { "同时攻击四个目标" },
-			aspd = 0,
+			aspd = 3,
 			atk = 1200,
 			class = "Leader",
 			def = 1200,
@@ -8170,7 +8170,7 @@ return {
 		},
 		["RO16"] = {
 			ability = { "同时攻击四个目标" },
-			aspd = 0,
+			aspd = 1,
 			atk = 1350,
 			class = "Leader",
 			def = 1500,
@@ -8187,7 +8187,7 @@ return {
 		},
 		["RO17"] = {
 			ability = { "无法被阻挡，部署陷阱，踩上去的友方单位受到{{color|#00FFFF|法术伤害}}且{{术语|ba.stun|晕眩}}一段时间，撤回保护目标时不扣除关卡生命值" },
-			aspd = 0,
+			aspd = 2,
 			atk = 650,
 			class = "Leader",
 			def = 600,
@@ -8210,7 +8210,7 @@ return {
 		},
 		["DLD"] = {
 			ability = { "进入目标点也不会损失目标生命；无法被阻挡；受到攻击后移动速度大幅度提升" },
-			aspd = 0,
+			aspd = 0.4,
 			atk = 100,
 			class = "Leader",
 			def = 200,
@@ -8227,7 +8227,7 @@ return {
 		},
 		["DUR2"] = {
 			ability = { "初始拥有{{color|#00FFFF|100%物理闪避}}，持续一段时间" },
-			aspd = 0,
+			aspd = 0.4,
 			atk = 400,
 			class = "Normal",
 			def = 150,
@@ -8243,7 +8243,7 @@ return {
 		},
 		["DUR3"] = {
 			ability = { "生命值首次降至一半以下后获得{{color|#00FFFF|100%物理闪避}}，持续一段时间" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 320,
 			class = "Normal",
 			def = 250,
@@ -8259,7 +8259,7 @@ return {
 		},
 		["DUR4"] = {
 			ability = { "生命值首次降至一半以下后获得{{color|#00FFFF|100%物理闪避}}，持续一段时间" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 420,
 			class = "Normal",
 			def = 250,
@@ -8274,7 +8274,7 @@ return {
 			weight = 2
 		},
 		["DUR5"] = {
-			aspd = 0,
+			aspd = 2.5,
 			atk = 150,
 			class = "Normal",
 			def = 300,
@@ -8289,7 +8289,7 @@ return {
 			weight = 2
 		},
 		["DUR6"] = {
-			aspd = 0,
+			aspd = 2.5,
 			atk = 200,
 			class = "Normal",
 			def = 300,
@@ -8305,7 +8305,7 @@ return {
 		},
 		["DUR7"] = {
 			ability = { "每次攻击使自身攻击力提升（有上限），受到部分{{术语|ba.debuff|异常状态}}时层数清空" },
-			aspd = 0,
+			aspd = 3.7,
 			atk = 350,
 			class = "Normal",
 			def = 400,
@@ -8321,7 +8321,7 @@ return {
 		},
 		["DUR8"] = {
 			ability = { "每次攻击使自身攻击力提升（有上限），受到部分{{术语|ba.debuff|异常状态}}时层数清空" },
-			aspd = 0,
+			aspd = 3,
 			atk = 450,
 			class = "Normal",
 			def = 400,
@@ -8337,7 +8337,7 @@ return {
 		},
 		["FN"] = {
 			ability = { "常使用冰环法术，能对周围的我方单位造成大量法术伤害，并在数秒内降低击中目标的攻击速度；会使用法术冻结地面，使其永久无法被部署单位" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 420,
 			class = "Boss",
 			def = 250,
@@ -8360,7 +8360,7 @@ return {
 		},
 		["DUR10"] = {
 			ability = { "可以{{color|#00FFFF|拦下<自走车>}}，未被阻挡时受到的物理与法术伤害大幅降低" },
-			aspd = 0,
+			aspd = 3,
 			atk = 500,
 			class = "Leader",
 			def = 1000,
@@ -8377,7 +8377,7 @@ return {
 		},
 		["DUR11"] = {
 			ability = { "只能被阻挡数大于等于3的单位阻挡；周围有领袖以外的非机械敌人时会将其装载为乘客（最多3个），自身被击败时释放出乘客" },
-			aspd = 0,
+			aspd = 3,
 			atk = 800,
 			class = "Leader",
 			def = 1000,
@@ -8394,7 +8394,7 @@ return {
 		},
 		["MU5"] = {
 			ability = { "无法被阻挡；死亡后回复周围所有我方单位技力；不计入歼灭数" },
-			aspd = 0,
+			aspd = 3,
 			atk = 0,
 			class = "Normal",
 			def = 250,
@@ -8410,7 +8410,7 @@ return {
 		},
 		["DUR13"] = {
 			ability = { "首次受到伤害后攻击速度与移动速度大幅提升，持续一段时间" },
-			aspd = 0,
+			aspd = 1,
 			atk = 1100,
 			class = "Leader",
 			def = 1500,
@@ -8427,7 +8427,7 @@ return {
 		},
 		["SS"] = {
 			ability = { "未被阻挡时会发射榴弹，击中目标及其周围单位防御力会在短时间内大幅度下降；生命值降至一半以下时攻击力大幅度提升" },
-			aspd = 0,
+			aspd = 4.5,
 			atk = 1000,
 			class = "Boss",
 			def = 150,
@@ -8444,7 +8444,7 @@ return {
 		},
 		["DUR0"] = {
 			ability = { "碰到敌人时对其造成{{color|#00FFFF|无视闪避的物理伤害}}与短暂{{术语|ba.stun|晕眩}}，可以装配装备以获得额外性能" },
-			aspd = 0,
+			aspd = 4,
 			atk = 500,
 			class = "Normal",
 			def = 0,
@@ -8461,7 +8461,7 @@ return {
 		["TA"] = {
 			ability = {
 				"远程攻击与【日冕】造成法术伤害;阻挡时近战真实伤害；对一名我方单位施加【烈焚灼息】(每秒造成真实伤害且伤害递增，可被{{术语|ba.buffres|抵抗}});生命值降至一半时防御力、法抗与技能释放速度大幅提升" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 1500,
 			class = "Boss",
 			def = 700,
@@ -8484,7 +8484,7 @@ return {
 		},
 		["W"] = {
 			ability = { "会使用爆破物，能对我方单位造成大量物理伤害；生命值降至一半以下时炸药包的使用数量增加" },
-			aspd = 0,
+			aspd = 3,
 			atk = 470,
 			class = "Boss",
 			def = 100,
@@ -8501,7 +8501,7 @@ return {
 		},
 		["NAC3"] = {
 			ability = { "被击倒时释放{{color|#00FFFF|污染秽蚀}}，使周围我方持续损失生命" },
-			aspd = 0,
+			aspd = 3,
 			atk = 450,
 			class = "Normal",
 			def = 100,
@@ -8517,7 +8517,7 @@ return {
 		},
 		["NAC4"] = {
 			ability = { "攻击造成{{color|#00FFFF|法术伤害}}，持续为{{color|#00FFFF|汲营枯枝}}恢复生命值" },
-			aspd = 0,
+			aspd = 3.7,
 			atk = 320,
 			class = "Normal",
 			def = 200,
@@ -8533,7 +8533,7 @@ return {
 		},
 		["NAC5"] = {
 			ability = { "攻击造成{{color|#00FFFF|法术伤害}}，持续为{{color|#00FFFF|汲营枯枝}}恢复生命值" },
-			aspd = 0,
+			aspd = 1.8,
 			atk = 380,
 			class = "Normal",
 			def = 200,
@@ -8549,7 +8549,7 @@ return {
 		},
 		["NAC6"] = {
 			ability = { "{{color|#00FFFF|【飞行单位】}}，接近干员时，自毁并对其造成物理伤害" },
-			aspd = 0,
+			aspd = 4.5,
 			atk = 750,
 			class = "Normal",
 			def = 0,
@@ -8567,7 +8567,7 @@ return {
 		["FNF"] = {
 			ability = {
 				"普通攻击和冰环均能造成法术伤害，且对目标施加{{术语|ba.cold|寒冷}}效果；冰环法术对被{{术语|ba.frozen|冻结}}的目标伤害加倍；第二形态下会有一段无敌时间，且攻击和技能威力更强大" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 440,
 			class = "Boss",
 			def = 380,
@@ -8590,7 +8590,7 @@ return {
 		},
 		["NAC8"] = {
 			ability = { "{{color|#00FFFF|行动速度较快}}，攻击使目标在一段时间内持续受到法术伤害，目标接受治疗时{{color|#00FFFF|解除此效果}}" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 550,
 			class = "Leader",
 			def = 150,
@@ -8606,7 +8606,7 @@ return {
 		},
 		["MR"] = {
 			ability = { "攻击时攻击力永久提升，最多六层；拥有护盾吸收法术伤害；护盾存在时大幅提升生命上限与攻击速度；周期性刷新护盾；释放技能直接夺取最近的非敌方“留声机”" },
-			aspd = 0,
+			aspd = 4.5,
 			atk = 800,
 			class = "Boss",
 			def = 1000,
@@ -8623,7 +8623,7 @@ return {
 		},
 		["NAC10"] = {
 			ability = { "首次被阻挡时吞噬阻挡者，{{color|#00FFFF|防御力}}大幅提升但{{color|#00FFFF|移动速度}}下降，被击倒时干员返回" },
-			aspd = 0,
+			aspd = 4,
 			atk = 1050,
 			class = "Leader",
 			def = 0,
@@ -8640,7 +8640,7 @@ return {
 		},
 		["NAC11"] = {
 			ability = { "首次被阻挡时吞噬阻挡者，{{color|#00FFFF|防御力}}大幅提升但{{color|#00FFFF|移动速度}}下降，被击倒时干员返回" },
-			aspd = 0,
+			aspd = 6,
 			atk = 1350,
 			class = "Leader",
 			def = 0,
@@ -8657,7 +8657,7 @@ return {
 		},
 		["NAC12"] = {
 			ability = { "{{color|#00FFFF|只攻击地面单位}}，近战攻击造成{{color|#00FFFF|更高伤害}}，数次攻击后，下次攻击释放{{color|#00FFFF|污染秽蚀}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 750,
 			class = "Leader",
 			def = 750,
@@ -8674,7 +8674,7 @@ return {
 		},
 		["SMP"] = {
 			ability = { "活性状态下治疗并强化敌方宿主单位；且每损失一定比例生命，对全场我方释放持续30秒可叠加的毒性粉尘。生命值首次降至0后一段时间内进入休眠状态，防御和法术抗性提升且生命持续恢复。" },
-			aspd = 0,
+			aspd = 3,
 			atk = 450,
 			class = "Boss",
 			def = 450,
@@ -8698,7 +8698,7 @@ return {
 		["LUD1"] = {
 			ability = {
 				"攻击范围较远，会锁定{{color|#00FFFF|生命上限最高}}的目标进行数次轰炸，每次对范围内{{color|#00FFFF|当前生命比例最高}}的单位造成{{color|#00FFFF|法术伤害}}" },
-			aspd = 0,
+			aspd = 3,
 			atk = 600,
 			class = "Leader",
 			def = 1500,
@@ -8716,7 +8716,7 @@ return {
 		["JAK"] = {
 			ability = {
 				"狱警形态法术抗性大幅提升，攻击造成远程法术伤害，能使多名单位{{术语|ba.stun|晕眩}}，不攻击禁锢装置；杀手形态防御力大幅提升，攻击造成近战物理伤害，能无视目标一定的防御力；进入杀手形态时解放全场敌人" },
-			aspd = 0,
+			aspd = 4,
 			atk = 700,
 			class = "Boss",
 			def = 400,
@@ -8733,7 +8733,7 @@ return {
 		},
 		["LUD3"] = {
 			ability = { "生命值降至一半时{{color|#00FFFF|攻击速度}}和{{color|#00FFFF|移动速度}}大幅提升，且免疫大部分控制效果" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 650,
 			class = "Leader",
 			def = 800,
@@ -8750,7 +8750,7 @@ return {
 		},
 		["LUD4"] = {
 			ability = { "生命值降至一半时{{color|#00FFFF|攻击速度}}和{{color|#00FFFF|移动速度}}大幅提升，且免疫大部分控制效果" },
-			aspd = 0,
+			aspd = 4,
 			atk = 750,
 			class = "Leader",
 			def = 800,
@@ -8767,7 +8767,7 @@ return {
 		},
 		["NAC14"] = {
 			ability = { "攻击额外造成{{color|#00FFFF|凋亡损伤}}，会锁定我方单位持续造成法术伤害，并在释放完成时造成{{color|#00FFFF|群体凋亡损伤}}" },
-			aspd = 0,
+			aspd = 1.8,
 			atk = 450,
 			class = "Leader",
 			def = 250,
@@ -8784,7 +8784,7 @@ return {
 		["SVK"] = {
 			ability = {
 				"同时攻击防御最高的两个单位；【大潮】对所有我方单位造成法术和{{术语|ba.dt.neural|神经损伤}}；【崩坍】对若干我方单位造成物理伤害；【断裂生殖】召唤子代缠绕我方单位使其{{术语|ba.stun|晕眩}}；【物种爆发】战斗经过较长时间后扣除所有关卡生命值" },
-			aspd = 0,
+			aspd = 6,
 			atk = 380,
 			class = "Boss",
 			def = 500,
@@ -8807,7 +8807,7 @@ return {
 		},
 		["THE"] = {
 			ability = { "无法被攻击、消失时不会扣除关卡生命值；击倒一切拦路的目标" },
-			aspd = 0,
+			aspd = 2,
 			atk = 0,
 			class = "Boss",
 			def = 3000,
@@ -8831,7 +8831,7 @@ return {
 		["MD"] = {
 			ability = {
 				"【石之盾】所受伤害降低，受到{{color|#00FFFF|破碎支柱}}的伤害后暂时失效；【蔓德拉的注目】寻找范围内攻击最高的目标，造成法术伤害并使其攻速下降，若其撤退或被击倒则使所在地块损毁；第二形态时【石之盾】额外提供{{术语|ba.float|近地悬浮}}，并可击倒{{color|#00FFFF|破碎支柱}}。" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 640,
 			class = "Boss",
 			def = 520,
@@ -8848,7 +8848,7 @@ return {
 		["BK"] = {
 			ability = {
 				"受到伤害降低，减伤效果对阻挡自身的单位无效；【血归】使目标眩晕，每秒造成法术伤害；第一形态生命值降为0后进入【复活姿态】，期间血骑士保持无敌并持续召唤凝血之刃，一段时间后进入第二形态，在【复活姿态】下血骑士生命值恢复满时会回到第一形态；第二形态下攻击提升，变为远程攻击，持续召唤凝血之刃。" },
-			aspd = 0,
+			aspd = 3,
 			atk = 1750,
 			class = "Boss",
 			def = 1000,
@@ -8865,7 +8865,7 @@ return {
 		},
 		["THF"] = {
 			ability = { "进入目标点也不会损失目标生命；{{术语|ba.invisible|隐匿}}，攻击会{{术语|ba.stun|晕眩}}目标" },
-			aspd = 0,
+			aspd = 5,
 			atk = 300,
 			class = "Leader",
 			def = 150,
@@ -8882,7 +8882,7 @@ return {
 		["SUI"] = {
 			ability = {
 				"受到来自上下两侧的伤害降低；第一、二形态下被击倒后一段时间，在右侧一定距离重新出现并进入下一形态；【远山惊雷】对3个远程单位十字范围的持续法术伤害；【天坠】对近战单位两次物理伤害并附加持续递增法术伤害（可被{{术语|ba.buffres|抵抗}}）；【十方吐纳】对右侧大范围的持续伤害并使地面无法部署，范围内左侧的干员可以为右侧减弱伤害并抵挡地面破坏效果" },
-			aspd = 0,
+			aspd = 2,
 			atk = 1400,
 			class = "Boss",
 			def = 550,
@@ -8905,7 +8905,7 @@ return {
 		},
 		["SA5"] = {
 			ability = { "{{color|#00FFFF|能吸引敌人攻击自己}}；被击倒时，使{{color|#00FFFF|“血债账款”}}增加" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 500,
 			class = "Normal",
 			def = 900,
@@ -8923,7 +8923,7 @@ return {
 		["MAN"] = {
 			ability = {
 				"使用浮游炮攻击造成法术伤害，浮游炮攻击时为伦蒂尼姆城防副炮充能；【专注】持续攻击同一目标时攻击速度提升（有上限），停止攻击数秒或切换目标后复原；【军事训练】拥有高额的物理和法术闪避，但受到城防炮轰击后闪避失效一段时间并晕眩数秒；【枯木新枝】首次被击倒时，浮游炮随机攻击全场目标，攻击时大幅加速伦蒂尼姆城防副炮充能，第二形态下拔刀与浮游炮同步进行物理和法术攻击。" },
-			aspd = 0,
+			aspd = 5,
 			atk = 1000,
 			class = "Boss",
 			def = 600,
@@ -8941,7 +8941,7 @@ return {
 		["AMA"] = {
 			ability = {
 				"被击倒后短暂消失，之后蜕变至下一形态，每次蜕变依次获得：防御力提升/移动速度提升/攻击力提升且造成伤害回复生命；【捕食】蜕变前对若干个其他海嗣的【残骸】进行捕食，以使自身下一阶段获得对应的【定向进化】特性，同时击倒残骸附近的我方干员并使其暂时无法再部署。" },
-			aspd = 0,
+			aspd = 4.4,
 			atk = 800,
 			class = "Boss",
 			def = 700,
@@ -8958,7 +8958,7 @@ return {
 		},
 		["SA8"] = {
 			ability = { "同时攻击两个目标。可以停止攻击，使{{color|#00FFFF|“血债账款”}}持续增加" },
-			aspd = 0,
+			aspd = 8,
 			atk = 400,
 			class = "Normal",
 			def = 250,
@@ -8975,7 +8975,7 @@ return {
 		},
 		["SA9"] = {
 			ability = { "被击倒时若已被阻挡，将卸下三个{{color|#00FFFF|家族士兵}}" },
-			aspd = 0,
+			aspd = 1.6,
 			atk = 900,
 			class = "Leader",
 			def = 1000,
@@ -8992,7 +8992,7 @@ return {
 		},
 		["WDG"] = {
 			ability = { "进入目标点损失2目标生命；可以投掷具有超长{{术语|ba.stun|晕眩}}时间的石头（不会以已经被{{术语|ba.stun|晕眩}}的单位作为目标）" },
-			aspd = 0,
+			aspd = 5,
 			atk = 1500,
 			class = "Boss",
 			def = 600,
@@ -9009,7 +9009,7 @@ return {
 		},
 		["SY3"] = {
 			ability = { "只能攻击地面目标；造成伤害时，在目标周围召唤1个【注亡拟嗣】" },
-			aspd = 0,
+			aspd = 3,
 			atk = 600,
 			class = "Leader",
 			def = 600,
@@ -9025,7 +9025,7 @@ return {
 		},
 		["SY4"] = {
 			ability = { "无法移动；会逐渐损失生命；攻击额外造成{{术语|ba.dt.erosion|侵蚀损伤}}" },
-			aspd = 0,
+			aspd = 5,
 			atk = 200,
 			class = "Normal",
 			def = 150,
@@ -9041,7 +9041,7 @@ return {
 		},
 		["RSH"] = {
 			ability = { "进入目标点损失30目标生命；无法被阻挡且登场时一段时间内无敌；会释放造成超高法术伤害的特殊弩箭" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 1200,
 			class = "Boss",
 			def = 550,
@@ -9058,7 +9058,7 @@ return {
 		},
 		["SY6"] = {
 			ability = { "只能存活一段时间；每攻击2次后下次攻击召唤1个【塑路者分形】" },
-			aspd = 0,
+			aspd = 2.2,
 			atk = 600,
 			class = "Normal",
 			def = 100,
@@ -9075,7 +9075,7 @@ return {
 		},
 		["SY7"] = {
 			ability = { "出现在我方单位周围；每隔一段时间对目标造成真实伤害，若攻击范围内无目标则为【伊莎玛拉，腐化之心】充能；【伊莎玛拉，腐化之心】变身时消失" },
-			aspd = 0,
+			aspd = 2.2,
 			atk = 500,
 			class = "Normal",
 			def = 1200,
@@ -9098,7 +9098,7 @@ return {
 		},
 		["MSC"] = {
 			ability = { "进入目标点损失5目标生命；未被阻挡时会持续对全场我方单位造成法术伤害" },
-			aspd = 0,
+			aspd = 2,
 			atk = 900,
 			class = "Boss",
 			def = 800,
@@ -9115,7 +9115,7 @@ return {
 		},
 		["SA17"] = {
 			ability = { "撤回保护目标时不扣除关卡生命值；在场时使{{color|#00FFFF|“血债账款”}}缓慢减少，但死亡时使{{color|#00FFFF|“血债账款”}}大幅增加" },
-			aspd = 0,
+			aspd = 2,
 			atk = 0,
 			class = "Normal",
 			def = 50,
@@ -9131,7 +9131,7 @@ return {
 		},
 		["DU23"] = {
 			ability = { "在芦苇丛中获得{{术语|ba.invisible|隐匿}}" },
-			aspd = 0,
+			aspd = 2,
 			atk = 330,
 			class = "Normal",
 			def = 150,
@@ -9147,7 +9147,7 @@ return {
 		},
 		["DU24"] = {
 			ability = { "在芦苇丛中获得{{术语|ba.invisible|隐匿}}" },
-			aspd = 0,
+			aspd = 5,
 			atk = 380,
 			class = "Normal",
 			def = 200,
@@ -9163,7 +9163,7 @@ return {
 		},
 		["DU25"] = {
 			ability = { "免疫沼泽地段影响，在沼泽地段中移动速度提升" },
-			aspd = 0,
+			aspd = 3,
 			atk = 350,
 			class = "Normal",
 			def = 400,
@@ -9179,7 +9179,7 @@ return {
 		},
 		["DU26"] = {
 			ability = { "免疫沼泽地段影响，在沼泽地段中移动速度提升" },
-			aspd = 0,
+			aspd = 3,
 			atk = 420,
 			class = "Normal",
 			def = 500,
@@ -9196,7 +9196,7 @@ return {
 		["DU27"] = {
 			ability = {
 				"位于燃烧的芦苇丛附近时攻击额外造成{{术语|ba.dt.burning|灼燃损伤}}；被击倒时暂时变为{{术语|ba.invisible|隐匿}}、需要{{color|#00FFFF|5}}次伤害击倒的{{color|#00FFFF|怨恨的余烬}}，一段时间后重生" },
-			aspd = 0,
+			aspd = 4,
 			atk = 150,
 			class = "Normal",
 			def = 50,
@@ -9213,7 +9213,7 @@ return {
 		},
 		["DU30"] = {
 			ability = { "攻击2次后，下一次攻击造成{{color|#00FFFF|溅射}}伤害" },
-			aspd = 0,
+			aspd = 4,
 			atk = 600,
 			class = "Normal",
 			def = 350,
@@ -9229,7 +9229,7 @@ return {
 		},
 		["DU31"] = {
 			ability = { "攻击会点燃目标所在芦苇丛；被击倒时对周围所有我方单位造成{{color|#00FFFF|法术伤害}}并点燃芦苇丛" },
-			aspd = 0,
+			aspd = 7,
 			atk = 300,
 			class = "Normal",
 			def = 300,
@@ -9246,7 +9246,7 @@ return {
 		},
 		["DU32"] = {
 			ability = { "攻击会点燃目标所在芦苇丛；被击倒时对周围所有我方单位造成{{color|#00FFFF|法术伤害}}并点燃芦苇丛" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 400,
 			class = "Normal",
 			def = 350,
@@ -9263,7 +9263,7 @@ return {
 		},
 		["DU33"] = {
 			ability = { "免疫沼泽地段影响，使周围我方单位的{{术语|ba.camou|迷彩}}和{{术语|ba.invisible|隐匿}}效果失效" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 600,
 			class = "Leader",
 			def = 1300,
@@ -9280,7 +9280,7 @@ return {
 		},
 		["DU34"] = {
 			ability = { "免疫沼泽地段影响，使周围我方单位的{{术语|ba.camou|迷彩}}和{{术语|ba.invisible|隐匿}}效果失效" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 800,
 			class = "Leader",
 			def = 1500,
@@ -9297,7 +9297,7 @@ return {
 		},
 		["DL5"] = {
 			ability = { "对周围造成少量法术伤害；对场上攻击力最高的干员身上释放一只{{color|#00FFFF|粗圆岩}}；随机对待部署区的一名干员释放一只{{color|#00FFFF|粗圆岩}}" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 1800,
 			class = "Boss",
 			def = 1200,
@@ -9315,7 +9315,7 @@ return {
 		["DU36"] = {
 			ability = {
 				"位于燃烧的芦苇丛附近时攻击额外造成{{术语|ba.dt.burning|灼燃损伤}}且受到的物理与法术伤害降低；被击倒时暂时变为{{术语|ba.invisible|隐匿}}、需要{{color|#00FFFF|10}}次伤害击倒的{{color|#00FFFF|狂妄的火灰}}，一段时间后重生" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 450,
 			class = "Leader",
 			def = 750,
@@ -9332,7 +9332,7 @@ return {
 		},
 		["DU37"] = {
 			ability = { "点燃经过的芦苇丛，3次攻击后对目标发动五次连续斩击" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 650,
 			class = "Leader",
 			def = 500,
@@ -9348,7 +9348,7 @@ return {
 		},
 		["DU38"] = {
 			ability = { "点燃经过的芦苇丛，3次攻击后对目标发动五次连续斩击" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 750,
 			class = "Leader",
 			def = 600,
@@ -9364,7 +9364,7 @@ return {
 		},
 		["DU39"] = {
 			ability = { "点燃经过的芦苇丛，3次攻击后对目标发动五次强力斩击" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 800,
 			class = "Leader",
 			def = 700,
@@ -9379,7 +9379,7 @@ return {
 			weight = 5
 		},
 		["SH01"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 250,
 			class = "Normal",
 			def = 50,
@@ -9394,7 +9394,7 @@ return {
 			weight = 1
 		},
 		["SH02"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 280,
 			class = "Normal",
 			def = 80,
@@ -9410,7 +9410,7 @@ return {
 		},
 		["SH03"] = {
 			ability = { "位于{{color|#00FFFF|玉门天灾工事}}上时攻击范围扩大" },
-			aspd = 0,
+			aspd = 4,
 			atk = 400,
 			class = "Normal",
 			def = 200,
@@ -9426,7 +9426,7 @@ return {
 		},
 		["SH04"] = {
 			ability = { "位于{{color|#00FFFF|玉门天灾工事}}上时攻击范围扩大" },
-			aspd = 0,
+			aspd = 4,
 			atk = 480,
 			class = "Normal",
 			def = 200,
@@ -9442,7 +9442,7 @@ return {
 		},
 		["SH05"] = {
 			ability = { "在首个可部署的{{color|#00FFFF|玉门天灾工事}}上部署{{color|#00FFFF|山海密语仪}}" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 350,
 			class = "Normal",
 			def = 150,
@@ -9458,7 +9458,7 @@ return {
 		},
 		["SH06"] = {
 			ability = { "在首个可部署的{{color|#00FFFF|玉门天灾工事}}上部署{{color|#00FFFF|山海密语仪}}" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 420,
 			class = "Normal",
 			def = 250,
@@ -9473,7 +9473,7 @@ return {
 			weight = 2
 		},
 		["SH07"] = {
-			aspd = 0,
+			aspd = 2.5,
 			atk = 600,
 			class = "Normal",
 			def = 800,
@@ -9488,7 +9488,7 @@ return {
 			weight = 4
 		},
 		["SH08"] = {
-			aspd = 0,
+			aspd = 2.5,
 			atk = 750,
 			class = "Normal",
 			def = 1000,
@@ -9504,7 +9504,7 @@ return {
 		},
 		["SH09"] = {
 			ability = { "{{术语|ba.invisible|隐匿}}，隐匿效果失效后的下一次攻击造成更高伤害" },
-			aspd = 0,
+			aspd = 4.5,
 			atk = 800,
 			class = "Leader",
 			def = 250,
@@ -9521,7 +9521,7 @@ return {
 		},
 		["SH10"] = {
 			ability = { "{{术语|ba.invisible|隐匿}}，隐匿效果失效后的下一次攻击造成更高伤害" },
-			aspd = 0,
+			aspd = 4.5,
 			atk = 1000,
 			class = "Leader",
 			def = 300,
@@ -9538,7 +9538,7 @@ return {
 		},
 		["SH11"] = {
 			ability = { "攻击造成法术伤害，会持续锁定我方单位并在释放完成时造成一次高额法术伤害，之后攻击速度提升" },
-			aspd = 0,
+			aspd = 2,
 			atk = 400,
 			class = "Leader",
 			def = 200,
@@ -9554,7 +9554,7 @@ return {
 		},
 		["SH12"] = {
 			ability = { "攻击造成法术伤害，会持续锁定我方单位并在释放完成时造成一次高额法术伤害，之后攻击速度提升" },
-			aspd = 0,
+			aspd = 4,
 			atk = 500,
 			class = "Leader",
 			def = 250,
@@ -9570,7 +9570,7 @@ return {
 		},
 		["SH13"] = {
 			ability = { "优先攻击位于{{color|#00FFFF|玉门天灾工事}}上的我方单位" },
-			aspd = 0,
+			aspd = 2.3,
 			atk = 1000,
 			class = "Leader",
 			def = 1200,
@@ -9586,7 +9586,7 @@ return {
 		},
 		["SH14"] = {
 			ability = { "优先攻击位于{{color|#00FFFF|玉门天灾工事}}上的我方单位" },
-			aspd = 0,
+			aspd = 2.3,
 			atk = 1200,
 			class = "Leader",
 			def = 1200,
@@ -9601,7 +9601,7 @@ return {
 			weight = 4
 		},
 		["DL8"] = {
-			aspd = 0,
+			aspd = 1.8,
 			atk = 260,
 			class = "Normal",
 			def = 1200,
@@ -9617,7 +9617,7 @@ return {
 		},
 		["SH16"] = {
 			ability = { "只能被阻挡数大于等于4的单位阻挡；周围有领袖以外的非机械敌人时会将其装载为乘客（最多4个），首次到达{{color|#00FFFF|云梯}}时释放装载的乘客" },
-			aspd = 0,
+			aspd = 1.8,
 			atk = 1000,
 			class = "Leader",
 			def = 1500,
@@ -9633,7 +9633,7 @@ return {
 		},
 		["HS01"] = {
 			ability = { "初始处于{{color|#00FFFF|休憩}}状态，受攻击后与周围其他角兽一同进入{{color|#00FFFF|临战}}状态" },
-			aspd = 0,
+			aspd = 2,
 			atk = 250,
 			class = "Normal",
 			def = 0,
@@ -9650,7 +9650,7 @@ return {
 		},
 		["HS02"] = {
 			ability = { "初始处于{{color|#00FFFF|休憩}}状态，受攻击后与周围其他角兽一同进入{{color|#00FFFF|临战}}状态" },
-			aspd = 0,
+			aspd = 2,
 			atk = 320,
 			class = "Normal",
 			def = 0,
@@ -9667,7 +9667,7 @@ return {
 		},
 		["HS03"] = {
 			ability = { "优先攻击{{color|#00FFFF|角兽}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 310,
 			class = "Normal",
 			def = 0,
@@ -9684,7 +9684,7 @@ return {
 		},
 		["HS04"] = {
 			ability = { "优先攻击{{color|#00FFFF|角兽}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 380,
 			class = "Normal",
 			def = 0,
@@ -9701,7 +9701,7 @@ return {
 		},
 		["HS05"] = {
 			ability = { "攻击造成法术伤害和{{color|#00FFFF|灼燃损伤}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 50,
 			class = "Normal",
 			def = 0,
@@ -9718,7 +9718,7 @@ return {
 		},
 		["HS06"] = {
 			ability = { "攻击造成法术伤害和{{color|#00FFFF|灼燃损伤}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 80,
 			class = "Normal",
 			def = 0,
@@ -9735,7 +9735,7 @@ return {
 		},
 		["HS07"] = {
 			ability = { "{{color|#00FFFF|弱点部位}}位于{{color|#00FFFF|正面}}，{{color|#00FFFF|背面}}所受伤害大幅降低" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 600,
 			class = "Normal",
 			def = 120,
@@ -9752,7 +9752,7 @@ return {
 		},
 		["HS08"] = {
 			ability = { "{{color|#00FFFF|弱点部位}}位于{{color|#00FFFF|正面}}，{{color|#00FFFF|背面}}所受伤害大幅降低" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 680,
 			class = "Normal",
 			def = 130,
@@ -9769,7 +9769,7 @@ return {
 		},
 		["HS09"] = {
 			ability = { "{{color|#00FFFF|弱点部位}}位于{{color|#00FFFF|背面}}，{{color|#00FFFF|正面}}所受伤害大幅降低" },
-			aspd = 0,
+			aspd = 4,
 			atk = 600,
 			class = "Normal",
 			def = 140,
@@ -9786,7 +9786,7 @@ return {
 		},
 		["HS10"] = {
 			ability = { "{{color|#00FFFF|弱点部位}}位于{{color|#00FFFF|背面}}，{{color|#00FFFF|正面}}所受伤害大幅降低" },
-			aspd = 0,
+			aspd = 4,
 			atk = 750,
 			class = "Normal",
 			def = 160,
@@ -9803,7 +9803,7 @@ return {
 		},
 		["HS11"] = {
 			ability = { "偶尔会投掷死去的鬣犄兽造成物理伤害" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 450,
 			class = "Normal",
 			def = 50,
@@ -9820,7 +9820,7 @@ return {
 		},
 		["HS12"] = {
 			ability = { "偶尔会投掷死去的鬣犄兽造成物理伤害" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 550,
 			class = "Normal",
 			def = 80,
@@ -9837,7 +9837,7 @@ return {
 		},
 		["HS13"] = {
 			ability = { "占用{{color|#00FFFF|2阻挡数}}；冲撞时逐渐{{color|#00FFFF|加速}}，并对经过与阻挡自身的目标根据{{color|#00FFFF|移动速度}}造成伤害" },
-			aspd = 0,
+			aspd = 1.8,
 			atk = 600,
 			class = "Leader",
 			def = 20,
@@ -9854,7 +9854,7 @@ return {
 		},
 		["HS14"] = {
 			ability = { "占用{{color|#00FFFF|2阻挡数}}；冲撞时逐渐{{color|#00FFFF|加速}}，并对经过与阻挡自身的目标根据{{color|#00FFFF|移动速度}}造成伤害" },
-			aspd = 0,
+			aspd = 1.8,
 			atk = 700,
 			class = "Leader",
 			def = 50,
@@ -9872,7 +9872,7 @@ return {
 		["HS15"] = {
 			ability = {
 				"{{color|#00FFFF|弱点部位}}位于{{color|#00FFFF|正面}}，{{color|#00FFFF|背面}}所受伤害降低；每损失一定生命值向{{color|#00FFFF|背面半圆范围}}造成伤害" },
-			aspd = 0,
+			aspd = 4,
 			atk = 580,
 			class = "Leader",
 			def = 130,
@@ -9889,7 +9889,7 @@ return {
 		["HS16"] = {
 			ability = {
 				"{{color|#00FFFF|弱点部位}}位于{{color|#00FFFF|正面}}，{{color|#00FFFF|背面}}所受伤害降低；每损失一定生命值向{{color|#00FFFF|背面半圆范围}}造成伤害" },
-			aspd = 0,
+			aspd = 4,
 			atk = 720,
 			class = "Leader",
 			def = 150,
@@ -9905,7 +9905,7 @@ return {
 		},
 		["HS17"] = {
 			ability = { "{{color|#00FFFF|捕食硬甲爪兽}}后，会留下其{{color|#00FFFF|甲壳充当防御工具}}，使背面以外所受伤害大幅降低" },
-			aspd = 0,
+			aspd = 2.3,
 			atk = 1090,
 			class = "Leader",
 			def = 480,
@@ -9922,7 +9922,7 @@ return {
 		},
 		["HS18"] = {
 			ability = { "{{color|#00FFFF|捕食硬甲爪兽}}后，会留下其{{color|#00FFFF|甲壳充当防御工具}}，使背面以外所受伤害大幅降低" },
-			aspd = 0,
+			aspd = 2.3,
 			atk = 1260,
 			class = "Leader",
 			def = 550,
@@ -9939,7 +9939,7 @@ return {
 		},
 		["UGF"] = {
 			ability = { "进入目标点损失5目标生命；携带弹药时变为远程攻击并造成高额物理伤害，弹药上限：{{color|#00FFFF|3}}；装弹被打断时会被额外{{术语|ba.stun|晕眩}}一段时间" },
-			aspd = 0,
+			aspd = 4,
 			atk = 1200,
 			class = "Boss",
 			def = 400,
@@ -9956,7 +9956,7 @@ return {
 		},
 		["UGS"] = {
 			ability = { "进入目标点损失5目标生命；生命值和攻击力提升，弹药上限：{{color|#00FFFF|1}}；" },
-			aspd = 0,
+			aspd = 2.8,
 			atk = 2200,
 			class = "Boss",
 			def = 400,
@@ -9973,7 +9973,7 @@ return {
 		},
 		["LUD7"] = {
 			ability = { "密探，显露真身后，下一次攻击的攻击力大幅提升" },
-			aspd = 0,
+			aspd = 5,
 			atk = 500,
 			class = "Normal",
 			def = 300,
@@ -9990,7 +9990,7 @@ return {
 		},
 		["LUD8"] = {
 			ability = { "密探，显露真身后，下一次攻击的攻击力大幅提升" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 600,
 			class = "Normal",
 			def = 350,
@@ -10008,7 +10008,7 @@ return {
 		["ZA"] = {
 			ability = {
 				"使{{color|#00FFFF|“血债账款”}}逐渐增加；受到伤害降低；【溶血骇惧】使三名我方单位被恐惧吞噬，不可主动撤退，攻速大幅降低，并逐渐加速失去生命值；受影响单位在“狼之主”损失一定比例生命时，会恢复正常；第一形态生命值降为0后，获得【远古威慑】，周围我方单位降低攻击速度，并缓慢回复生命值。第二形态下，不再拥有减伤，可被晕眩，且不再释放【溶血骇惧】。攻击变为远程二连击，且攻击力提升。每隔一段时间释放，【狂暴怒嗥】，使{{color|#00FFFF|“血债账款”}}快速上升" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 800,
 			class = "Boss",
 			def = 1000,
@@ -10025,7 +10025,7 @@ return {
 		},
 		["SRF"] = {
 			ability = { "进入目标点损失5目标生命；每攻击2次后下次攻击召唤1个【塑路者分形】；每受到一定次数伤害后召唤1个【塑路者分形】" },
-			aspd = 0,
+			aspd = 6,
 			atk = 800,
 			class = "Boss",
 			def = 800,
@@ -10042,7 +10042,7 @@ return {
 		},
 		["SRS"] = {
 			ability = { "进入目标点损失5目标生命；生命值大幅提升，每受到较少次数伤害后召唤1个【塑路者分形】" },
-			aspd = 0,
+			aspd = 3.8,
 			atk = 1000,
 			class = "Boss",
 			def = 800,
@@ -10058,7 +10058,7 @@ return {
 			weight = 4
 		},
 		["LUD12"] = {
-			aspd = 0,
+			aspd = 3.8,
 			atk = 1200,
 			class = "Leader",
 			def = 1500,
@@ -10076,7 +10076,7 @@ return {
 		["DOQ"] = {
 			ability = {
 				"进入目标点损失30目标生命；受到伤害时，对伤害来源施加{{术语|ba.cold|寒冷}}，生命值降至一半以下时效果增强；攻击被{{术语|ba.frozen|冻结}}的目标时攻击力提升；冲锋形态无法被阻挡" },
-			aspd = 0,
+			aspd = 2.9,
 			atk = 2000,
 			class = "Boss",
 			def = 4000,
@@ -10094,7 +10094,7 @@ return {
 		["SKA"] = {
 			ability = {
 				"进入目标点损失30目标生命；普通攻击能够同时治疗3名敌方单位；周期性召唤【伊莎玛拉之泪】为自身充能，充能完成后变身，同时攻击3个目标并造成真实伤害；本体生命值降至一半以下时攻击力大幅上升，并额外召唤2个【伊莎玛拉之泪】" },
-			aspd = 0,
+			aspd = 2.9,
 			atk = 1600,
 			class = "Boss",
 			def = 1200,
@@ -10117,7 +10117,7 @@ return {
 		},
 		["SHD3"] = {
 			ability = { "生命值低于一半时，在自身位置产生{{color|#00FFFF|虚像}}" },
-			aspd = 0,
+			aspd = 5,
 			atk = 550,
 			class = "Normal",
 			def = 200,
@@ -10133,7 +10133,7 @@ return {
 		},
 		["SHD4"] = {
 			ability = { "生命值低于一半时，在自身位置产生{{color|#00FFFF|虚像}}" },
-			aspd = 0,
+			aspd = 5,
 			atk = 650,
 			class = "Normal",
 			def = 250,
@@ -10149,7 +10149,7 @@ return {
 		},
 		["SHD5"] = {
 			ability = { "只能被阻挡数大于等于3的单位阻挡，首次攻击时造成溅射伤害" },
-			aspd = 0,
+			aspd = 5,
 			atk = 800,
 			class = "Leader",
 			def = 700,
@@ -10166,7 +10166,7 @@ return {
 		},
 		["SHD6"] = {
 			ability = { "只能被阻挡数大于等于3的单位阻挡，首次攻击时造成溅射伤害" },
-			aspd = 0,
+			aspd = 5,
 			atk = 1200,
 			class = "Leader",
 			def = 800,
@@ -10183,7 +10183,7 @@ return {
 		},
 		["SHD7"] = {
 			ability = { "未被阻挡时，使所有未确认身份的平民或密探无法被阻挡" },
-			aspd = 0,
+			aspd = 6,
 			atk = 250,
 			class = "Leader",
 			def = 100,
@@ -10199,7 +10199,7 @@ return {
 		},
 		["SHD8"] = {
 			ability = { "未被阻挡时，使所有未确认身份的平民或密探无法被阻挡" },
-			aspd = 0,
+			aspd = 6,
 			atk = 300,
 			class = "Leader",
 			def = 150,
@@ -10215,7 +10215,7 @@ return {
 		},
 		["NAC16"] = {
 			ability = { "每隔一段时间，召唤数个枯朽之种" },
-			aspd = 0,
+			aspd = 1.9,
 			atk = 500,
 			class = "Leader",
 			def = 250,
@@ -10238,7 +10238,7 @@ return {
 		},
 		["NAC17"] = {
 			ability = { "每隔一段时间，召唤数个腐败之种" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 500,
 			class = "Leader",
 			def = 300,
@@ -10261,7 +10261,7 @@ return {
 		},
 		["LUD13"] = {
 			ability = { "数次攻击后，下次攻击会向下个检查点移动一段距离" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 2250,
 			class = "Leader",
 			def = 500,
@@ -10278,7 +10278,7 @@ return {
 		},
 		["LUD14"] = {
 			ability = { "数次攻击后，下次攻击会向下个检查点移动一段距离" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 1800,
 			class = "Leader",
 			def = 375,
@@ -10295,7 +10295,7 @@ return {
 		},
 		["DC2"] = {
 			ability = { "攻击造成{{术语|ba.dt.erosion|侵蚀损伤}}，每秒流失一定生命值" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 250,
 			class = "Leader",
 			def = 300,
@@ -10317,7 +10317,7 @@ return {
 			weight = 5
 		},
 		["LT1"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 290,
 			class = "Normal",
 			def = 0,
@@ -10332,7 +10332,7 @@ return {
 			weight = 1
 		},
 		["LT2"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 360,
 			class = "Normal",
 			def = 0,
@@ -10348,7 +10348,7 @@ return {
 		},
 		["LT3"] = {
 			ability = { "攻击时，短暂使我方干员阻挡{{color|#00FFFF|-1}}；若干员在{{color|#00FFFF|重力感应机关}}上，使其阻挡降为{{color|#00FFFF|0}}" },
-			aspd = 0,
+			aspd = 3,
 			atk = 400,
 			class = "Normal",
 			def = 150,
@@ -10364,7 +10364,7 @@ return {
 		},
 		["LT4"] = {
 			ability = { "攻击时，短暂使我方干员阻挡{{color|#00FFFF|-1}}；若干员在{{color|#00FFFF|重力感应机关}}上，使其阻挡降为{{color|#00FFFF|0}}" },
-			aspd = 0,
+			aspd = 3,
 			atk = 500,
 			class = "Normal",
 			def = 170,
@@ -10380,7 +10380,7 @@ return {
 		},
 		["LT5"] = {
 			ability = { "{{color|#00FFFF|移动速度}}高于初始速度时，{{color|#00FFFF|近地悬浮}}，助跑起飞！" },
-			aspd = 0,
+			aspd = 3,
 			atk = 350,
 			class = "Normal",
 			def = 170,
@@ -10396,7 +10396,7 @@ return {
 		},
 		["LT6"] = {
 			ability = { "{{color|#00FFFF|移动速度}}高于初始速度时，{{color|#00FFFF|近地悬浮}}，助跑起飞！" },
-			aspd = 0,
+			aspd = 3,
 			atk = 500,
 			class = "Normal",
 			def = 200,
@@ -10412,7 +10412,7 @@ return {
 		},
 		["LT7"] = {
 			ability = { "攻击造成{{color|#00FFFF|法术伤害}}，失衡移动时损失生命。" },
-			aspd = 0,
+			aspd = 5,
 			atk = 700,
 			class = "Leader",
 			def = 550,
@@ -10428,7 +10428,7 @@ return {
 		},
 		["LT8"] = {
 			ability = { "攻击造成{{color|#00FFFF|法术伤害}}，失衡移动时损失生命" },
-			aspd = 0,
+			aspd = 5,
 			atk = 800,
 			class = "Leader",
 			def = 650,
@@ -10444,7 +10444,7 @@ return {
 		},
 		["LT9"] = {
 			ability = { "初始防御力与法术抗性较高，但每次受到伤害后降低" },
-			aspd = 0,
+			aspd = 0.6,
 			atk = 700,
 			class = "Normal",
 			def = 3300,
@@ -10460,7 +10460,7 @@ return {
 		},
 		["LT10"] = {
 			ability = { "初始防御力与法术抗性较高，但每次受到伤害后降低" },
-			aspd = 0,
+			aspd = 0.6,
 			atk = 900,
 			class = "Normal",
 			def = 3500,
@@ -10476,7 +10476,7 @@ return {
 		},
 		["LT11"] = {
 			ability = { "占用{{color|#00FFFF|3阻挡数}}；经过干员时对其造成与自身{{color|#00FFFF|移动速度}}相关的物理伤害" },
-			aspd = 0,
+			aspd = 5,
 			atk = 1000,
 			class = "Leader",
 			def = 1100,
@@ -10492,7 +10492,7 @@ return {
 		},
 		["LT12"] = {
 			ability = { "占用{{color|#00FFFF|3阻挡数}}；经过干员时对其造成与自身{{color|#00FFFF|移动速度}}相关的物理伤害" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 1200,
 			class = "Leader",
 			def = 1300,
@@ -10508,7 +10508,7 @@ return {
 		},
 		["LT13"] = {
 			ability = { "不停止移动的四向攻击，造成{{color|#00FFFF|法术伤害}}且对近处伤害更高；会不断尝试推动身边的{{color|#00FFFF|行星碎屑}}" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 190,
 			class = "Leader",
 			def = 800,
@@ -10531,7 +10531,7 @@ return {
 		},
 		["LT14"] = {
 			ability = { "不停止移动的四向攻击，造成{{color|#00FFFF|法术伤害}}且对近处伤害更高；会不断尝试推动身边的{{color|#00FFFF|行星碎屑}}" },
-			aspd = 0,
+			aspd = 1.5,
 			atk = 250,
 			class = "Leader",
 			def = 900,
@@ -10554,7 +10554,7 @@ return {
 		},
 		["LT15"] = {
 			ability = { "占用{{color|#00FFFF|4阻挡数}}；每次受到伤害后降低防御力与法术抗性；被摧毁后弹射{{color|#00FFFF|“交通警察”}}并自爆，对周围造成物理伤害" },
-			aspd = 0,
+			aspd = 1.4,
 			atk = 1200,
 			class = "Leader",
 			def = 4500,
@@ -10570,7 +10570,7 @@ return {
 		},
 		["SY8"] = {
 			ability = { "被阻挡时立即变为随机敌人" },
-			aspd = 0,
+			aspd = 5,
 			atk = 800,
 			class = "Normal",
 			def = 2000,
@@ -10594,7 +10594,7 @@ return {
 		["LT17"] = {
 			ability = {
 				"初始一段时间{{术语|ba.invisible|隐匿}}并加速，攻击时，短暂使我方干员阻挡{{color|#00FFFF|-1}}；若干员在{{color|#00FFFF|重力感应机关}}上，使其阻挡降为{{color|#00FFFF|0}}" },
-			aspd = 0,
+			aspd = 5,
 			atk = 600,
 			class = "Leader",
 			def = 300,
@@ -10611,7 +10611,7 @@ return {
 		["LT18"] = {
 			ability = {
 				"初始一段时间{{术语|ba.invisible|隐匿}}并加速，攻击时，短暂使我方干员阻挡{{color|#00FFFF|-1}}；若干员在{{color|#00FFFF|重力感应机关}}上，使其阻挡降为{{color|#00FFFF|0}}" },
-			aspd = 0,
+			aspd = 3,
 			atk = 600,
 			class = "Leader",
 			def = 400,
@@ -10626,7 +10626,7 @@ return {
 			weight = 1
 		},
 		["HE1"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 300,
 			class = "Normal",
 			def = 100,
@@ -10641,7 +10641,7 @@ return {
 			weight = 1
 		},
 		["YA02"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 0,
 			class = "Boss",
 			def = 0,
@@ -10663,7 +10663,7 @@ return {
 			weight = 7
 		},
 		["YA03"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 400,
 			class = "Boss",
 			def = 400,
@@ -10685,7 +10685,7 @@ return {
 			weight = 7
 		},
 		["HE4"] = {
-			aspd = 0,
+			aspd = 2,
 			atk = 200,
 			class = "Normal",
 			def = 150,
@@ -10700,7 +10700,7 @@ return {
 			weight = 1
 		},
 		["HE5"] = {
-			aspd = 0,
+			aspd = 4,
 			atk = 350,
 			class = "Normal",
 			def = 400,
@@ -10715,7 +10715,7 @@ return {
 			weight = 2
 		},
 		["HE6"] = {
-			aspd = 0,
+			aspd = 4,
 			atk = 450,
 			class = "Normal",
 			def = 450,
@@ -10730,7 +10730,7 @@ return {
 			weight = 2
 		},
 		["HE7"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 500,
 			class = "Normal",
 			def = 330,
@@ -10746,7 +10746,7 @@ return {
 			weight = 2
 		},
 		["HE8"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 600,
 			class = "Normal",
 			def = 350,
@@ -10762,7 +10762,7 @@ return {
 			weight = 2
 		},
 		["HE9"] = {
-			aspd = 0,
+			aspd = 2.5,
 			atk = 500,
 			class = "Normal",
 			def = 800,
@@ -10777,7 +10777,7 @@ return {
 			weight = 6
 		},
 		["HE10"] = {
-			aspd = 0,
+			aspd = 2.5,
 			atk = 500,
 			class = "Normal",
 			def = 1000,
@@ -10792,7 +10792,7 @@ return {
 			weight = 6
 		},
 		["BH1"] = {
-			aspd = 0,
+			aspd = 3,
 			atk = 500,
 			class = "Leader",
 			def = 500,
@@ -10808,7 +10808,7 @@ return {
 			weight = 2
 		},
 		["BH2"] = {
-			aspd = 0,
+			aspd = 4,
 			atk = 600,
 			class = "Leader",
 			def = 600,
@@ -10824,7 +10824,7 @@ return {
 			weight = 2
 		},
 		["BH3"] = {
-			aspd = 0,
+			aspd = 1.7,
 			atk = 650,
 			class = "Leader",
 			def = 500,
@@ -10840,7 +10840,7 @@ return {
 			weight = 5
 		},
 		["BH4"] = {
-			aspd = 0,
+			aspd = 4,
 			atk = 750,
 			class = "Leader",
 			def = 600,
@@ -10856,7 +10856,7 @@ return {
 			weight = 5
 		},
 		["FA"] = {
-			aspd = 0,
+			aspd = 4,
 			atk = 700,
 			class = "Leader",
 			def = 400,
@@ -10872,7 +10872,7 @@ return {
 			weight = 6
 		},
 		["SA1"] = {
-			aspd = 0,
+			aspd = 4,
 			atk = 0,
 			class = "Normal",
 			def = 50,
@@ -10889,7 +10889,7 @@ return {
 		},
 		["DL10"] = {
 			ability = { "被阻挡时受来自阻挡者以外的伤害降低，生命下降到一定比例时会被击倒并下场休息，生命全部恢复后再次开始行动且攻击速度提升" },
-			aspd = 0,
+			aspd = 4,
 			atk = 1200,
 			class = "Boss",
 			def = 1000,
@@ -10906,7 +10906,7 @@ return {
 			weight = 8
 		},
 		["DL12"] = {
-			aspd = 0,
+			aspd = 5,
 			atk = 350,
 			class = "Normal",
 			def = 200,
@@ -10922,7 +10922,7 @@ return {
 		},
 		["SD1"] = {
 			ability = { "攻击使目标数秒内每秒受到50%攻击力的法术伤害（可叠加）" },
-			aspd = 0,
+			aspd = 5,
 			atk = 100,
 			class = "Normal",
 			def = 200,
@@ -10938,7 +10938,7 @@ return {
 		},
 		["SD2"] = {
 			ability = { "攻击使目标数秒内每秒受到50%攻击力的法术伤害（可叠加）" },
-			aspd = 0,
+			aspd = 1,
 			atk = 150,
 			class = "Normal",
 			def = 200,
@@ -10954,7 +10954,7 @@ return {
 		},
 		["SD3"] = {
 			ability = { "更容易受到我方的攻击，受到攻击时对目标造成200点法术伤害" },
-			aspd = 0,
+			aspd = 1,
 			atk = 400,
 			class = "Normal",
 			def = 300,
@@ -10970,7 +10970,7 @@ return {
 		},
 		["SD4"] = {
 			ability = { "更容易受到我方的攻击，受到攻击时对目标造成200点法术伤害" },
-			aspd = 0,
+			aspd = 3,
 			atk = 500,
 			class = "Normal",
 			def = 300,
@@ -10986,7 +10986,7 @@ return {
 		},
 		["SD5"] = {
 			ability = { "优先攻击建筑单位，攻击建筑单位时攻击力提升至150%" },
-			aspd = 0,
+			aspd = 3,
 			atk = 500,
 			class = "Normal",
 			def = 400,
@@ -11002,7 +11002,7 @@ return {
 		},
 		["SD6"] = {
 			ability = { "优先攻击建筑单位，攻击建筑单位时攻击力提升至{{修正|150%|原文=180%|原因=6|name=错误}}" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 550,
 			class = "Normal",
 			def = 400,
@@ -11018,7 +11018,7 @@ return {
 		},
 		["SD7"] = {
 			ability = { "不攻击，被攻击后会随机往远处逃跑并休息一段时间" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 0,
 			class = "Normal",
 			def = 200,
@@ -11034,7 +11034,7 @@ return {
 		},
 		["SD8"] = {
 			ability = { "不攻击，被攻击后会随机往远处逃跑并休息一段时间" },
-			aspd = 0,
+			aspd = 3,
 			atk = 0,
 			class = "Normal",
 			def = 200,
@@ -11050,7 +11050,7 @@ return {
 		},
 		["SD9"] = {
 			ability = { "平时不攻击，受到攻击时反击。会逐渐恢复生命值" },
-			aspd = 0,
+			aspd = 1,
 			atk = 800,
 			class = "Normal",
 			def = 200,
@@ -11066,7 +11066,7 @@ return {
 		},
 		["SD10"] = {
 			ability = { "平时不攻击，受到攻击时反击。会逐渐恢复生命值" },
-			aspd = 0,
+			aspd = 1.3,
 			atk = 800,
 			class = "Normal",
 			def = 200,
@@ -11082,7 +11082,7 @@ return {
 		},
 		["SD11"] = {
 			ability = { "平时不攻击，受到攻击时反击" },
-			aspd = 0,
+			aspd = 7,
 			atk = 400,
 			class = "Normal",
 			def = 800,
@@ -11098,7 +11098,7 @@ return {
 		},
 		["SD12"] = {
 			ability = { "平时不攻击，受到攻击时反击" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 450,
 			class = "Normal",
 			def = 1000,
@@ -11114,7 +11114,7 @@ return {
 		},
 		["SD13"] = {
 			ability = { "平时不攻击，受到攻击时反击" },
-			aspd = 0,
+			aspd = 0.5,
 			atk = 1300,
 			class = "Leader",
 			def = 2500,
@@ -11130,7 +11130,7 @@ return {
 		},
 		["SD14"] = {
 			ability = { "不攻击，被攻击后会随机往远处逃跑并休息一段时间。在不同区域中移动" },
-			aspd = 0,
+			aspd = 2.5,
 			atk = 0,
 			class = "Leader",
 			def = 400,
@@ -11147,7 +11147,7 @@ return {
 		},
 		["SD15"] = {
 			ability = { "自动寻找矿石进行攻击，并搬运回采集站" },
-			aspd = 0,
+			aspd = 3.5,
 			atk = 0,
 			class = "Normal",
 			def = 200,
@@ -11163,7 +11163,7 @@ return {
 		},
 		["SD16"] = {
 			ability = { "平时不攻击，受到攻击时反击。范围内有我方干员撤退或被击倒时自身回复一定比例生命值" },
-			aspd = 0,
+			aspd = 4,
 			atk = 4500,
 			class = "Boss",
 			def = 1000,
@@ -11180,7 +11180,7 @@ return {
 		},
 		["SD17"] = {
 			ability = { "平时不攻击，受到攻击时反击。可变成空中单位进行作战，持续一段时间。飞行期间远程法术溅射攻击并附带{{术语|ba.dt.burning|灼燃损伤}}" },
-			aspd = 0,
+			aspd = 4,
 			atk = 2000,
 			class = "Boss",
 			def = 700,
@@ -11197,7 +11197,7 @@ return {
 		},
 		["SD18"] = {
 			ability = { "隐匿，被阻挡时向前闪烁一段距离" },
-			aspd = 0,
+			aspd = 4.5,
 			atk = 400,
 			class = "Leader",
 			def = 120,
@@ -11214,7 +11214,7 @@ return {
 		},
 		["SD19"] = {
 			ability = { "未被阻挡时受到的伤害大幅降低；第二形态下攻击力、攻击速度、移动速度大幅提升" },
-			aspd = 0,
+			aspd = 1,
 			atk = 1100,
 			class = "Boss",
 			def = 400,
@@ -11231,7 +11231,7 @@ return {
 		},
 		["SD20"] = {
 			ability = { "自身不容易受到攻击;召唤两只<高能源石虫>敌人辅助战斗;第二形态下召唤两只<高能源石虫>与两只<高能源石虫·α>辅助作战" },
-			aspd = 0,
+			aspd = 5,
 			atk = 600,
 			class = "Boss",
 			def = 500,
