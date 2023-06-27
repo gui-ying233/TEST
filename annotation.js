@@ -13,7 +13,7 @@ $(".annotation").each((_, ele) => {
 	$("body").append(_popup.$element);
 	$(ele)
 		.append(popup.$element)
-		.on("mouseover", async () => {
+		.on("mouseover", () => {
 			popup.toggle(true);
 		})
 		.on("mouseout", () => {
