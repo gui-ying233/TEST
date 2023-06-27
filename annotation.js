@@ -4,19 +4,17 @@ $(".annotation").each((_, ele) => {
 		padded: true,
 		autoFlip: false,
 	});
+	const _popup = $(popup.$element);
+	_popup.css({
+		position: "absolute",
+		left: _popup.offset.left,
+		top: _popup.offset.top,
+	});
+	$("body").append(_popup.$element);
 	$(ele)
 		.append(popup.$element)
-		.on("mouseover", () => {
+		.on("mouseover", async () => {
 			popup.toggle(true);
-			const _popup = popup.$element;
-			const bpopupPos = [_popup[0].offsetLeft, _popup[0].offsetTop];
-			$(_popup).css({
-				position: "absolute",
-				left: bpopupPos[0],
-				top: bpopupPos[1],
-				backgroundColor: "#FF0",
-			});
-			$("body").append(_popup);
 		})
 		.on("mouseout", () => {
 			popup.toggle(false);
