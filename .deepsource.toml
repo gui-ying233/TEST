@@ -15,3 +15,6 @@ name = "javascript"
     "jquery",
     "browser"
   ]
+
+[[transformers]]
+name = "autopep8"
